@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE std SYSTEM 'classes.dtd'>
+<!-- Translated from latex by tralics 2.15.0, date: 2013/01/31-->
+<std>
+<p>This document produces a list of all examples of the MathML documentation
+Chapter 4</p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn>12345</cn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn base='8'>12345</cn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn type='complex-cartesian'>3<sep/>4</cn></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><ci>v</ci></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><ci type='vector'>v</ci></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><plus/><ci>x</ci><ci>y</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><plus/><ci>x</ci><ci>y</ci><ci>z</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><plus/><apply><times/><ci>a</ci><ci>x</ci></apply><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><times/><apply><plus/><ci>F</ci><ci>G</ci></apply><ci>x</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><plus/><ci>F</ci><ci>G</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><apply><plus/><ci>F</ci><ci>G</ci></apply><ci>x</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><reln><lt/><ci>x</ci><ci>y</ci></reln></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><lt/><ci>x</ci><ci>y</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><csymbol encoding='text' definitionURL='http://www.example.com/VectorCalculus.htm'>Christoffel</csymbol></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><fn><apply><plus/><ci>F</ci><ci>G</ci></apply></fn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><semantics encoding='Mathematica' definitionURL='http://www.example.com/vectorfuncs/plus.htm'><apply><plus/><ci>F</ci><ci>G</ci></apply></semantics></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><csymbol encoding='text' definitionURL='http://www.example.org/function_spaces.html#my_def'>BigK</csymbol><ci>x</ci><ci>y</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><apply><inverse/><sin/></apply><ci>x</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><ci type='vector'>A</ci></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare><ci>A</ci><vector><ci>a</ci><ci>b</ci><ci>c</ci></vector></declare></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><ci>V</ci><apply><plus/><ci>A</ci><ci>B</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare type='vector'><ci>A</ci></declare></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><lambda><mi>b</mi><mi>v</mi><mi>a</mi><mi>r</mi><mi>c</mi><mi>i</mi><mi>x</mi><apply><sin/><apply><plus/><ci>x</ci><cn>1</cn></apply></apply></lambda></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare type='function'><ci>f</ci><lambda><bvar><ci>x</ci></bvar><apply><plus/><apply><power/><ci>x</ci><cn>2</cn></apply><ci>x</ci><cn>3</cn></apply></lambda></declare></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare><ci>J</ci><lambda><bvar><ci>x</ci></bvar><bvar><ci>y</ci></bvar><apply><int/><bvar><ci>t</ci></bvar><lowlimit><ci>x</ci></lowlimit><uplimit><ci>y</ci></uplimit><apply><power/><ci>t</ci><cn>4</cn></apply></apply></lambda></declare></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><set><bvar><ci>x</ci></bvar><condition><apply><lt/><ci>x</ci><cn>1</cn></apply></condition><ci>x</ci></set></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><union/><bvar><ci>S</ci></bvar><condition><apply><in/><ci>S</ci><ci>F</ci></apply></condition><apply><setdiff/><ci>U</ci><ci>S</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><plus/><domainofapplication><naturalnumbers/></domainofapplication><lambda><bvar><ci>x</ci></bvar><apply><quotient/><cn>1</cn><ci>x</ci></apply></lambda></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><ci><msub><ci>c</ci> <mn>1</mn> </msub></ci></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><csymbol definitionURL='http://www.example.com/ContDiffFuncs.html'><msup><ci>C</ci> <mn>2</mn> </msup></csymbol></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><interval closure='open-closed'><ci>a</ci><ci>b</ci></interval></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><list><ci>a</ci><ci>b</ci><ci>c</ci></list></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><matrix><matrixrow><cn>1</cn><cn>2</cn></matrixrow><matrixrow><cn>3</cn><cn>4</cn></matrixrow></matrix></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><vector><apply><plus/><ci>x</ci><ci>y</ci></apply><cn>3</cn><cn>7</cn></vector></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><plus/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sin/><ci>a</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><reln><eq/><ci>a</ci><ci>b</ci></reln></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><lambda><bvar><ci>x</ci></bvar><apply><sin/><ci>x</ci></apply></lambda></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><lambda><bvar><ci>x</ci></bvar><cn>3</cn></lambda></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><piecewise><piece><cn>0</cn><apply><lt/><ci>x</ci><cn>0</cn></apply></piece><otherwise><ci>x</ci></otherwise></piecewise></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare type='vector'><ci>V</ci></declare></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare><ci>F</ci><lambda><bvar><ci>U</ci></bvar><apply><int/><bvar><ci>x</ci></bvar><lowlimit><cn>0</cn></lowlimit><uplimit><ci>a</ci></uplimit><ci>U</ci></apply></lambda></declare></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><ci>F</ci><ci>U</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare encoding='Maple' definitionURL='http://.../MathML:noncommutplus'><plus/></declare></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sin/><cn>5</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><plus/><sin/><cos/></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><bvar><ci>x</ci></bvar><lowlimit><cn>0</cn></lowlimit><uplimit><cn>1</cn></uplimit><apply><power/><ci>x</ci><cn>2</cn></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><interval><cn>0</cn><cn>1</cn></interval><sin/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><bvar><ci>x</ci></bvar><condition><apply><in/><ci>x</ci><ci type='set'>C</ci></apply></condition><apply><sin/><ci>x</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><domainofapplication><ci type='set'>C</ci></domainofapplication><ci type='function'>f</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><bvar><ci>x</ci></bvar><domainofapplication><set><bvar><ci>t</ci></bvar><condition><apply><and/><apply><leq/><cn>0</cn><ci>t</ci></apply><apply><leq/><ci>t</ci><cn>1</cn></apply></apply></condition><ci>t</ci></set></domainofapplication><apply><power/><ci>x</ci><cn>2</cn></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><bvar><ci>x</ci></bvar><bvar><ci>y</ci></bvar><domainofapplication><set><bvar><ci>t</ci></bvar><bvar><ci>u</ci></bvar><condition><apply><and/><apply><leq/><cn>0</cn><ci>t</ci></apply><apply><leq/><ci>t</ci><cn>1</cn></apply><apply><leq/><cn>0</cn><ci>u</ci></apply><apply><leq/><ci>u</ci><cn>1</cn></apply></apply></condition><list><ci>t</ci><ci>u</ci></list></set></domainofapplication><apply><times/><apply><power/><ci>x</ci><mi>c</mi><mi>t</mi><mi>w</mi><mi>o</mi></apply><apply><power/><mi>c</mi><mi>i</mi><mi>y</mi><cn>3</cn></apply></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><fn><apply><int/><interval><cn>0</cn><cn>1</cn></interval></apply></fn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><lambda><bvar><ci>f</ci></bvar><apply><int/><interval><cn>0</cn><cn>1</cn></interval></apply></lambda></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><diff/><bvar><ci>x</ci><degree><cn>2</cn></degree></bvar><apply><fn><ci>f</ci></fn><ci>x</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><partialdiff/><bvar><degree><cn>2</cn></degree><ci>x</ci></bvar><bvar><ci>y</ci></bvar><bvar><ci>x</ci></bvar><degree><cn>4</cn></degree><ci type='function'>f</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sum/><bvar><ci>i</ci></bvar><lowlimit><cn>0</cn></lowlimit><uplimit><cn>100</cn></uplimit><apply><power/><ci>x</ci><ci>i</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><exists/><bvar><ci>x</ci></bvar><apply><lt/><ci>x</ci><cn>9</cn></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><forall/><bvar><ci>x</ci></bvar><condition><apply><lt/><ci>x</ci><cn>9</cn></apply></condition><apply><lt/><ci>x</ci><cn>10</cn></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><lt/><ci>a</ci><ci>b</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><exists/><bvar><ci>x</ci></bvar><apply><lt/><apply><apply><power/><ci>x</ci><cn>5</cn></apply></apply><cn>3</cn></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><forall/><bvar><ci>x</ci></bvar><condition><apply><in/><ci>x</ci><csymbol definitionURL='http://www.openmath.org/cd/setname1#N' encoding='OpenMath'>N</csymbol></apply></condition><apply><exists/><bvar><ci>p</ci></bvar><bvar><ci>q</ci></bvar><condition><apply><and/><apply><in/><ci>p</ci><csymbol definitionURL='http://www.openmath.org/cd/setname1#P' encoding='OpenMath'>P</csymbol></apply><apply><in/><ci>q</ci><csymbol definitionURL='http://www.openmath.org/cd/setname1#P' encoding='OpenMath'>P</csymbol></apply></apply></condition><apply><eq/><apply><plus/><ci>p</ci><ci>q</ci></apply><apply><times/><cn>2</cn><ci>x</ci></apply></apply></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><exists/><bvar><ci>x</ci></bvar><condition><apply><apply><lt/><ci>x</ci><cn>3</cn></apply></apply></condition><apply><eq/><apply><power/><ci>x</ci><cn>2</cn></apply><cn>4</cn></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><semantics><apply><divide/><cn>123</cn><cn>456</cn></apply><annotation encoding='Mathematica'>N[123/456, 39]</annotation><annotation encoding='TeX'>$0.269736842105263157894736842105263157894\ldots$</annotation><annotation encoding='Maple'>evalf(123/456, 39);</annotation><annotation-xml encoding='MathML-Presentation'><mn>0</mn><mo>.</mo><mn>269736842105263157894</mn><mover><mn>736842105263157894</mn> <mo>&OverBar;</mo></mover></annotation-xml><annotation-xml encoding='MathML-OpenMath'><OMA xmlns='http://www.openmath.org/OpenMath'><OMS name='divide' cd='arith1'><OMI>123</OMI><OMI>123</OMI></OMS></OMA></annotation-xml></semantics></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn type='constant'>&pi;</cn></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><ci type='vector'>V</ci></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply other='display="scriptstyle"'><divide/><cn>1</cn><ci>x</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn type='real'>12345.7</cn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn type='integer'>12345</cn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn base='16' type='integer'>AB3</cn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn type='rational'>12342<sep/>2342342</cn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn type='complex-cartesian'>12.3<sep/>5</cn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn type='complex-polar'>2<sep/>3.1514</cn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn type='constant'><mi>&tau;</mi></cn></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><ci>x</ci></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><ci type='vector'>V</ci></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><ci><mi>x</mi><mo>-</mo><mi>i</mi></ci></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><csymbol definitionURL='http://www.openmath.org/cd/hypergeo2#BesselJ' encoding='OpenMath'><msub><mi>J</mi> <mn>0</mn> </msub></csymbol><ci>y</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><csymbol definitionURL='http://www.example.com/universalconstants/Boltmann.htm' encoding='text'>k</csymbol></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><factorial/><cn>3</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><plus/><cn>3</cn><cn>4</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sin/><ci>x</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><reln><eq/><ci>a</ci><ci>b</ci></reln></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><reln><lt/><ci>a</ci><ci>b</ci></reln></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><fn><ci>L</ci></fn></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><fn><apply><plus/><ci>g</ci></apply><ci>z</ci></fn></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><interval><ci>a</ci><ci>b</ci></interval></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><interval closure='open-closed'><ci>a</ci><ci>b</ci></interval></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><inverse/><ci>f</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><inverse encoding='text' definitionURL='../MyDefinition.htm'/><ci>f</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><apply><inverse/><ci type='matrix'>a</ci></apply><ci>A</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><cn type='complex-cartesian'>3<sep/>4</cn></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><condition><apply><in/><ci>x</ci><ci type='set'>A</ci></apply></condition></math></formula>
+
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><condition><apply><and/><apply><gt/><ci>x</ci><cn>0</cn></apply><apply><lt/><ci>x</ci><cn>1</cn></apply></apply></condition></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><max/><bvar><ci>x</ci></bvar><condition><apply><and/><apply><gt/><ci>x</ci><cn>0</cn></apply><apply><lt/><ci>x</ci><cn>1</cn></apply></apply></condition><apply><minus/><ci>x</ci><apply><sin/><ci>x</ci></apply></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare type='vector'><ci>V</ci></declare></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare type='vector'><ci>V</ci><vector><cn>1</cn><cn>2</cn><cn>3</cn></vector></declare></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare><ci id='var-A'>A</ci><vector><ci>a</ci><ci>b</ci><ci>c</ci></vector></declare></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><ci>V</ci><apply><plus/><ci definitionURL='#var-A'>A</ci><ci>B</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare nargs='2' type='function'><ci>f</ci><apply><plus/><ci>F</ci><ci>G</ci></apply></declare></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare type='function'><ci>J</ci><lambda><bvar><ci>x</ci></bvar><apply><ln/><ci>x</ci></apply></lambda></declare></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><declare type='vector'><ci>v</ci><vector><cn>1</cn><cn>2</cn><cn>3</cn></vector></declare></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><lambda><bvar><ci>x</ci></bvar><apply><sin/><apply><plus/><ci>x</ci><cn>1</cn></apply></apply></lambda></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><lambda><bvar><ci>b</ci></bvar><apply><int/><bvar><ci>x</ci></bvar><lowlimit><mi>c</mi><mi>i</mi><mi>a</mi></lowlimit><uplimit><ci>b</ci></uplimit><apply><fn><ci>f</ci></fn><ci>x</ci></apply></apply></lambda></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><lambda><bvar><ci>x</ci></bvar><domainofapplication><integers/></domainofapplication><apply><sin/><ci>x</ci></apply></lambda></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><lambda><domainofapplication><integers/></domainofapplication><sin/></lambda></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><compose/><fn><ci>f</ci></fn><fn><ci>g</ci></fn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><compose/><fn><ci>f</ci></fn><fn><ci>g</ci></fn><fn><ci>h</ci></fn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><apply><compose/><fn><ci>f</ci></fn><fn><ci>g</ci></fn></apply><mi>c</mi><mi>i</mi><mi>x</mi></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><fn><ci>f</ci></fn><apply><fn><ci>g</ci></fn><ci>x</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><compose/><fn><ci>f</ci></fn><apply><inverse/><fn><ci>f</ci></fn></apply></apply><ident/></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><domain/><fn><ci>f</ci></fn></apply><reals/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><codomain/><fn><ci>f</ci></fn></apply><rationals/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><image/><sin/></apply><interval><cn>-1</cn><cn>1</cn></interval></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><domainofapplication><ci>C</ci></domainofapplication><ci>f</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><piecewise><piece><cn>0</cn><apply><lt/><ci>x</ci><cn>0</cn></apply></piece><otherwise><ci>x</ci></otherwise></piecewise></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><abs/><ci>x</ci></apply><piecewise><piece><apply><minus/><ci>x</ci></apply><apply><lt/><ci>x</ci><cn>0</cn></apply></piece><piece><cn>0</cn><apply><eq/><ci>x</ci><cn>0</cn></apply></piece><piece><ci>x</ci><apply><gt/><ci>x</ci><cn>0</cn></apply></piece></piecewise></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><quotient/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><factorial/><ci>n</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><divide/><ci>a</ci><ci>b</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><max/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><min/><bvar><ci>x</ci></bvar><condition><apply><notin/><ci>x</ci><ci type='set'>B</ci></apply></condition><apply><power/><ci>x</ci><cn>2</cn></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><max/><bvar><ci>x</ci></bvar><condition><apply><and/><apply><in/><ci>x</ci><ci type='set'>B</ci></apply><apply><notin/><ci>x</ci><ci type='set'>C</ci></apply></apply></condition><ci>x</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><minus/><ci>x</ci><ci>y</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><plus/><ci>x</ci><ci>y</ci><ci>z</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><power/><ci>x</ci><cn>3</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><rem/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><times/><ci>a</ci><ci>b</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><root/><degree><ci type='integer'>n</ci></degree><ci>a</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><gcd/><ci>a</ci><ci>b</ci><ci>c</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><and/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><or/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><xor/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><not/><ci>a</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><implies/><ci>A</ci><ci>B</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><forall/><bvar><ci>x</ci></bvar><apply><eq/><apply><minus/><ci>x</ci><ci>x</ci></apply><cn>0</cn></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><forall/><bvar><ci>p</ci></bvar><bvar><ci>q</ci></bvar><condition><apply><and/><apply><in/><ci>p</ci><rationals/></apply><apply><in/><ci>q</ci><rationals/></apply><apply><lt/><ci>p</ci><ci>q</ci></apply></apply></condition><apply><lt/><ci>p</ci><apply><power/><ci>q</ci><cn>2</cn></apply></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><forall/><bvar><ci>n</ci></bvar><condition><apply><and/><apply><gt/><ci>n</ci><cn>0</cn></apply><apply><in/><ci>n</ci><integers/></apply></apply></condition><apply><exists/><bvar><ci>x</ci></bvar><bvar><ci>y</ci></bvar><bvar><ci>z</ci></bvar><condition><apply><and/><apply><in/><ci>x</ci><integers/></apply><apply><in/><ci>y</ci><integers/></apply><apply><in/><ci>z</ci><integers/></apply></apply></condition><apply><eq/><apply><plus/><apply><power/><ci>x</ci><ci>n</ci></apply><apply><power/><ci>x</ci><ci>n</ci></apply></apply><apply><power/><ci>z</ci><ci>n</ci></apply></apply></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><exists/><bvar><ci>x</ci></bvar><apply><fn><ci>f</ci></fn><ci>x</ci></apply><cn>0</cn></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><abs/><ci>x</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><conjugate/><apply><apply><plus/><ci>x</ci><cn>&ImaginaryI;</cn><ci>y</ci></apply></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><arg/><apply><and/><apply><gt/><ci>x</ci><cn>0</cn></apply><apply><lt/><ci>x</ci><cn>1</cn></apply></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><real/><apply><and/><apply><gt/><ci>x</ci><cn>0</cn></apply><apply><lt/><ci>x</ci><cn>1</cn></apply></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><imaginary/><apply><and/><apply><gt/><ci>x</ci><cn>0</cn></apply><apply><lt/><ci>x</ci><cn>1</cn></apply></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><lcm/><ci>a</ci><ci>b</ci><ci>c</ci></apply></math></formula>
+
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><floor/><ci>a</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><forall/><bvar><ci>a</ci></bvar><apply><and/><apply><leq/><apply><floor/><ci>a</ci></apply><ci>a</ci></apply><apply><lt/><ci>a</ci><apply><plus/><apply><floor/><ci>a</ci></apply><cn>1</cn></apply></apply></apply></apply></math></formula>
+
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><ceiling/><ci>a</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><forall/><bvar><ci>a</ci></bvar><apply><and/><apply><lt/><apply><minus/><apply><ceiling/><ci>a</ci></apply><cn>1</cn></apply><ci>a</ci></apply><apply><leq/><ci>a</ci><apply><ceiling/><ci>a</ci></apply></apply></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><neq/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><gt/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><lt/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><geq/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><leq/><ci>a</ci><ci>b</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><equivalent/><ci>a</ci><apply><not/><apply><not/><ci>a</ci></apply></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><approx/><cn type='rational'>22<sep/>7</cn><pi/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><factorof/><ci>a</ci><ci>b</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><int/><sin/></apply><cos/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><bvar><ci>x</ci></bvar><lowlimit><mi>c</mi><mi>z</mi><mi>e</mi><mi>r</mi><mi>o</mi></lowlimit><uplimit><ci>a</ci></uplimit><apply><ci>f</ci><ci>x</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><interval><ci>a</ci><ci>b</ci></interval><cos/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><bvar><ci>x</ci></bvar><condition><apply><in/><ci>x</ci><ci type='set'>D</ci></apply></condition><apply><ci type='function'>f</ci><ci>x</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><diff/><ci>f</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><diff/><bvar><ci>x</ci></bvar><apply><ci type='function'>f</ci><ci>x</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><partialdiff/><bvar><ci>x</ci><degree><ci>m</ci></degree></bvar><bvar><ci>y</ci><degree><ci>n</ci></degree></bvar><degree><ci>k</ci></degree><apply><ci type='function'>f</ci><ci>x</ci><ci>y</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><partialdiff/><bvar><ci>x</ci></bvar><bvar><ci>y</ci></bvar><apply><ci type='function'>f</ci><ci>x</ci><ci>y</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><partialdiff/><list><cn>1</cn><cn>1</cn><cn>3</cn></list><fn><ci>f</ci></fn></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><bvar><ci>x</ci></bvar><lowlimit><mi>c</mi><mi>z</mi><mi>e</mi><mi>r</mi><mi>o</mi></lowlimit><uplimit><ci>a</ci></uplimit><apply><ci>f</ci><ci>x</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><bvar><ci>x</ci></bvar><lowlimit><mi>c</mi><mi>z</mi><mi>e</mi><mi>r</mi><mi>o</mi></lowlimit><uplimit><ci>a</ci></uplimit><apply><ci>f</ci><ci>x</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><set><bvar><ci id='var-x'>x</ci></bvar><condition><apply><lt/><ci definitionURL='#var-x'>x</ci><cn>1</cn></apply></condition></set></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><diff/><bvar><ci>x</ci><degree><cn>2</cn></degree></bvar><apply><power/><ci>x</ci><cn>4</cn></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><int/><bvar><ci>x</ci></bvar><condition><in/><ci>x</ci><ci>D</ci></condition><apply><ci>f</ci><ci>x</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><partialdiff/><bvar><ci>x</ci><degree><ci>n</ci></degree></bvar><bvar><ci>y</ci><degree><ci>m</ci></degree></bvar><apply><sin/><apply><times/><ci>x</ci><ci>y</ci></apply></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><ci>a</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><grad/><ci>f</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><curl/><ci>a</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><laplacian/><ci>f</ci></apply><apply><apply><grad/><ci>f</ci></apply></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><set><ci>b</ci><ci>a</ci><ci>c</ci></set></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><set><bvar><ci>x</ci></bvar><condition><apply><and/><apply><lt/><ci>x</ci><cn>5</cn></apply><apply><in/><ci>x</ci><naturalnumbers/></apply></apply></condition><ci>x</ci></set></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><list><ci>a</ci><ci>b</ci><ci>c</ci></list></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><list order='numeric'><bvar><ci>x</ci></bvar><condition><apply><lt/><ci>x</ci><cn>5</cn></apply></condition><ci>x</ci></list></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><union/><ci>A</ci><ci>B</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><union/><bvar><ci type='set'>S</ci></bvar><domainofapplication><ci type='list'>L</ci></domainofapplication><ci type='set'>S</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><intersect/><ci>A</ci><ci>B</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><intersect/><bvar><ci type='set'>S</ci></bvar><domainofapplication><ci type='list'>L</ci></domainofapplication><ci type='set'>S</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><in/><ci>a</ci><ci type='set'>A</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><notin/><ci>a</ci><mi>A</mi></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><subset/><mi>A</mi><mi>B</mi></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><subset/><bvar><ci type='set'>S</ci></bvar><condition><apply><in/><ci>S</ci><ci type='list'>T</ci></apply></condition><ci>S</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><prsubset/><ci>A</ci><ci>B</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><prsubset/><bvar><ci type='integer'>i</ci></bvar><lowlimit><cn>0</cn></lowlimit><uplimit><cn>10</cn></uplimit><apply><selector/><ci type='vector_of_sets'>S</ci><ci>i</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><notsubset/><mi>A</mi><mi>B</mi></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><notprsubset/><mi>A</mi><mi>B</mi></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><setdiff/><mi>A</mi><mi>B</mi></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><card/><ci>A</ci></apply><cn>5</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><cartesianproduct/><ci>A</ci><ci>B</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><cartesianproduct/><reals/><reals/><reals/></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sum/><bvar><ci>x</ci></bvar><lowlimit><ci>a</ci></lowlimit><uplimit><ci>b</ci></uplimit><apply><ci type='function'>f</ci><ci>x</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sum/><bvar><ci>x</ci></bvar><condition><apply><in/><ci>x</ci><ci type='set'>B</ci></apply></condition><apply><ci type='function'>f</ci><ci>x</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sum/><domainofapplication><ci type='set'>B</ci></domainofapplication><ci type='function'>f</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><product/><bvar><ci>x</ci></bvar><lowlimit><ci>a</ci></lowlimit><uplimit><ci>b</ci></uplimit><apply><ci type='function'>f</ci><ci>x</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><product/><bvar><ci>x</ci></bvar><condition><apply><in/><ci>x</ci><ci type='set'>B</ci></apply></condition><apply><ci type='function'>f</ci><ci>x</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><limit/><bvar><ci>x</ci></bvar><lowlimit><cn>0</cn></lowlimit><apply><sin/><ci>x</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><limit/><bvar><ci>x</ci></bvar><condition><apply><tendsto type='above'/><ci>x</ci><ci>a</ci></apply></condition><apply><sin/><ci>x</ci></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><tendsto type='above'/><apply><power/><ci>x</ci><cn>2</cn></apply><apply><power/><ci>a</ci><cn>2</cn></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><tendsto/><vector><ci>x</ci><ci>y</ci></vector><vector><apply><ci type='function'>f</ci><ci>x</ci><ci>y</ci></apply><apply><ci type='function'>g</ci><ci>x</ci><ci>y</ci></apply></vector></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sin/><ci>x</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sin/><apply><plus/><apply><cos/><ci>x</ci></apply><apply><power/><ci>x</ci><cn>3</cn></apply></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><list><sin/><sec/><sinh/><sech/><arcsin/><arccosh/><arccsc/><arcsech/><cos/><csc/><cosh/><csch/><arccos/><arccot/><arccsch/><arcsinh/><tan/><cot/><tanh/><coth/><arctan/><arccoth/><arcsec/><arctanh/></list></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><exp/><ci>x</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><ln/><ci>a</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><log/><logbase><cn>3</cn></logbase><ci>x</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><mean/><ci>X</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><sdev/><ci>X</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><variance/><ci>X</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><median/><ci>X</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><mode/><ci>X</ci></apply></math></formula>
+
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><moment/><degree><cn>3</cn></degree><momentabout><ci>p</ci></momentabout><ci>X</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><moment/><degree><cn>3</cn></degree><momentabout><ci>p</ci></momentabout><ci>X</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><vector><cn>1</cn><cn>2</cn><cn>3</cn></vector></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><matrix><matrixrow><cn>0</cn><cn>1</cn><cn>0</cn></matrixrow><matrixrow><cn>0</cn><cn>0</cn><cn>1</cn></matrixrow><matrixrow><cn>1</cn><cn>0</cn><cn>0</cn></matrixrow></matrix></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><matrixrow><cn>1</cn><cn>2</cn></matrixrow></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><matrixrow><cn>3</cn><ci>x</ci></matrixrow></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><determinant/><ci type='matrix'>A</ci></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><transpose/><ci type='matrix'>A</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><selector/><matrix><matrixrow><cn>1</cn><cn>2</cn></matrixrow><matrixrow><cn>3</cn><cn>4</cn></matrixrow></matrix><cn>1</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><selector/><ci type='matrix'>A</ci><cn>3</cn><cn>2</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><selector/><ci type='vector'>V</ci><cn>1</cn></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><vectorproduct/><ci type='vector'>A</ci><ci type='vector'>B</ci></apply><apply><times/><ci>a</ci><ci>b</ci><apply><sin/><ci><mo>&amp;</mo><mi>t</mi><mi>h</mi><mi>e</mi><mi>t</mi><mi>a</mi><mo>;</mo></ci></apply><ci type='vector'>V</ci></apply></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><scalarproduct/><ci type='vector'>A</ci><ci type='vector'>B</ci></apply><apply><times/><ci>a</ci><ci>b</ci><apply><cos/><ci><mo>&amp;</mo><mi>t</mi><mi>h</mi><mi>e</mi><mi>t</mi><mi>a</mi><mo>;</mo></ci></apply></apply></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><outerproduct/><ci type='vector'>A</ci><ci type='vector'>B</ci></apply></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><semantics><apply><plus/><apply><sin/><ci>x</ci></apply><cn>5</cn></apply><annotation encoding='TeX'>\sin x + 5</annotation></semantics></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><semantics><apply><plus/><apply><sin/><ci>x</ci></apply><cn>5</cn></apply><annotation encoding='Maple'>sin(x) + 5</annotation><annotation-xml encoding='MathML-Presentation'>... ...</annotation-xml><annotation encoding='Mathematica'>sin[x] + 5</annotation><annotation encoding='TeX'>\sin x + 5</annotation><annotation-xml encoding='OpenMath'><OMA xmlns='http://www.openmath.org/OpenMath'><OMS name='sin' cd='transc1'/><OMI>5</OMI></OMA></annotation-xml></semantics></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><semantics><apply><plus/><apply><sin/><ci>x</ci></apply><cn>5</cn></apply><annotation-xml encoding='OpenMath'><OMA xmlns='http://www.openmath.org/OpenMath'><OMS name='plus'/><mo>[</mo><mi>c</mi><mi>d</mi><mo>]</mo><mo>[</mo><mi>a</mi><mi>r</mi><mi>i</mi><mi>t</mi><mi>h</mi><mn>1</mn><mo>]</mo><mrow/><OMA><OMS name='sin' cd='transc1'/><OMV name='x'/></OMA><OMI>5</OMI></OMA></annotation-xml></semantics></math></formula></p>
+<p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><in/><cn type='integer'>12</cn><integers/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><in/><cn type='real'>44.997</cn><reals/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><in/><cn type='rational'>22<sep/>7</cn><rationals/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><in/><cn type='integer'>1729</cn><naturalnumbers/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><in/><cn type='complex-cartesian'>17<sep/>29</cn><complexes/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><in/><cn type='integer'>17</cn><primes/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><ln/><exponentiale/></apply><cn>1</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><power/><imaginaryi/><cn>2</cn></apply><cn>-1</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><divide/><cn>0</cn><cn>0</cn></apply><notanumber/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><or/><true/><ci type='logical'>P</ci></apply><true/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><eq/><apply><and/><false/><ci type='logical'>P</ci></apply><false/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><neq/><integers/><emptyset/></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><apply><approx/><pi/><cn type='rational'>22<sep/>7</cn></apply></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><eulergamma/></math></formula>
+<formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><infinity/></math></formula></p>
+</std>

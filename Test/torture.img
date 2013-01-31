@@ -1,0 +1,10 @@
+# images info, 1=ps, 2=eps, 4=epsi, 8=epsf, 16=pdf, 32=png, 64=gif
+see_image("x",0,38);
+see_image("y",0,2);
+see_image("Logo-INRIA-couleur",0,8);
+see_image("../../tralics/Test/a_b",0,1);
+see_image("../../a_b:c",0,1);
+see_image("x_",0,1);
+see_image("figure1a",0,2);
+see_image("figure1b",0,2);
+see_image("figure1c",0,1);

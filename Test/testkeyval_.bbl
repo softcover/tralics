@@ -1,0 +1,11 @@
+% reading source testkv.bib
+%
+\citation{Lou88}{cite:louarn88}{bid0}{year}{article}
+\bauthors{\bpers[Philippe]{P.}{}{Louarn}{}}
+\cititem{btitle}{Une exp\'erience d'utilisation de {LaTeX} : le {R}apport d'act ivit\'e de {l'INRIA}}
+\cititem{bjournal}{Cahiers Gutenberg}
+\cititem{bnumber}{0}
+\cititem{bmonth}{apr}
+\cititem{byear}{1988}
+\cititem{bpages}{17-24}
+\endcitation

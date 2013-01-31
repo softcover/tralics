@@ -1,0 +1,86 @@
+% reading source tralics.bib
+%
+\citation{Bou06}{cite:Bouche}{bid5}{year}{article}
+\bauthors{\bpers[Thierry]{T.}{}{Bouche}{}}
+\cititem{btitle}{A pdflatex-based automated journal production system}
+\cititem{bjournal}{TUGboat}
+\cititem{bnumber}{1}
+\cititem{bvolume}{27}
+\cititem{byear}{2006}
+\endcitation
+%
+\citation{Car00}{cite:xmltex}{bid4}{year}{article}
+\bauthors{\bpers[David]{D.}{}{Carlisle}{}}
+\cititem{btitle}{{XMLTEX}: A non validating (and not 100\% conforming) namespace aware {XML} parser implemented in {\TeX}}
+\cititem{bjournal}{TUGboat}
+\cititem{bnumber}{3}
+\cititem{bvolume}{21}
+\cititem{byear}{2000}
+\cititem{bpages}{193-199}
+\endcitation
+%
+\citation{CGR00}{cite:CGR2000}{bid3}{year}{inproceedings}
+\bauthors{\bpers[David]{D.}{}{Carlisle}{}\bpers[Michel]{M.}{}{Goossens}{}\bpers[Sebastian]{S.}{}{Rahtz}{}}
+\cititem{btitle}{De {XML} \`a {PDF} avec {\ttfamily xmltex} et {Passive\TeX}}
+\cititem{bbooktitle}{Cahiers Gutenberg}
+\cititem{bnumber}{35-36}
+\cititem{bpages}{79-114}
+\cititem{byear}{2000}
+\endcitation
+%
+\citation{CIMP01}{cite:mathml2}{bid8}{year}{misc}
+\bauthors{\bpers[David]{D.}{}{Carlisle}{}\bpers[Patrick]{P.}{}{Ion}{}\bpers[Robert]{R.}{}{Miner}{}\bpers[Nico]{N.}{}{{Poppelier (editors)}}{}}
+\cititem{btitle}{Mathematical {M}arkup {L}anguage {(MathML) Version 2.0}}
+\cititem{byear}{2001}
+\csname @href\endcsname{http://www.w3.org/TR/MathML2/}{\url{http://www.w3.org/TR/MathML2/}}
+\endcitation
+%
+\citation{FQ07}{cite:FABIANSKA:2007:INRIA-00131035:2}{bid9}{year}{techreport}
+\bauthors{\bpers[Anna]{A.}{}{Fabia\'nska}{}\bpers[Alban]{A.}{}{Quadrat}{}}
+\cititem{btitle}{Applications of the Quillen-Suslin theorem to multidimensional systems theory}
+\cititem{btype}{Rapport de recherche INRIA}
+\cititem{bnumber}{RR-6126}
+\cititem{byear}{2007}
+\csname @href\endcsname{http://hal.inria.fr/inria-00131035/en/}{\url{http://hal.inria.fr/inria-00131035/en/}}
+\endcitation
+%
+\citation{Gri06a}{cite:Tralics1}{bid0}{year}{techreport}
+\bauthors{\bpers[Jos\'e]{J.}{}{Grimm}{}}
+\cititem{btitle}{Tralics, a {\LaTeX} to {XML} translator, {P}art {I}}
+\cititem{btype}{Rapport Technique}
+\cititem{bnumber}{309}
+\cititem{binstitution}{Inria}
+\cititem{byear}{2006}
+\csname @href\endcsname{http://hal.inria.fr/inria-00000198}{\url{http://hal.inria.fr/inria-00000198}}
+\endcitation
+%
+\citation{Gri06b}{cite:Tralics2}{bid1}{year}{techreport}
+\bauthors{\bpers[Jos\'e]{J.}{}{Grimm}{}}
+\cititem{btitle}{Tralics, a {\LaTeX} to {XML} translator, {P}art {II}}
+\cititem{btype}{Rapport Technique}
+\cititem{bnumber}{310}
+\cititem{binstitution}{Inria}
+\cititem{byear}{2006}
+\csname @href\endcsname{http://hal.inria.fr/inria-00069870}{\url{http://hal.inria.fr/inria-00069870}}
+\endcitation
+%
+\citation{Knu84}{cite:texbook}{bid7}{year}{book}
+\bauthors{\bpers[Donald E.]{D. E.}{}{Knuth}{}}
+\cititem{btitle}{The \TeX book}
+\cititem{bpublisher}{Addison Wesley}
+\cititem{byear}{1984}
+\endcitation
+%
+\citation{MGB+04}{cite:companion2}{bid6}{year}{book}
+\bauthors{\bpers[Frank]{F.}{}{Mittelbach}{}\bpers[Michel]{M.}{}{Goossens}{}\bpers[Johannes]{J.}{}{Braams}{}\bpers[David]{D.}{}{Carlisle}{}\bpers[Chris]{C.}{}{Rowley}{}}
+\cititem{btitle}{The {\LaTeX} companion, second edition}
+\cititem{bpublisher}{Addison Wesley}
+\cititem{byear}{2004}
+\endcitation
+%
+\citation{Rah03}{cite:Passive-tex}{bid2}{year}{misc}
+\bauthors{\bpers[Sebastian]{S.}{}{Rahtz}{}}
+\cititem{btitle}{Passive {\TeX}}
+\cititem{bhowpublished}{http://www.tei-c.org.uk/Software/passivetex/}
+\cititem{byear}{2003}
+\endcitation

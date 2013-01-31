@@ -1,0 +1,6 @@
+# images info, 1=ps, 2=eps, 4=epsi, 8=epsf, 16=pdf, 32=png, 64=gif
+see_image("Logo-INRIA-couleur",0,9);
+see_image("A",0,1);
+see_image("a",0,2);
+see_image("x",0,5);
+see_image("../../a_b:c",0,1);

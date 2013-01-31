@@ -1,0 +1,148 @@
+% reading source beauville.bib
+%
+\citation{BAL}{cite:AMW}{bid8}{year}{unpublished}
+\bauthors{\bpers[M.]{M.}{}{Barr}{}\bpers[J.]{J.}{}{André}{}\bpers[Ph.]{P.}{}{Louarn}{}}
+\cititem{btitle}{Notes en bas de pages: Comment les faire en \LaTeX}
+\cititem{bnote}{Preprint, {\tt math.SG/0005047}}
+\endcitation
+%
+\citation{BB89}{cite:D-N}{bid14}{year}{article}
+\bauthors{\bpers[J.]{J.}{}{Bezos}{}\bpers[{M.S.}]{{M.S.}}{}{Borceux}{}}
+\cititem{btitle}{De la construction de diagrammes}
+\cititem{bjournal}{Invent. Math.}
+\cititem{bnumber}{1}
+\cititem{bvolume}{97}
+\cititem{byear}{1989}
+\cititem{bpages}{53--94}
+\endcitation
+%
+\citation{BB97}{cite:L-S}{bid12}{year}{article}
+\bauthors{\bpers[Y.]{Y.}{}{Bringhurst}{}\bpers[C.]{C.}{}{Butcher}{}}
+\cititem{btitle}{Copy-editing: the Cambridge handbook for editors, authors and publishers}
+\cititem{bjournal}{Ann. Sci. École Norm. Sup. (4)}
+\cititem{bnumber}{4}
+\cititem{bvolume}{30}
+\cititem{byear}{1997}
+\cititem{bpages}{499--525}
+\endcitation
+%
+\citation{BBB98}{cite:BLS}{bid5}{year}{article}
+\bauthors{\bpers[N.]{N.}{}{Beebe}{}\bpers[B.]{B.}{}{Beeton}{}\bpers[Franck]{F.}{}{Bennet}{}}
+\cititem{btitle}{User's {G}uide to the {$G$}-bundles citator}
+\cititem{bjournal}{Compositio Math.}
+\cititem{bnumber}{2}
+\cititem{bvolume}{112}
+\cititem{byear}{1998}
+\cititem{bpages}{183--216}
+\endcitation
+%
+\citation{BBL89}{cite:BNR}{bid0}{year}{article}
+\bauthors{\bpers[N.]{N.}{}{Beebe}{}\bpers[A.]{A.}{}{Berdnikov}{}\bpers[O.]{O.}{}{Lapko}{}}
+\cititem{btitle}{Cyrillic encodings for \LaTeX2$\epsilon$ multi-language documents}
+\cititem{bjournal}{J. Reine Angew. Math.}
+\cititem{bvolume}{398}
+\cititem{byear}{1989}
+\cititem{bpages}{169--179}
+\endcitation
+%
+\citation{Bec91}{cite:B1}{bid15}{year}{article}
+\bauthors{\bpers[Claudio]{C.}{}{Becarri}{}}
+\cititem{btitle}{New Greek fonts and the \texttt{greek} option of the \textsf{babel} package}
+\cititem{bjournal}{Bull. Soc. Math. France}
+\cititem{bnumber}{3}
+\cititem{bvolume}{119}
+\cititem{byear}{1991}
+\cititem{bpages}{259--291}
+\endcitation
+%
+\citation{Bee}{cite:B3}{bid1}{year}{unpublished}
+\bauthors{\bpers[N.]{N.}{}{Beebe}{}}
+\cititem{btitle}{Mathematical symbols and Cyrillic fonts ready for distribution}
+\cititem{bnote}{Preprint, {\tt math.AG/0502179}, Proc. of the conf. {"}Moduli spaces and arithmetic geometry{"}\linebreak (Kyoto, 2004). Advanced studies in pure math, to appear}
+\endcitation
+%
+\citation{Bee96}{cite:B2}{bid9}{year}{inproceedings}
+\bauthors{\bpers[A.]{A.}{}{Beebe}{}}
+\cititem{btitle}{Bibliography prettyprinting and syntax checking}
+\cititem{bbooktitle}{Proceedings of the Hirzebruch 65 Conference on Algebraic Geometry (Ramat Gan, 1993)}
+\cititem{bseries}{Israel Math. Conf. Proc.}
+\cititem{bvolume}{9}
+\cititem{bpages}{75--96}
+\cititem{byear}{1996}
+\endcitation
+%
+\citation{Ber68}{cite:Bo}{bid11}{year}{book}
+\bauthors{\bpers[K.]{K.}{}{Berry}{}}
+\cititem{btitle}{Filenames for fonts}
+\cititem{bpublisher}{Hermann}
+\cititem{baddress}{Paris}
+\cititem{byear}{1968}
+\endcitation
+%
+\citation{Bou57}{cite:D}{bid7}{year}{article}
+\bauthors{\bpers[T.]{T.}{}{Bouche}{}}
+\cititem{btitle}{Diversity in math fonts}
+\cititem{bjournal}{Amer. Math. Soc. Translations (II)}
+\cititem{bvolume}{6}
+\cititem{byear}{1957}
+\cititem{bpages}{111--244}
+\endcitation
+%
+\citation{Car66}{cite:M1}{bid4}{year}{article}
+\bauthors{\bpers[D.]{D.}{}{Carlisle}{}}
+\cititem{btitle}{A \LaTeX\ tour, Part 1 : The basic distribution}
+\cititem{bjournal}{Invent. Math.}
+\cititem{bvolume}{1}
+\cititem{byear}{1966}
+\cititem{bpages}{287--354}
+\endcitation
+%
+\citation{Car70}{cite:M2}{bid6}{year}{incollection}
+\bauthors{\bpers[D.]{D.}{}{Carlisle}{}}
+\cititem{btitle}{A \LaTeX\ tour, Part 2: The tools and graphics distributions}
+\cititem{bbooktitle}{Questions on Algebraic Varieties (C.I.M.E., III Ciclo, Varenna, 1969)}
+\cititem{bpublisher}{Edizioni Cremonese}
+\cititem{baddress}{Rome}
+\cititem{byear}{1970}
+\cititem{bpages}{29--100}
+\endcitation
+%
+\citation{Cla99}{cite:S}{bid13}{year}{article}
+\bauthors{\bpers[A.]{A.}{}{Clark}{}}
+\cititem{btitle}{Practical halftoning with \TeX}
+\cititem{bjournal}{Ann. Sci. École Norm. Sup. (4)}
+\cititem{bnumber}{1}
+\cititem{bvolume}{32}
+\cititem{byear}{1999}
+\cititem{bpages}{127--133}
+\endcitation
+%
+\citation{IM96}{cite:O-W}{bid10}{year}{article}
+\bauthors{\bpers[P.]{P.}{}{Ion}{}\bpers[R.]{R.}{}{Miner}{}}
+\cititem{btitle}{Mathematical Markup Language (MathML) Version 2.0}
+\cititem{bjournal}{Trans. Amer. Math. Soc.}
+\cititem{bnumber}{7}
+\cititem{bvolume}{348}
+\cititem{byear}{1996}
+\cititem{bpages}{2689--2710}
+\endcitation
+%
+\citation{Pop81}{cite:R}{bid2}{year}{article}
+\bauthors{\bpers[N.]{N.}{}{Poppelier}{}}
+\cititem{btitle}{Index preparation and processing}
+\cititem{bjournal}{Proc. Indian Acad. Sci. Math. Sci.}
+\cititem{bnumber}{2}
+\cititem{bvolume}{90}
+\cititem{byear}{1981}
+\cititem{bpages}{151--166}
+\endcitation
+%
+\citation{Rol90}{cite:Se}{bid3}{year}{article}
+\bauthors{\bpers[J.-P.]{J.-P.}{}{Rolland}{}}
+\cititem{btitle}{\LaTeX\ par la pratique}
+\cititem{bjournal}{C. R. Acad. Sci. Paris Sér. I Math.}
+\cititem{bnumber}{9}
+\cititem{bvolume}{311}
+\cititem{byear}{1990}
+\cititem{bpages}{547--552}
+\endcitation

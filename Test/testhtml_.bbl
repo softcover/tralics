@@ -1,0 +1,36 @@
+% reading source tralics.bib
+%
+\citation{CGR00}{cite:CGR2000}{bid2}{year}{inproceedings}
+\bauthors{\bpers[David]{D.}{}{Carlisle}{}\bpers[Michel]{M.}{}{Goossens}{}\bpers[Sebastian]{S.}{}{Rahtz}{}}
+\cititem{btitle}{De {XML} \`a {PDF} avec {\ttfamily xmltex} et {Passive\TeX}}
+\cititem{bbooktitle}{Cahiers Gutenberg}
+\cititem{bnumber}{35-36}
+\cititem{bpages}{79-114}
+\cititem{byear}{2000}
+\endcitation
+%
+\citation{HP99}{cite:place99}{bid1}{year}{inproceedings}
+\bauthors{\bpers[Yannis]{Y.}{}{Haralambous}{}\bpers[John]{J.}{}{Place}{}}
+\cititem{btitle}{Produire du {MathML} et autres {...ML} \`a partir {d'$\Omega$} : {$\Omega$} se g\'en\'eralise}
+\cititem{bbooktitle}{Cahiers Gutenberg}
+\cititem{bnumber}{33-34}
+\cititem{bpages}{173-182}
+\cititem{byear}{1999}
+\endcitation
+%
+\citation{Knu84}{cite:texbook}{bid0}{year}{book}
+\bauthors{\bpers[Donald E.]{D. E.}{}{Knuth}{}}
+\cititem{btitle}{The \TeX book}
+\cititem{bpublisher}{Addison Wesley}
+\cititem{byear}{1984}
+\endcitation
+%
+\citation{Lou88}{cite:louarn88}{bid3}{year}{article}
+\bauthors{\bpers[Philippe]{P.}{}{Louarn}{}}
+\cititem{btitle}{Une exp\'erience d'utilisation de {LaTeX} : le {R}apport d'activit\'e de {l'INRIA}}
+\cititem{bjournal}{Cahiers Gutenberg}
+\cititem{bnumber}{0}
+\cititem{bmonth}{apr}
+\cititem{byear}{1988}
+\cititem{bpages}{17-24}
+\endcitation

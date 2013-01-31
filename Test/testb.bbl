@@ -1,0 +1,20 @@
+\def\mycmd #1{" #1 #1 "}
+\begin{thebibliography}{1}
+
+\bibitem{many}
+Joe And, Joe And, Joe-And, et~al.
+\newblock X.
+
+\bibitem{strange}
+A~b~Cde.
+\newblock X.
+
+\bibitem{poussin}
+Charles Louis Xavier~Joseph de~la Vall{\a'e}e~Poussin.
+\newblock X.
+
+\bibitem{cruz}
+Maria {\MakeUppercase{d}e La}~Cruz.
+\newblock X.
+
+\end{thebibliography}

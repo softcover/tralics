@@ -1,0 +1,2496 @@
+Tralics tests started at Thu Jan 31 14:07:29 PST 2013 
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file hello.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 1, string 1328, size 11847, merge 0
+Macros created 174, deleted 6; hash size 2362; foonotes 0.
+Save stack +14 -14.
+Attribute list search 1513(1505) found 1072 in 1122 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Output written on hello.xml (187 bytes).
+No error found.
+(For more information, see transcript file hello.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file hello1.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 2, string 1544, size 16893, merge 0
+Macros created 207, deleted 17; hash size 2389; foonotes 0.
+Save stack +18 -18.
+Attribute list search 1515(1505) found 1074 in 1122 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Output written on hello1.xml (176 bytes).
+No error found.
+(For more information, see transcript file hello1.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file hello2.tex.
+Configuration file identification: hello.tcf $ Revision: 1.1 $
+Read configuration file ../confdir/hello.tcf.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 2, string 1539, size 16885, merge 0
+Macros created 210, deleted 18; hash size 2391; foonotes 0.
+Save stack +18 -18.
+Attribute list search 1527(1505) found 1078 in 1122 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Output written on hello2.xml (247 bytes).
+No error found.
+(For more information, see transcript file hello2.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file hello3.tex.
+Configuration file identification: helloconf3!
+Read configuration file ../confdir/hello3.tcf.
+Document class: book 2011/05/09 v1.2 book document class for Tralics
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 2, string 1579, size 17525, merge 0
+Macros created 203, deleted 17; hash size 2399; foonotes 0.
+Save stack +19 -19.
+Attribute list search 1525(1505) found 1081 in 1126 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Input conversion: 1 line converted.
+Output written on hello3.xml (363 bytes).
+No error found.
+(For more information, see transcript file hello3.log)
+This is BibTeX, Version 0.99d (TeX Live 2012/MacPorts 2012_4)
+The top-level auxiliary file: testb.aux
+The style file: plain.bst
+Database file #1: torture.bib
+Warning--empty journal in many
+Warning--empty year in many
+Warning--empty journal in strange
+Warning--empty year in strange
+Warning--empty journal in poussin
+Warning--empty year in poussin
+Warning--empty journal in cruz
+Warning--empty year in cruz
+(There were 8 warnings)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testb.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 5(1) entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 2, string 1615, size 18301, merge 4
+Macros created 219, deleted 28; hash size 2390; foonotes 0.
+Save stack +34 -34.
+Attribute list search 1665(1505) found 1108 in 1173 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Output written on testb.xml (1308 bytes).
+No error found.
+(For more information, see transcript file testb.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file txtc.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Translating section command div0: Who is Hàn.
+Error signaled at line 52 of file txtc.tex:
+Bad character code replaced by 0
+\catcode wants 0<=N<=65535, with N=65536.
+If an error concerning bad char code is signaled above, then it's OK 
+Translating section command div0: Index.
+Translating section command div0: Short Verb, as in $_.
+Bib stats: seen 3 entries.
+Seen 3 bibliographic entries.
+Index has 8 entries in 3 clusters
+Math stats: formulas 2, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 12, string 3656, size 72268, merge 6
+Macros created 355, deleted 48; hash size 2545; foonotes 2.
+Save stack +315 -315.
+Attribute list search 2259(1505) found 1437 in 1416 elements (1120 at boot).
+Number of ref 23, of used labels 23, of defined labels 23, of ext. ref. 3.
+Input conversion: 33 lines converted.
+Output written on txtc.xml (15277 bytes).
+There was one error.
+(For more information, see transcript file txtc.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file txtd.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 0 entries.
+Index has 3 entries
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 2, string 1638, size 17664, merge 0
+Macros created 207, deleted 17; hash size 2389; foonotes 0.
+Save stack +18 -18.
+Attribute list search 1564(1505) found 1107 in 1134 elements (1120 at boot).
+Number of ref 8, of used labels 8, of defined labels 8, of ext. ref. 0.
+Input conversion: 6 lines converted.
+Output written on txtd.xml (700 bytes).
+No error found.
+(For more information, see transcript file txtd.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file torture.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: torture.tcf $ Revision: 1.9 $
+Read tcf file ../confdir/torture.tcf
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+File `taux2.tex' already exists on the system.
+Not generating it from this source
+Translating section command div0: First.
+\show: 0
+Translating section command div0: A.
+Translating section command div0: B.
+Translating section command div0: C c.
+Translating section command div0: A.
+Translating section command div0: B.
+Translating section command div0: C.
+in file taux1.tex
+in file taux2.tex
+in file taux2.tex
+in file taux1.tex
+in file taux2.tex
+in file taux2.tex
+in file taux1.tex
+in file taux2.tex
+in file taux2.tex
+Warning: junk in table
+detected on line 3666 of file torture.tex.
+END OF FILE
+Bib stats: seen 5(2) entries.
+Seen 3 bibliographic entries.
+Math stats: formulas 770, kernels 169, trivial 5, \mbox 19, large 1, small 59.
+Buffer realloc 29, string 14755, size 276972, merge 234
+Macros created 2309, deleted 1568; hash size 3493; foonotes 5.
+Save stack +5424 -5424.
+Attribute list search 7493(1505) found 2849 in 6606 elements (1120 at boot).
+Number of ref 38, of used labels 28, of defined labels 36, of ext. ref. 25.
+Input conversion: 52 lines converted.
+There were 9 images.
+Following images not defined: x, y, Logo-INRIA-couleur, ../../tralics/Test/a_b, ../../a_b:c, x_, figure1a, figure1b, figure1c.
+Output written on torture.xml (175580 bytes).
+No error found.
+(For more information, see transcript file torture.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file tormath.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: torture.tcf $ Revision: 1.9 $
+Read tcf file ../confdir/torture.tcf
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Translating section command div0: simple math.
+Translating section command div0: Mathaccents.
+Translating section command div0: Commands.
+Translating section command div0: Environments.
+Translating section command div0: Other.
+END OF FILE
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 21, string 3818, size 81082, merge 0
+Macros created 709, deleted 311; hash size 2728; foonotes 0.
+Save stack +1972 -1972.
+Attribute list search 2328(1505) found 1426 in 1950 elements (1120 at boot).
+Number of ref 2, of used labels 2, of defined labels 3, of ext. ref. 0.
+Input conversion: 5 lines converted.
+Output written on tormath.xml (34723 bytes).
+No error found.
+(For more information, see transcript file tormath.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file tormath1.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: torture.tcf $ Revision: 1.9 $
+Read tcf file ../confdir/torture.tcf
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Translating section command div0: simple math.
+Translating section command div0: Mathaccents.
+Translating section command div0: Commands.
+Translating section command div0: Environments.
+Translating section command div0: Other.
+END OF FILE
+Bib stats: seen 0 entries.
+Math stats: formulas 902, kernels 173, trivial 2, \mbox 26, large 2, small 67.
+Buffer realloc 14, string 4441, size 68202, merge 0
+Macros created 709, deleted 311; hash size 2728; foonotes 0.
+Save stack +1972 -1972.
+Attribute list search 3183(1505) found 1995 in 5138 elements (1120 at boot).
+Number of ref 6, of used labels 3, of defined labels 3, of ext. ref. 0.
+Input conversion: 5 lines converted.
+Output written on tormath1.xml (102133 bytes).
+No error found.
+(For more information, see transcript file tormath1.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file tormath2.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: torture.tcf $ Revision: 1.9 $
+Read tcf file ../confdir/torture.tcf
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Translating section command div0: simple math.
+Translating section command div0: Mathaccents.
+Translating section command div0: Commands.
+Translating section command div0: Environments.
+Translating section command div0: Other.
+END OF FILE
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 24, string 3861, size 104452, merge 0
+Macros created 710, deleted 311; hash size 2728; foonotes 0.
+Save stack +1928 -1928.
+Attribute list search 2321(1505) found 1426 in 1950 elements (1120 at boot).
+Number of ref 2, of used labels 2, of defined labels 3, of ext. ref. 0.
+Input conversion: 5 lines converted.
+Output written on tormath2.xml (56860 bytes).
+No error found.
+(For more information, see transcript file tormath2.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file tormath3.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: torture.tcf $ Revision: 1.9 $
+Read tcf file ../confdir/torture.tcf
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Translating section command div0: simple math.
+Translating section command div0: Mathaccents.
+Translating section command div0: Commands.
+Translating section command div0: Environments.
+Translating section command div0: Other.
+END OF FILE
+Bib stats: seen 0 entries.
+Math stats: formulas 902, kernels 173, trivial 2, \mbox 26, large 2, small 67.
+Buffer realloc 27, string 5174, size 95361, merge 0
+Macros created 710, deleted 311; hash size 2728; foonotes 0.
+Save stack +1972 -1972.
+Attribute list search 3403(1505) found 2178 in 5562 elements (1120 at boot).
+Number of ref 6, of used labels 3, of defined labels 3, of ext. ref. 0.
+Input conversion: 5 lines converted.
+Output written on tormath3.xml (130362 bytes).
+No error found.
+(For more information, see transcript file tormath3.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file amsldoc.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: amsldoc 2004/08/06 v2.06
+Translating section command div0: Introduction.
+Translating section command div0: Options for the <EM/> package.
+Translating section command div0: Displayed equations.
+Translating section command div0: Introduction.
+Warning: junk in table
+detected on line 581 of file amsldoc.tex.
+Translating section command div0: Single equations.
+Translating section command div0: Split equations without alignment.
+Translating section command div0: Split equations with alignment.
+Translating section command div0: Equation groups without alignment.
+Translating section command div0: Equation groups with mutual alignment.
+Translating section command div0: Alignment building blocks.
+Translating section command div0: Adjusting tag placement.
+Translating section command div0: Vertical spacing and page breaks in multiline displays.
+Translating section command div0: Interrupting a display.
+Translating section command div0: Equation numbering.
+Translating section command div0: Miscellaneous mathematical features.
+Translating section command div0: Matrices.
+Translating section command div0: Math spacing commands.
+Translating section command div0: Dots.
+Translating section command div0: Nonbreaking dashes.
+Translating section command div0: Accents in math.
+Translating section command div0: Roots.
+Translating section command div0: Boxed formulas.
+Translating section command div0: Over and under arrows.
+Translating section command div0: Extensible arrows.
+Translating section command div0: Affixing symbols to other symbols.
+Translating section command div0: Fractions and related constructions.
+Translating section command div0: Continued fractions.
+Translating section command div0: Smash options.
+Translating section command div0: Delimiters.
+Translating section command div0: Operator names.
+Translating section command div0: Defining new operator names.
+Translating section command div0: <EM/> and its relatives.
+Translating section command div0: The <EM/> command.
+Translating section command div0: Integrals and sums.
+Translating section command div0: Multiline subscripts and superscripts.
+Translating section command div0: The <EM/> command.
+Translating section command div0: Placement of subscripts and limits.
+Translating section command div0: Multiple integral signs.
+Translating section command div0: Commutative diagrams.
+Translating section command div0: Using math fonts.
+Translating section command div0: Introduction.
+Translating section command div0: Recommended use of math font commands.
+Translating section command div0: Bold math symbols.
+Translating section command div0: Italic Greek letters.
+Translating section command div0: Error messages and output problems.
+Translating section command div0: General remarks.
+Translating section command div0: Error messages.
+Translating section command div0: Warning messages.
+Translating section command div0: Wrong output.
+Translating section command div0: Additional information.
+Translating section command div0: Converting existing documents.
+Translating section command div0: Technical notes.
+Translating section command div0: Getting help.
+Translating section command div0: Of possible interest.
+Bib stats: seen 9(9) entries.
+Index has 47 entries
+Math stats: formulas 468, kernels 185, trivial 0, \mbox 32, large 15, small 37.
+Buffer realloc 14, string 11234, size 232594, merge 22
+Macros created 451, deleted 45; hash size 2665; foonotes 2.
+Save stack +4361 -4361.
+Attribute list search 10550(1505) found 3981 in 6524 elements (1120 at boot).
+Number of ref 60, of used labels 56, of defined labels 62, of ext. ref. 5.
+Output written on amsldoc.xml (194215 bytes).
+No error found.
+(For more information, see transcript file amsldoc.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testmath.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: report 2011/05/09 v1.2 report document class for Tralics
+Translating section command div0: Introduction.
+Translating section command div0: Examples from the TEXbook.
+Translating section command div0: Higher Mathematics, TLC2.
+Translating section command div0: Other Examples.
+Translating section command div0: Font tests.
+Translating section command div0: Examples from the MathML recommendation.
+Bib stats: seen 10 entries.
+Seen 10 bibliographic entries.
+Math stats: formulas 4770, kernels 1606, trivial 0, \mbox 224, large 65, small 447.
+Buffer realloc 21, string 20553, size 561675, merge 11
+Macros created 651, deleted 122; hash size 2807; foonotes 12.
+Save stack +17496 -17495.
+Attribute list search 21880(1505) found 6606 in 27265 elements (1120 at boot).
+Number of ref 33, of used labels 22, of defined labels 46, of ext. ref. 6.
+Output written on testmath.xml (801299 bytes).
+No error found.
+(For more information, see transcript file testmath.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file fptest.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: torture.tcf $ Revision: 1.9 $
+Read tcf file ../confdir/torture.tcf
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Translating section command div0: testing fp.
+Translating section command div0: Characters.
+END OF FILE
+Bib stats: seen 0 entries.
+Math stats: formulas 1602, kernels 0, trivial 0, \mbox 94, large 0, small 0.
+Buffer realloc 18, string 11902, size 291029, merge 0
+Macros created 7779, deleted 5419; hash size 4666; foonotes 0.
+Save stack +4109 -4109.
+Attribute list search 4039(1505) found 3444 in 5466 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 2, of ext. ref. 0.
+Input conversion: 9 lines converted.
+Output written on fptest.xml (83764 bytes).
+No error found.
+(For more information, see transcript file fptest.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file mathmlc.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 0 entries.
+Math stats: formulas 1342, kernels 3, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 5, string 5021, size 63569, merge 0
+Macros created 429, deleted 33; hash size 2595; foonotes 0.
+Save stack +2328 -2328.
+Attribute list search 3828(1505) found 1273 in 4905 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Output written on mathmlc.xml (47562 bytes).
+No error found.
+(For more information, see transcript file mathmlc.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file tpa.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: tpa.tcf $ Revision: 1.3 $
+Read tcf file ../confdir/tpa.tcf
+Error signaled at line 35 of file tpa.tex:
+No value given for command \cmdp.
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 1, string 1705, size 16807, merge 0
+Macros created 183, deleted 10; hash size 2418; foonotes 0.
+Save stack +32 -32.
+Attribute list search 1662(1505) found 1154 in 1166 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Input conversion: 1 line converted.
+Output written on tpa.xml (1437 bytes).
+There was one error.
+(For more information, see transcript file tpa.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file tpa2.tex.
+Configuration file identification: test.tcf $ Revision: 1.11 $
+Read configuration file ../confdir/test.tcf.
+Hello Word!
+Document class: book 2011/05/09 v1.2 book document class for Tralics
+Translating section command div1: Chapter one.
+Translating section command div0: First Part of document.
+Translating section command div0: Second Part.
+Bib stats: seen 3(3) entries.
+Index has 3 entries
+Math stats: formulas 4, kernels 0, trivial 2, \mbox 0, large 0, small 0.
+Buffer realloc 5, string 4010, size 61430, merge 10
+Macros created 388, deleted 78; hash size 2652; foonotes 2.
+Save stack +477 -477.
+Attribute list search 2798(1505) found 1612 in 1610 elements (1120 at boot).
+Number of ref 8, of used labels 7, of defined labels 7, of ext. ref. 1.
+Input conversion: 2 lines converted.
+There were 5 images.
+Following images not defined: Logo-INRIA-couleur, A, a, x, ../../a_b:c.
+Output written on tpa2.xml (16966 bytes).
+No error found.
+(For more information, see transcript file tpa2.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file tpa2.tex.
+Configuration file identification: test.tcf $ Revision: 1.11 $
+Read configuration file ../confdir/test.tcf.
+Hello Word!
+Document class: book 2011/05/09 v1.2 book document class for Tralics
+Translating section command div1: Chapter one.
+Translating section command div0: First Part of document.
+Translating section command div0: Second Part.
+Bib stats: seen 3(3) entries.
+Index has 3 entries
+Math stats: formulas 4, kernels 0, trivial 2, \mbox 0, large 0, small 0.
+Buffer realloc 5, string 4015, size 61458, merge 10
+Macros created 388, deleted 78; hash size 2652; foonotes 2.
+Save stack +477 -477.
+Attribute list search 2805(1505) found 1617 in 1632 elements (1120 at boot).
+Number of ref 8, of used labels 7, of defined labels 7, of ext. ref. 1.
+Input conversion: 2 lines converted.
+There were 5 images.
+Following images not defined: Logo-INRIA-couleur, A, a, x, ../../a_b:c.
+Output written on tpa2.xml (16626 bytes).
+No error found.
+(For more information, see transcript file tpa2.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file txerr.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Error signaled at line 5 of file txerr.tex:
+Undefined environment undefined-env.
+Error signaled at line 11 of file txerr.tex:
+Undefined command \fooa.
+Error signaled at line 11 of file txerr.tex:
+Undefined command \foob.
+Error signaled at line 11 of file txerr.tex:
+Undefined command \fooc.
+Error signaled at line 11 of file txerr.tex:
+Undefined command \food.
+Error signaled at line 11 of file txerr.tex:
+Undefined command \fooe.
+Error signaled at line 12 of file txerr.tex:
+Undefined command \^^abok^^bb.
+Error signaled at line 12 of file txerr.tex:
+Undefined command \^^^^20ac.
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 2, string 1612, size 17504, merge 1
+Macros created 207, deleted 17; hash size 2397; foonotes 0.
+Save stack +20 -20.
+Attribute list search 1545(1505) found 1092 in 1131 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Output written on txerr.xml (657 bytes).
+There were 8 errors.
+(For more information, see transcript file txerr.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testpack.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Package bar Warning: Option `SC' is already consumed
+(bar)                and has no effect at line 119 of file testpack.tex.
+Warning: junk in table
+detected on line 320 of file testpack.tex.
+Warning: junk in table
+detected on line 330 of file testpack.tex.
+Warning: junk in table
+detected on line 350 of file testpack.tex.
+Bib stats: seen 0 entries.
+Math stats: formulas 189, kernels 57, trivial 0, \mbox 0, large 0, small 2.
+Buffer realloc 13, string 5465, size 98009, merge 11
+Macros created 837, deleted 350; hash size 2804; foonotes 1.
+Save stack +1380 -1380.
+Attribute list search 3083(1505) found 1507 in 1851 elements (1120 at boot).
+Number of ref 2, of used labels 2, of defined labels 4, of ext. ref. 0.
+Input conversion: 2 lines converted.
+There were 9 images.
+Following images not defined: A, AA, B, C, D, E, F, G, x.
+Output written on testpack.xml (17700 bytes).
+No error found.
+(For more information, see transcript file testpack.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testpackii.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Translating section command div0: A.
+Translating section command div0: B.
+Bib stats: seen 1 entries.
+Seen 1 bibliographic entries.
+Math stats: formulas 2, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 7, string 2173, size 29603, merge 0
+Macros created 310, deleted 52; hash size 2492; foonotes 0.
+Save stack +66 -66.
+Attribute list search 1689(1505) found 1125 in 1174 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Input conversion: 2 lines converted.
+There were 1 images.
+Following images not defined: foo.
+Output written on testpackii.xml (2035 bytes).
+No error found.
+(For more information, see transcript file testpackii.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file bo.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: cedram.tcf $ Revision: 1.2 $
+Read tcf file ../confdir/cedram.tcf
+Tralics Warning: Unused global option
+   AIF.
+Translation terminated after title page
+Bib stats: seen 0 entries.
+Seen 3 bibliographic entries.
+Math stats: formulas 16, kernels 10, trivial 0, \mbox 0, large 0, small 8.
+Buffer realloc 8, string 1967, size 23813, merge 2
+Macros created 211, deleted 18; hash size 2471; foonotes 0.
+Save stack +168 -168.
+Attribute list search 1867(1505) found 1174 in 1308 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Input conversion: 4 lines converted.
+Output written on bo.xml (5315 bytes).
+No error found.
+(For more information, see transcript file bo.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testhtml.tex.
+Read configuration file ../confdir/test0.tcf.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+\cl@A=macro: ->\@elt {C}.
+\cl@A=macro: ->\@elt {C}\@elt {B}.
+Bib stats: seen 4 entries.
+Seen 4 bibliographic entries.
+Math stats: formulas 3, kernels 1, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 19, string 5014, size 94063, merge 13
+Macros created 888, deleted 160; hash size 3021; foonotes 0.
+Save stack +347 -347.
+Attribute list search 2445(1505) found 1386 in 1329 elements (1120 at boot).
+Number of ref 4, of used labels 1, of defined labels 2, of ext. ref. 4.
+ *File List*
+ article.clt   2011/05/09 v1.2 Article document class for Tralics
+     std.clt   2008/10/23 v1.1 Standard LaTeX document class, for Tralics
+   comma.plt   2007/12/29 v1.0 Insert commas every three digits (DPC)
+checkend.plt   2007/12/14 v1.0 Checks for end environments
+  bbding.plt   2007/12/14 v1.0 Dingbats symbols
+abstract.plt   2007/12/09 v1.1 configurable abstracts
+  keyval.plt   2008/02/23 v1.2 key=value parser for Tralics (DPC)
+    html.plt   2007/12/05 v1.0 Hypertext commands for latex2html
+nopageno.plt   2007/12/31 v1.0 no page numbers
+    tipa.plt   2008/05/19 TIPA version 1.0
+    tipx.plt   2008/05/27 TIPA extensions version 1.0
+   dummy.txt   2007/12/23 v1.0 Dummy file for Tralics
+ ***********
+Output written on testhtml.xml (8321 bytes).
+No error found.
+(For more information, see transcript file testhtml.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testclass.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Using default class article
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Translating section command div0: foo.
+Translating section command div0: sec1.
+Translating section command div0: foo2.
+Translating section command div0: sec2.
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 3, \mbox 0, large 0, small 0.
+Buffer realloc 2, string 1673, size 19155, merge 4
+Macros created 208, deleted 18; hash size 2390; foonotes 0.
+Save stack +35 -35.
+Attribute list search 1586(1505) found 1108 in 1161 elements (1120 at boot).
+Number of ref 3, of used labels 3, of defined labels 3, of ext. ref. 0.
+There were 3 images.
+Following images not defined: figure1a, figure1b, figure1c.
+Output written on testclass.xml (1052 bytes).
+No error found.
+(For more information, see transcript file testclass.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testkeyval.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+xkeyval: Unknown option `epW=5'
+xkeyval: Unknown option `opE'
+Error signaled at line 99 of file testclass.plt:
+Undefined command \Error.
+Tralics Warning: Unused global options
+   unused,Unused=U.
+Package xkeyval Warning: Key `keya' has been disabled at line 339 of file testkeyval.tex.
+Error signaled at line 348 of file testkeyval.tex:
+Undefined key: keyd.
+Error signaled at line 350 of file testkeyval.tex:
+No value specified for key `keyb'.
+Error signaled at line 467 of file testkeyval.tex:
+Invalid \usevalue token.
+Error signaled at line 468 of file testkeyval.tex:
+No value recorded for key `unknown'; ignored.
+Error signaled at line 474 of file testkeyval.tex:
+Replace pointer aborted, (infinite loop?).
+Error signaled at line 478 of file testkeyval.tex:
+Replace pointer aborted, (infinite loop?).
+Translating section command div0: Testing errors and the like.
+Error signaled at line 578 of file testkeyval.tex:
+Package mypack Error: error line1
+(mypack)              line2.
+Package mypack Warning: warning line1
+(mypack)                line2 at line 579 of file testkeyval.tex.
+Package mypack Warning: warning nl line1
+(mypack)                line2.
+Error signaled at line 582 of file testkeyval.tex:
+Class myclass Error: error line1
+(myclass)            line2.
+Class myclass Warning: warning line1
+(myclass)              line2 at line 583 of file testkeyval.tex.
+Class myclass Warning: warning nl line1
+(myclass)              line2.
+warning bar
+PREFIXsecond line at line 588 of file testkeyval.tex.
+Error signaled at line 589 of file testkeyval.tex:
+error bar
+PREFIXsecond line.
+Translating section command div0: Elements.
+Translating section command div0: Trees.
+\unknownoptions=macro: ->epW=5.opE.CuCvLaD=Lb.Lcxyz.
+\show: 11102
+Error signaled at line 664 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \nohope;
+scanning started on line 661.
+Error signaled at line 668 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \@car;
+scanning started on line 666.
+Tralics Warning: Command \par has changed
+Tralics Warning: Command \foo has changed
+Tralics Warning: Command \foo has changed
+Tralics Warning: Command \foo has changed
+Error signaled at line 686 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \@addtoreset.
+Error signaled at line 687 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \newcounter.
+Error signaled at line 688 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \nocite.
+Error signaled at line 689 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \XMLsolvecite.
+Error signaled at line 690 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \cite.
+Error signaled at line 691 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \cite@one.
+Error signaled at line 692 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \cite@one.
+Error signaled at line 693 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \bibliographystyle.
+Error signaled at line 694 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \bibliography.
+Error signaled at line 695 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \cititem.
+Error signaled at line 695 of file testkeyval.tex:
+Command \cititem should occur in bibliographic mode only.
+Error signaled at line 696 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \XMLsolvecite.
+Error signaled at line 697 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \XMLaddatt.
+Error signaled at line 698 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \XMLaddatt.
+Error signaled at line 699 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \newtheorem.
+Error signaled at line 700 of file testkeyval.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \newtheorem.
+Error signaled at line 703 of file testkeyval.tex:
+Non-closed \begingroup started at line 683.
+Non-closed brace started at line 683.
+Non-closed environment `it' started at line 683.
+Bib stats: seen 8(6) entries.
+Error signaled while handling entry cite:a4 
+undefined reference.
+Seen 1 bibliographic entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 5, string 5543, size 64319, merge 3
+Macros created 1140, deleted 778; hash size 2629; foonotes 0.
+Save stack +112 -112.
+Attribute list search 1999(1505) found 1262 in 1254 elements (1120 at boot).
+Number of ref 2, of used labels 1, of defined labels 1, of ext. ref. 0.
+Input conversion: 8 lines converted.
+There were 1 images.
+Following images not defined: G.
+Output written on testkeyval.xml (6436 bytes).
+There were 32 errors.
+(For more information, see transcript file testkeyval.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file xii.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 1, string 1365, size 13528, merge 0
+Macros created 217, deleted 20; hash size 2362; foonotes 0.
+Save stack +14 -14.
+Attribute list search 1614(1505) found 1097 in 1211 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Output written on xii.xml (3339 bytes).
+No error found.
+(For more information, see transcript file xii.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file comp_pi.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+
+***** Computation of Pi with John Machin's formula *****
+
+** i.e.: pi=16*arctan(1/5)-4*arctan(1/239)
+
+How many digits of pi do you want ? 
+
+I am now computing the following sum: arctan(1/5)=1/5 -1/3*1/5^3 +1/5*1/5^5
+-1/7*1/5^7 +1/9*1/5^9 -1/11*1/5^11 +1/13*1/5^13 -1/15*1/5^15 +1/17*1/5^17
+-1/19*1/5^19 +1/21*1/5^21 -1/23*1/5^23 +1/25*1/5^25 -1/27*1/5^27 +1/29*1/5^29
+-1/31*1/5^31 +1/33*1/5^33 -1/35*1/5^35 +1/37*1/5^37 -1/39*1/5^39 +1/41*1/5^41
+-1/43*1/5^43 +1/45*1/5^45 -1/47*1/5^47 +1/49*1/5^49 -1/51*1/5^51 +1/53*1/5^53
+-1/55*1/5^55 +1/57*1/5^57 -1/59*1/5^59 +1/61*1/5^61 -1/63*1/5^63 +1/65*1/5^65
+-1/67*1/5^67 +1/69*1/5^69 -1/71*1/5^71 +1/73*1/5^73 -1/75*1/5^75 +1/77*1/5^77
+-1/79*1/5^79 +1/81*1/5^81 -1/83*1/5^83 +1/85*1/5^85 -1/87*1/5^87 +1/89*1/5^89
+-1/91*1/5^91 +1/93*1/5^93 -1/95*1/5^95 +1/97*1/5^97 -1/99*1/5^99
++1/101*1/5^101 -1/103*1/5^103 +1/105*1/5^105 -1/107*1/5^107 +1/109*1/5^109
+-1/111*1/5^111 +1/113*1/5^113 -1/115*1/5^115 +1/117*1/5^117 -1/119*1/5^119
++1/121*1/5^121 -1/123*1/5^123 +1/125*1/5^125 -1/127*1/5^127 +1/129*1/5^129
+-1/131*1/5^131 +1/133*1/5^133 -1/135*1/5^135 +1/137*1/5^137 -1/139*1/5^139
++1/141*1/5^141 -1/143*1/5^143 +1/145*1/5^145 
+Now, I multiply it by 16... done
+
+I am now computing the following sum: arctan(1/239)=1/239 -1/3*1/239^3
++1/5*1/239^5 -1/7*1/239^7 +1/9*1/239^9 -1/11*1/239^11 +1/13*1/239^13
+-1/15*1/239^15 +1/17*1/239^17 -1/19*1/239^19 +1/21*1/239^21 -1/23*1/239^23
++1/25*1/239^25 -1/27*1/239^27 +1/29*1/239^29 -1/31*1/239^31 +1/33*1/239^33
+-1/35*1/239^35 +1/37*1/239^37 -1/39*1/239^39 +1/41*1/239^41 -1/43*1/239^43
++1/45*1/239^45 
+Now, I multiply it by 4... done
+
+And finally, I subtract 4*arctan(1/239) to 16*arctan(1/5) which results in :
+
+pi=3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170712Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 1, string 1690, size 19342, merge 0
+Macros created 508, deleted 329; hash size 2384; foonotes 0.
+Save stack +4044 -4044.
+Attribute list search 1516(1505) found 1073 in 1122 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Output written on comp_pi.xml (280 bytes).
+No error found.
+(For more information, see transcript file comp_pi.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file teststr.tex.
+Read configuration file ../confdir/test0.tcf.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+dates
+Error signaled at line 240 of file teststr.tex:
+Configuration file does not define ceatperso.
+Error signaled at line 241 of file teststr.tex:
+Illegal value 'DD' for catperso
+Use one of: AA CC XX Other.
+Error signaled at line 247 of file teststr.tex:
+Illegal value 'TT' for catperso
+Use one of: AA CC XX Other.
+Error signaled at line 256 of file teststr.tex:
+Illegal value 'these' for profession
+Use one of: Ingenieur Chercheur Enseignant Other.
+Error signaled at line 256 of file teststr.tex:
+Illegal value 'Dec' for affiliation
+Use one of: INRIA CNRS IBM Other.
+Error signaled at line 256 of file teststr.tex:
+Invalid Unit Centre Lyon
+Use one of: Paris Sophia Rennes Sop.
+Error signaled at line 265 of file teststr.tex:
+Invalid Unit Centre rennes
+Use one of: Paris Sophia Rennes Sop.
+You should use Lille instead of \URLille,
+Nancy instead of \URNancy, etc.
+Error signaled at line 269 of file teststr.tex:
+Illegal localisation value: Lille
+Use one or more of: Paris Sophia Rennes Sop.
+Translating section domaine
+Translating section logiciels
+Error signaled at line 288 of file teststr.tex:
+Package Raweb Error: \moduleref[2008] is not implemented.
+Error signaled at line 289 of file teststr.tex:
+Package Raweb Error: \moduleref[2005] is not implemented.
+Bib stats: seen 0 entries.
+Math stats: formulas 2, kernels 0, trivial 0, \mbox 1, large 0, small 0.
+Buffer realloc 11, string 3897, size 71221, merge 0
+Macros created 1020, deleted 609; hash size 2727; foonotes 0.
+Save stack +216 -216.
+Attribute list search 1989(1505) found 1237 in 1293 elements (1120 at boot).
+Number of ref 10, of used labels 5, of defined labels 7, of ext. ref. 0.
+Output written on teststr.xml (6520 bytes).
+There were 10 errors.
+(For more information, see transcript file teststr.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testerr.tex.
+Read configuration file ../confdir/test0.tcf.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Error signaled at line 13 of file kvo.plt:
+Cannot redefine \MCS@SA.
+Error signaled at line 13 of file kvo.plt:
+Cannot redefine \MCS@SB.
+Error signaled at line 14 of file kvo.plt:
+Cannot redefine \MCS@SCtrue.
+Error signaled at line 15 of file kvo.plt:
+Cannot redefine \MCS@SDfalse.
+Error signaled at line 16 of file kvo.plt:
+Cannot redefine \ifMCS@SE.
+Error signaled at line 17 of file kvo.plt:
+Cannot redefine \MCS@SFtrue.
+Error signaled at line 18 of file kvo.plt:
+Cannot redefine \MCS@SGtrue.
+Error signaled at line 19 of file kvo.plt:
+Cannot generate code for `SH', no parent Sh.
+Error signaled at line 20 of file kvo.plt:
+Illegal boolean value TRUE ignored.
+Value  should be true or false in package kvo.
+Error signaled at line 20 of file kvo.plt:
+Option VA takes no argument.
+Error signaled at line 26 of file testerr.tex:
+Package kvoptions Error: Unknown disable action `foo'
+(kvoptions)              for option `VB' in keyval family 'MCS'.
+Error signaled at line 27 of file testerr.tex:
+Package kvoptions Error: Action type `error' needs package/class name
+(kvoptions)              for key `VB' in family `MCS'.
+Error signaled at line 29 of file testerr.tex:
+Package foo Error: Option `VB' is given too late,
+(foo)              now the option is ignored.
+Error signaled at line 70 of file testerr.tex:
+Undefined command \For.
+Error signaled at line 70 of file testerr.tex:
+Undefined command \instance.
+Error signaled at line 70 of file testerr.tex:
+Undefined command \this.
+Error signaled at line 70 of file testerr.tex:
+Undefined command \sentence.
+Error signaled at line 76 of file testerr.tex:
+End of data reached while scanning end of environment Verbatim
+scanning started line 37.
+Error signaled at line 77 of file testerr.tex:
+End of data reached while scanning end of environment rawxml
+scanning started line 42.
+Error signaled at line 78 of file testerr.tex:
+End of data reached while scanning end of environment comment
+scanning started line 47.
+Error signaled at line 52 of file F4:
+Runaway argument?
+End of file found while scanning use of \foo.
+Error signaled at line 55 of file F5:
+Runaway argument?
+End of file found while scanning use of \lfoo.
+Error signaled at line 58 of file F6:
+Incomplete \if? missing \fi inserted
+End of file in conditional started at line 58.
+Error signaled at line 86 of file testerr.tex:
+Extra \fi
+I'm ignoring this; it doesn't match any \if.
+Error signaled at line 86 of file testerr.tex:
+Extra \or
+I'm ignoring this; it doesn't match any \if.
+Error signaled at line 86 of file testerr.tex:
+Extra \else
+I'm ignoring this; it doesn't match any \if.
+Error signaled at line 92 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \fooB.
+Error signaled at line 93 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \fooB.
+Error signaled at line 93 of file testerr.tex:
+Extra }.
+Error signaled at line 94 of file testerr.tex:
+Runaway argument?
+Forbidden control sequence \Par found while scanning use of \fooA.
+Error signaled at line 94 of file testerr.tex:
+Runaway argument?
+Forbidden control sequence \Par found while scanning use of \fooB.
+Error signaled at line 95 of file testerr.tex:
+Runaway argument?
+Forbidden control sequence \Par found while scanning use of \fooA.
+Error signaled at line 95 of file testerr.tex:
+Extra }.
+Error signaled at line 95 of file testerr.tex:
+Runaway argument?
+Forbidden control sequence \Par found while scanning use of \fooB.
+Error signaled at line 95 of file testerr.tex:
+Extra }.
+Error signaled at line 98 of file testerr.tex:
+Incomplete \if? missing \fi inserted
+Forbidden control sequence \Par in conditional started at line 98.
+Error signaled at line 98 of file testerr.tex:
+Extra \fi
+I'm ignoring this; it doesn't match any \if.
+Error signaled at line 99 of file testerr.tex:
+Runaway argument?
+Forbidden control sequence \Par found while scanning use of \loop.
+Error signaled at line 99 of file testerr.tex:
+Extra \fi
+I'm ignoring this; it doesn't match any \if.
+Error signaled at line 101 of file testerr.tex:
+Runaway argument?
+Forbidden control sequence \Par found while scanning use of \strip@prefix.
+Error signaled at line 108 of file testerr.tex:
+Math only command \dot.
+(Contrarily to TeX, Tralics does not switch to math mode in such a case.)
+Error signaled at line 108 of file testerr.tex:
+Math only command \tilde.
+Error signaled at line 108 of file testerr.tex:
+Math only command \undertilde.
+Error signaled at line 109 of file testerr.tex:
+Math only command \eqno.
+Error signaled at line 109 of file testerr.tex:
+Math only command \mathstrut.
+Error signaled at line 109 of file testerr.tex:
+Math only command \alpha.
+Error signaled at line 109 of file testerr.tex:
+Math only command \uparrow.
+Error signaled at line 109 of file testerr.tex:
+Math only command \colon.
+Error signaled at line 109 of file testerr.tex:
+Math only command \strut.
+Error signaled at line 109 of file testerr.tex:
+Math only command \land.
+Error signaled at line 109 of file testerr.tex:
+Math only command \mid.
+Error signaled at line 109 of file testerr.tex:
+Math only command \Vert.
+Error signaled at line 110 of file testerr.tex:
+Math only command \lVert.
+Error signaled at line 110 of file testerr.tex:
+Math only command \rVert.
+Error signaled at line 110 of file testerr.tex:
+Math only command \>.
+Error signaled at line 110 of file testerr.tex:
+Math only command \mml@font@normal.
+Error signaled at line 110 of file testerr.tex:
+Math only command \mathit.
+Error signaled at line 110 of file testerr.tex:
+Math only command \left.
+Error signaled at line 110 of file testerr.tex:
+Math only command \right.
+Error signaled at line 110 of file testerr.tex:
+Math only command \ddots.
+Error signaled at line 114 of file testerr.tex:
+Illegal counter value 0 for \@alph
+Value must be positive.
+Error signaled at line 114 of file testerr.tex:
+Illegal counter value 27 for \@alph
+Value must be at most 26.
+Error signaled at line 115 of file testerr.tex:
+Illegal counter value 0 for \@Alph
+Value must be positive.
+Error signaled at line 115 of file testerr.tex:
+Illegal counter value 27 for \@Alph
+Value must be at most 26.
+Error signaled at line 116 of file testerr.tex:
+Illegal counter value 0 for \@fnsymbol
+Value must be positive.
+Error signaled at line 116 of file testerr.tex:
+Illegal counter value 10 for \@fnsymbol
+Value must be at most 9.
+Error signaled at line 119 of file testerr.tex:
+Bad syntax in optional argument
+Only one token allowed
+I will assume that the command takes no argument.
+Error signaled at line 120 of file testerr.tex:
+Bad syntax in optional argument
+Commands are not allowed
+I will assume that the command takes no argument.
+Error signaled at line 121 of file testerr.tex:
+Bad syntax in optional argument
+Argument should be a digit
+I will assume that the command takes no argument.
+Error signaled at line 122 of file testerr.tex:
+Error while scanning definition of \foo
+got #x, expected #2.
+Error signaled at line 122 of file testerr.tex:
+Error while scanning definition of \foo
+got #x, expected #1.
+Error signaled at line 123 of file testerr.tex:
+Invalid token \relax
+found between \csname and \endcsname.
+Error signaled at line 123 of file testerr.tex:
+Extra \endcsname.
+Error signaled at line 124 of file testerr.tex:
+Invalid token \relax
+found in counter name.
+Error signaled at line 124 of file testerr.tex:
+Extra \endcsname.
+Error signaled at line 125 of file testerr.tex:
+Unknown counter `foo'.
+Error signaled at line 126 of file testerr.tex:
+Invalid counter `foo'.
+Error signaled at line 127 of file testerr.tex:
+Undefined environment undefined_env.
+Error signaled at line 127 of file testerr.tex:
+cannot close environment undefined+env.
+Error signaled at line 128 of file testerr.tex:
+Undefined command \UndefinedCommand.
+Error signaled at line 129 of file testerr.tex:
+You cannot use the prefix \global before \par.
+Error signaled at line 129 of file testerr.tex:
+You cannot use the prefix \global before X.
+Error signaled at line 129 of file testerr.tex:
+You cannot use the prefix \outer  before \par.
+Error signaled at line 129 of file testerr.tex:
+You cannot use the prefix \outer  before X.
+Error signaled at line 130 of file testerr.tex:
+You cannot use the prefix \outer  before \dimen.
+Error signaled at line 133 of file testerr.tex:
+Improper alphabetic constant \foo.
+Error signaled at line 134 of file testerr.tex:
+Wrong goup delimiter
+got `\begingroup', expected `brace'.
+Error signaled at line 134 of file testerr.tex:
+Wrong goup delimiter
+got `brace', expected `\begingroup'.
+Error signaled at line 135 of file testerr.tex:
+Extra brace found in unclosed env.
+Error signaled at line 135 of file testerr.tex:
+Extra \endgroup found in unclosed env.
+Error signaled at line 136 of file testerr.tex:
+Use of \foo doesn't match its definition;
+got \Bar, expected \bar.
+Error signaled at line 137 of file testerr.tex:
+Use of \foo doesn't match its definition;
+got \Bar, expected \bar.
+Error signaled at line 137 of file testerr.tex:
+Use of \foo doesn't match its definition;
+got \Gee, expected \gee.
+Error signaled at line 138 of file testerr.tex:
+Invalid key in \includegraphics foo = bar.
+Error signaled at line 139 of file testerr.tex:
+\verb terminated by end of line.
+Error signaled at line 141 of file testerr.tex:
+\verb in argument of a command.
+Error signaled at line 141 of file testerr.tex:
+\verb terminated by end of line.
+Error signaled at line 144 of file testerr.tex:
+Bad syntax of \a, argument not a character \par.
+Error signaled at line 145 of file testerr.tex:
+Error in accent, command = \'
+Things like {\'{}} are a bit strange.
+Error signaled at line 145 of file testerr.tex:
+Error in accent, command = \~
+\~{} is the wrong way to put a tilde in an URL.
+Error signaled at line 145 of file testerr.tex:
+Error in accent, command = \'
+Wanted a single token.
+Error signaled at line 145 of file testerr.tex:
+Error in accent, command = \'
+Cannot put accent on digit 1.
+Error signaled at line 145 of file testerr.tex:
+Error in accent, command = \'
+Cannot put accent on non-letter character +.
+Error signaled at line 145 of file testerr.tex:
+Error in accent, command = \'
+Letter needed instead of \par.
+Error signaled at line 145 of file testerr.tex:
+Error in accent, command = \'\'
+Cannot put accent on letter e.
+Error signaled at line 145 of file testerr.tex:
+Error in accent, command = \'
+Cannot put accent on a non 7-bit character.
+Error signaled at line 145 of file testerr.tex:
+Error in accent, command = \'
+Cannot put accent on digit 0.
+Error signaled at line 147 of file testerr.tex:
+Missing = inserted for comparison {Character 1 of catcode 12}.
+Error signaled at line 147 of file testerr.tex:
+Missing = inserted for comparison {Character 0 of catcode 12}.
+Error signaled at line 148 of file testerr.tex:
+Missing = inserted for comparison {Character 0 of catcode 12}.
+Error signaled at line 149 of file testerr.tex:
+\DefineShortVerb: One argument required.
+Error signaled at line 150 of file testerr.tex:
+\UndefineShortVerb: Not a short verb \+.
+Error signaled at line 151 of file testerr.tex:
+\DefineShortVerb: A one-char control sequence is needed instead of \foo.
+Error signaled at line 151 of file testerr.tex:
+\DefineShortVerb: A one-char control sequence is needed instead of 1.
+Error signaled at line 153 of file testerr.tex:
+\DefineShortVerb: Already a short verb \+.
+Error signaled at line 155 of file testerr.tex:
+wanted a single token as argument to \a.
+Error signaled at line 155 of file testerr.tex:
+wanted a single token as argument to \a.
+Error signaled at line 155 of file testerr.tex:
+Bad syntax of \a, argument not a character \x.
+Error signaled at line 155 of file testerr.tex:
+Bad syntax of \a, argument is x.
+Error signaled at line 158 of file testerr.tex:
+Empty argument to \newcolumntype.
+Error signaled at line 159 of file testerr.tex:
+More than one token in argument to \newcolumntype.
+Error signaled at line 160 of file testerr.tex:
+Argument to \newcolumntype is not a 7bit character.
+Error signaled at line 161 of file testerr.tex:
+Argument to \newcolumntype is not a 7bit character.
+Error signaled at line 162 of file testerr.tex:
+Undefined environment array.
+Error signaled at line 164 of file testerr.tex:
+Wrong character in array preamble w.
+Error signaled at line 166 of file testerr.tex:
+Array preamble: argument missing for @.
+Error signaled at line 167 of file testerr.tex:
+unexpected less-than sign.
+Error signaled at line 167 of file testerr.tex:
+Array preamble: argument missing for <.
+Error signaled at line 168 of file testerr.tex:
+Array preamble: argument missing for >.
+Error signaled at line 169 of file testerr.tex:
+Array preamble: argument missing for p.
+Error signaled at line 170 of file testerr.tex:
+Array preamble: argument missing for m.
+Error signaled at line 171 of file testerr.tex:
+Array preamble: argument missing for b.
+Error signaled at line 172 of file testerr.tex:
+unexpected less-than sign.
+Error signaled at line 175 of file testerr.tex:
+multi specs in \multicolumn.
+Error signaled at line 176 of file testerr.tex:
+Wrong character in array preamble {Character 2 of catcode 12}.
+Error signaled at line 183 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \cite@one.
+Error signaled at line 183 of file testerr.tex:
+Extra brace found in unclosed env.
+Error signaled at line 184 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \cite@one.
+Error signaled at line 184 of file testerr.tex:
+Extra brace found in unclosed env.
+Error signaled at line 185 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \cite@one.
+Error signaled at line 185 of file testerr.tex:
+Extra brace found in unclosed env.
+Error signaled at line 186 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \cite@one.
+Error signaled at line 186 of file testerr.tex:
+Extra brace found in unclosed env.
+Error signaled at line 187 of file testerr.tex:
+Invalid token \par found while scanning \cite.
+Error signaled at line 187 of file testerr.tex:
+Extra \endcsname.
+Error signaled at line 189 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \thebibliography.
+Error signaled at line 189 of file testerr.tex:
+Undefined command \XX.
+Error signaled at line 190 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \thebibliography.
+Error signaled at line 190 of file testerr.tex:
+Undefined command \XX.
+Error signaled at line 194 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \bpers.
+Error signaled at line 194 of file testerr.tex:
+Text found in a mode where no text is allowed.
+Error signaled at line 194 of file testerr.tex:
+Text found in a mode where no text is allowed.
+Error signaled at line 199 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \ProvidesPackage.
+Error signaled at line 199 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \ProvidesPackage.
+Warning: package dummy file claims to be fo.
+Error signaled at line 200 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \minipage.
+Error signaled at line 200 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \minipage.
+Error signaled at line 201 of file testerr.tex:
+Missing unit (replaced by pt) \relax.
+Error signaled at line 204 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \minipage.
+Error signaled at line 204 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \minipage.
+Error signaled at line 208 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \figure.
+Error signaled at line 209 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \wrapfigure.
+Error signaled at line 209 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \wrapfigure.
+Error signaled at line 209 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \wrapfigure.
+Error signaled at line 212 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \nolinebreak.
+Error signaled at line 212 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \linebreak.
+Error signaled at line 213 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \NeedsTeXFormat.
+Error signaled at line 213 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \NeedsTeXFormat.
+Error signaled at line 214 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \fancyhead.
+Error signaled at line 215 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \lhead.
+Error signaled at line 216 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \raisebox.
+Error signaled at line 216 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \raisebox.
+Error signaled at line 216 of file testerr.tex:
+Runaway argument?
+Paragraph ended while scanning an argument of \raisebox.
+Error signaled at line 221 of file testerr.tex:
+\@onlypreamble: Cannot define A; token is not a command.
+Error signaled at line 222 of file testerr.tex:
+\@tfor: Cannot define C; token is not a command.
+Error signaled at line 222 of file testerr.tex:
+\@cons: Cannot define D; token is not a command.
+Error signaled at line 222 of file testerr.tex:
+Undefined command \frozen_cs.
+Error signaled at line 222 of file testerr.tex:
+\tralics@addtolist@n: Cannot define E; token is not a command.
+Error signaled at line 223 of file testerr.tex:
+\@removeelement: Cannot define F; token is not a command.
+Error signaled at line 223 of file testerr.tex:
+\@selective@sanitize: Cannot define G; token is not a command.
+Error signaled at line 224 of file testerr.tex:
+\DeclareMathOperator: Cannot define H; token is not a command.
+Error signaled at line 224 of file testerr.tex:
+\newcommand: Cannot define I; token is not a command.
+Error signaled at line 224 of file testerr.tex:
+\newcount: Cannot define J; token is not a command.
+Error signaled at line 224 of file testerr.tex:
+\newif: Cannot define K; token is not a command.
+Error signaled at line 224 of file testerr.tex:
+token list \newif does not start with if.
+Error signaled at line 225 of file testerr.tex:
+\let: Cannot define L; token is not a command.
+Error signaled at line 225 of file testerr.tex:
+\futurelet: Cannot define M; token is not a command.
+Error signaled at line 225 of file testerr.tex:
+\chardef: Cannot define N; token is not a command.
+Error signaled at line 226 of file testerr.tex:
+\def: Cannot define a; token is not a command.
+Error signaled at line 226 of file testerr.tex:
+\newcommand: Cannot define b; token is not a command.
+Error signaled at line 226 of file testerr.tex:
+\setlength: Cannot define c; token is not a command.
+Error signaled at line 226 of file testerr.tex:
+\edef: Cannot define e; token is not a command.
+Error signaled at line 227 of file testerr.tex:
+\renewcommand: Cannot define \notdefined; token is undefined.
+Error signaled at line 227 of file testerr.tex:
+\newcommand: Cannot define \a; token is already defined.
+Error signaled at line 228 of file testerr.tex:
+\newcounter: Cannot define \c@page; token is already defined.
+Error signaled at line 229 of file testerr.tex:
+Label 'A' multiply defined (first use line 229 file testerr.tex).
+Error signaled at line 229 of file testerr.tex:
+Label 'B' multiply defined (first use line 229 file testerr.tex).
+Error signaled at line 235 of file testerr.tex:
+Unexpected \right.
+Error signaled at line 235 of file testerr.tex:
+Unexpected }.
+Error signaled at line 236 of file testerr.tex:
+Wrong goup delimiter
+got `\begingroup', expected `math'.
+Error signaled at line 236 of file testerr.tex:
+Unexpected \par.
+Error signaled at line 236 of file testerr.tex:
+Wrong goup delimiter
+got `math', expected `\begingroup'.
+Error signaled at line 237 of file testerr.tex:
+Unexpected \par while scanning argument of \frac.
+Error signaled at line 237 of file testerr.tex:
+Unexpected }.
+Error signaled at line 238 of file testerr.tex:
+Invalid character in \left or \right
+x.
+Error signaled at line 238 of file testerr.tex:
+Invalid character in \left or \right
+y.
+Error signaled at line 239 of file testerr.tex:
+Missing \right. inserted.
+Error signaled at line 240 of file testerr.tex:
+Unexpected }.
+Error signaled at line 241 of file testerr.tex:
+Bad \end{y}.
+Error signaled at line 241 of file testerr.tex:
+Math only command \alpha.
+Error signaled at line 242 of file testerr.tex:
+Label will be lost: M2.
+Error signaled at line 242 of file testerr.tex:
+Display math should end with $$.
+Error signaled at line 243 of file testerr.tex:
+Out of scope $ ignored, maybe a } is missing here.
+Error signaled at line 243 of file testerr.tex:
+Extra $ ignored while scanning argument of \frac.
+Error signaled at line 243 of file testerr.tex:
+Command \eqno allowed only in display math.
+Error signaled at line 247 of file testerr.tex:
+Cell contains garbage after \multicolumn.
+Error signaled at line 248 of file testerr.tex:
+Too many commands of type \over.
+Error signaled at line 249 of file testerr.tex:
+bad math env equation.
+Error signaled at line 250 of file testerr.tex:
+Math formula should not finish with _.
+Error signaled at line 250 of file testerr.tex:
+Two consecutive _ or ^ characters.
+Error signaled at line 250 of file testerr.tex:
+Math formula should not finish with ^.
+Error signaled at line 250 of file testerr.tex:
+Two consecutive _ or ^ characters.
+Error signaled at line 250 of file testerr.tex:
+double subscript.
+Error signaled at line 250 of file testerr.tex:
+double superscript.
+\show: -1
+Error signaled at line 256 of file testerr.tex:
+Unimplemented e-TeX extension \middle.
+Error signaled at line 262 of file testerr.tex:
+Illegal value 'Assistant' for profession
+Use one of: Ingenieur Chercheur Enseignant Other.
+Error signaled at line 262 of file testerr.tex:
+Illegal value 'DEC' for affiliation
+Use one of: INRIA CNRS IBM Other.
+Error signaled at line 262 of file testerr.tex:
+Invalid Unit Centre Marseille
+Use one of: Paris Sophia Rennes Sop.
+Error signaled at line 263 of file testerr.tex:
+Illegal value 'Professeur' for profession
+Use one of: Ingenieur Chercheur Enseignant Other.
+Error signaled at line 263 of file testerr.tex:
+Illegal value 'CNR' for affiliation
+Use one of: INRIA CNRS IBM Other.
+Error signaled at line 263 of file testerr.tex:
+Invalid Unit Centre Lyon
+Use one of: Paris Sophia Rennes Sop.
+Error signaled at line 265 of file testerr.tex:
+Unexpected &.
+Error signaled at line 265 of file testerr.tex:
+Bad use of \\.
+Error signaled at line 265 of file testerr.tex:
+Bad use of \newline.
+Error signaled at line 266 of file testerr.tex:
+Error: Wrong dots in graphic file a.b.c.
+Error signaled at line 268 of file testerr.tex:
+Package Raweb Error: \moduleref[foo] is not implemented.
+Error signaled at line 278 of file testerr.tex:
+Invalid theme Com
+Configuration file defines nothing.
+Error signaled at line 278 of file testerr.tex:
+Package Raweb Error: Invalid Team name ProjA.
+Error signaled at line 279 of file testerr.tex:
+Invalid URL value.
+Error signaled at line 287 of file testerr.tex:
+Can be used only in preamble: \AtBeginDocument.
+Error signaled at line 292 of file testerr.tex:
+Unimplemented command \accent.
+Error signaled at line 292 of file testerr.tex:
+Unimplemented command \accent.
+Error signaled at line 292 of file testerr.tex:
+Bad character code replaced by 0
+\accent wants 0<=N<=134217727, with N=-1.
+Error signaled at line 292 of file testerr.tex:
+Unimplemented command \accent.
+Error signaled at line 292 of file testerr.tex:
+Unimplemented command \accent.
+Error signaled at line 292 of file testerr.tex:
+Bad character code replaced by 0
+\accent wants 0<=N<=134217727, with N=134217728.
+Error signaled at line 293 of file testerr.tex:
+Unimplemented command \delimiter.
+Error signaled at line 293 of file testerr.tex:
+Unimplemented command \delimiter.
+Error signaled at line 293 of file testerr.tex:
+Bad delimiter code replaced by 0
+\delimiter wants 0<=N<=134217727, with N=-1.
+Error signaled at line 293 of file testerr.tex:
+Unimplemented command \delimiter.
+Error signaled at line 293 of file testerr.tex:
+Unimplemented command \delimiter.
+Error signaled at line 293 of file testerr.tex:
+Bad delimiter code replaced by 0
+\delimiter wants 0<=N<=134217727, with N=134217728.
+Error signaled at line 294 of file testerr.tex:
+Unimplemented command \insert.
+Error signaled at line 294 of file testerr.tex:
+Unimplemented command \insert.
+Error signaled at line 294 of file testerr.tex:
+Bad register code replaced by 0
+\insert wants 0<=N<=1023, with N=123456.
+Error signaled at line 295 of file testerr.tex:
+Unimplemented command \mathaccent.
+Error signaled at line 295 of file testerr.tex:
+Unimplemented command \mathaccent.
+Error signaled at line 295 of file testerr.tex:
+Unimplemented command \mathaccent.
+Error signaled at line 295 of file testerr.tex:
+Bad mathchar replaced by 0
+\mathaccent wants 0<=N<=32767, with N=32768.
+Error signaled at line 296 of file testerr.tex:
+Unimplemented command \mathchar.
+Error signaled at line 296 of file testerr.tex:
+Unimplemented command \mathchar.
+Error signaled at line 296 of file testerr.tex:
+Unimplemented command \mathchar.
+Error signaled at line 296 of file testerr.tex:
+Bad mathchar replaced by 0
+\mathchar wants 0<=N<=32767, with N=32768.
+Error signaled at line 297 of file testerr.tex:
+Unimplemented command \vadjust.
+Error signaled at line 298 of file testerr.tex:
+Unimplemented command \radical.
+Error signaled at line 298 of file testerr.tex:
+Bad character code replaced by 0
+\radical wants 0<=N<=134217727, with N=134217728.
+Error signaled at line 298 of file testerr.tex:
+Unimplemented command \vcenter.
+Error signaled at line 299 of file testerr.tex:
+Unimplemented command \halign.
+Error signaled at line 299 of file testerr.tex:
+Unimplemented command \noalign.
+Error signaled at line 299 of file testerr.tex:
+Unimplemented command \noboundary.
+Error signaled at line 299 of file testerr.tex:
+Unimplemented command \omit.
+Error signaled at line 299 of file testerr.tex:
+Unimplemented command \valign.
+Error signaled at line 300 of file testerr.tex:
+Unimplemented command \span.
+Error signaled at line 300 of file testerr.tex:
+Unimplemented command \dump.
+Error signaled at line 300 of file testerr.tex:
+Unimplemented command \widthof.
+Error signaled at line 300 of file testerr.tex:
+Unimplemented command \heightof.
+Error signaled at line 300 of file testerr.tex:
+Unimplemented command \depthof.
+Error signaled at line 301 of file testerr.tex:
+Unimplemented command \textquotestraightbase.
+Error signaled at line 301 of file testerr.tex:
+Unimplemented command \textquotestraightdblbase.
+Error signaled at line 302 of file testerr.tex:
+Unimplemented command \textlbrackdbl.
+Error signaled at line 302 of file testerr.tex:
+Unimplemented command \textrbrackdbl.
+Error signaled at line 302 of file testerr.tex:
+Unimplemented command \textcompwordmark.
+Error signaled at line 303 of file testerr.tex:
+Unimplemented command \texttildelow.
+Error signaled at line 303 of file testerr.tex:
+Unimplemented command \textcentoldstyle.
+Error signaled at line 303 of file testerr.tex:
+Unimplemented command \textdollaroldstyle.
+Error signaled at line 303 of file testerr.tex:
+Unimplemented command \textcopyleft.
+Error signaled at line 304 of file testerr.tex:
+Unimplemented command \textzerooldstyle.
+Error signaled at line 304 of file testerr.tex:
+Unimplemented command \textoneoldstyle.
+Error signaled at line 304 of file testerr.tex:
+Unimplemented command \texttwooldstyle.
+Error signaled at line 304 of file testerr.tex:
+Unimplemented command \textthreeoldstyle.
+Error signaled at line 305 of file testerr.tex:
+Unimplemented command \textfouroldstyle.
+Error signaled at line 305 of file testerr.tex:
+Unimplemented command \textfiveoldstyle.
+Error signaled at line 305 of file testerr.tex:
+Unimplemented command \textsixoldstyle.
+Error signaled at line 305 of file testerr.tex:
+Unimplemented command \textsevenoldstyle.
+Error signaled at line 306 of file testerr.tex:
+Unimplemented command \texteightoldstyle.
+Error signaled at line 306 of file testerr.tex:
+Unimplemented command \textnineoldstyle.
+Error signaled at line 306 of file testerr.tex:
+Unimplemented command \textcapitalcompwordmark.
+Error signaled at line 307 of file testerr.tex:
+Unimplemented command \textguarani.
+Error signaled at line 307 of file testerr.tex:
+Unimplemented command \textleaf.
+Error signaled at line 307 of file testerr.tex:
+Unimplemented command \textdied.
+Error signaled at line 307 of file testerr.tex:
+Unimplemented command \textdivorced.
+Error signaled at line 307 of file testerr.tex:
+Unimplemented command \textblank.
+Error signaled at line 308 of file testerr.tex:
+Unimplemented command \textborn.
+Error signaled at line 308 of file testerr.tex:
+Unimplemented command \textmarried.
+Error signaled at line 308 of file testerr.tex:
+Unimplemented command \textdblhyphen.
+Error signaled at line 308 of file testerr.tex:
+Unimplemented command \textascendercompwordmark.
+Error signaled at line 309 of file testerr.tex:
+Unimplemented command \textinterrobangdown.
+Error signaled at line 309 of file testerr.tex:
+Unimplemented command \textdiscount.
+Error signaled at line 310 of file testerr.tex:
+Missing {} for \include.
+File ignored
+Error signaled at line 310 of file testerr.tex:
+Cannot open input file /dev/mem.
+Error signaled at line 52:
+unbalanced \read.
+Error signaled at line 61:
+too many closing braces in \read.
+Error signaled at line 318 of file testerr.tex:
+Undefined command \bad.
+Error signaled at line 319 of file testerr.tex:
+Missing number, treated as zero scanned by \count.
+Error signaled at line 319 of file testerr.tex:
+Missing number, treated as zero scanned by \count.
+Error signaled at line 321 of file testerr.tex:
+Missing number, treated as zero
+found token list \font while scanning \muskip.
+Error signaled at line 321 of file testerr.tex:
+Incompatible glue units in \muskip
+in conversion from dimen to muglue.
+Error signaled at line 322 of file testerr.tex:
+Missing number, treated as zero
+found token list \everycr while scanning \skip.
+Error signaled at line 323 of file testerr.tex:
+Missing number, treated as zero scanned by \count.
+Error signaled at line 323 of file testerr.tex:
+Missing number, treated as zero scanned by \count.
+Error signaled at line 323 of file testerr.tex:
+Missing number, treated as zero
+found token list \setmathchar while scanning \count.
+Error signaled at line 325 of file testerr.tex:
+Incompatible glue units in \skip
+in conversion from mu to glue.
+Error signaled at line 325 of file testerr.tex:
+Incompatible glue units in \parindent
+in conversion from mu to dimension.
+Error signaled at line 325 of file testerr.tex:
+Incompatible glue units in \linepenalty
+in conversion from mu to integer.
+Error signaled at line 327 of file testerr.tex:
+Incompatible glue units in \muskip
+in conversion from dimen to muglue.
+Error signaled at line 328 of file testerr.tex:
+Incompatible glue units in \muskip
+in conversion from glue to mu.
+Error signaled at line 329 of file testerr.tex:
+Incompatible glue units in \muskip
+Expected mu unit, found something else.
+Error signaled at line 329 of file testerr.tex:
+Incompatible glue units in \muskip
+Expected mu unit, found something else.
+Error signaled at line 329 of file testerr.tex:
+Incompatible glue units in \muskip
+Expected mu unit, found something else.
+Error signaled at line 329 of file testerr.tex:
+Missing unit (replaced by pt) b.
+Error signaled at line 330 of file testerr.tex:
+Missing unit (replaced by pt) m.
+Error signaled at line 331 of file testerr.tex:
+Incompatible glue units in \muskip
+Converting to mu from dimension.
+Error signaled at line 332 of file testerr.tex:
+Incompatible glue units in \muskip
+Converting to mu from glue.
+Error signaled at line 333 of file testerr.tex:
+Incompatible glue units in \muskip
+Converting to mu from integer.
+Error signaled at line 335 of file testerr.tex:
+Missing { inserted before unexpected } in argument of \fooA.
+Error signaled at line 335 of file testerr.tex:
+Missing { inserted before unexpected } in argument of \textit.
+Error signaled at line 335 of file testerr.tex:
+Missing { inserted before unexpected } in argument of \hbox.
+Error signaled at line 335 of file testerr.tex:
+Unexpected }.
+Error signaled at line 335 of file testerr.tex:
+Missing { inserted before unexpected } in argument of \mbox.
+Error signaled at line 335 of file testerr.tex:
+Math only command \frac.
+Error signaled at line 335 of file testerr.tex:
+Unexpected }.
+Error signaled at line 337 of file testerr.tex:
+Verbatim-like environment in argument : comment.
+Error signaled at line 338 of file testerr.tex:
+A left brace was mandatory here, so I've put one in.
+Error signaled at line 339 of file testerr.tex:
+A left brace was mandatory here, so I've put one in.
+Error signaled at line 342 of file testerr.tex:
+bad token ({Character 3 of catcode 12}) after #.
+Error signaled at line 342 of file testerr.tex:
+bad token (x) after #.
+Error signaled at line 344 of file testerr.tex:
+bad token ({Character 2 of catcode 12}) after #.
+Error signaled at line 344 of file testerr.tex:
+bad token (x) after #.
+Error signaled at line 346 of file testerr.tex:
+Spurious close brace removed.
+Error signaled at line 350 of file testerr.tex:
+The command \setlength takes one token as argument.
+Error signaled at line 351 of file testerr.tex:
+The command \setlength takes one token as argument.
+Error signaled at line 352 of file testerr.tex:
+token list \newif does not start with if.
+Error signaled at line 354 of file testerr.tex:
+Undefined environment .
+Error signaled at line 354 of file testerr.tex:
+Illegal \end{}.
+Error signaled at line 354 of file testerr.tex:
+You cannot use \unless before \Foo.
+Error signaled at line 356 of file testerr.tex:
+Invalid code (out of bounds)
+\catcode wants 0<=N<=15, got N=17.
+Error signaled at line 357 of file testerr.tex:
+Invalid code (out of bounds)
+\mathcode wants 0<=N<=32768, got N=1234567.
+Error signaled at line 358 of file testerr.tex:
+Invalid code (out of bounds)
+\sfcode wants 0<=N<=32767, got N=1234567.
+Error signaled at line 359 of file testerr.tex:
+Invalid code (out of bounds)
+\lccode wants 0<=N<=65535, got N=1234567.
+Error signaled at line 360 of file testerr.tex:
+Invalid code (out of bounds)
+\uccode wants 0<=N<=65535, got N=1234567.
+Error signaled at line 361 of file testerr.tex:
+Empty argument list for \newcommand.
+Error signaled at line 362 of file testerr.tex:
+Attempt to define: xy.
+Error signaled at line 362 of file testerr.tex:
+Only one token allowed in argument list of \newcommand.
+Error signaled at line 363 of file testerr.tex:
+Invalid argument for \advance.
+Error signaled at line 365 of file testerr.tex:
+Arithmetic overflow, threshold=2^{31}
+in 123456*123456.
+Error signaled at line 366 of file testerr.tex:
+missing brace for token register \toks.
+Error signaled at line 367 of file testerr.tex:
+boolean \iffoo already defined in \newboolean.
+Error signaled at line 368 of file testerr.tex:
+boolean value neither true nor false: bar.
+Error signaled at line 369 of file testerr.tex:
+Undefined boolean \foo2true.
+Error signaled at line 370 of file testerr.tex:
+A box was assumed to be here, got x.
+Error signaled at line 371 of file testerr.tex:
+\shipout is undefined.
+Error signaled at line 374 of file testerr.tex:
+Unimplemented NFSS command \TextSymbolUnavailable.
+Error signaled at line 375 of file testerr.tex:
+Unimplemented NFSS command \DeclareMathVersion.
+Error signaled at line 376 of file testerr.tex:
+Unimplemented NFSS command \DeclareMathDelimiter.
+Error signaled at line 377 of file testerr.tex:
+Unimplemented NFSS command \DeclareTextCommandDefault.
+Error signaled at line 378 of file testerr.tex:
+Unimplemented NFSS command \ProvideTextCommandDefault.
+Error signaled at line 379 of file testerr.tex:
+Unimplemented NFSS command \DeclareTextSymbolDefault.
+Error signaled at line 380 of file testerr.tex:
+Unimplemented NFSS command \UseTextSymbol.
+Error signaled at line 381 of file testerr.tex:
+Unimplemented NFSS command \UndeclareTextCommand.
+Error signaled at line 382 of file testerr.tex:
+Unimplemented NFSS command \DeclareFontEncodingDefaults.
+Error signaled at line 383 of file testerr.tex:
+Unimplemented NFSS command \DeclareSizeFunction.
+Error signaled at line 384 of file testerr.tex:
+Unimplemented NFSS command \DeclareSymbolFontAlphabet.
+Error signaled at line 385 of file testerr.tex:
+Unimplemented NFSS command \DeclareTextFontCommand.
+Error signaled at line 386 of file testerr.tex:
+Unimplemented NFSS command \DeclareTextAccent.
+Error signaled at line 387 of file testerr.tex:
+Unimplemented NFSS command \DeclareTextSymbol.
+Error signaled at line 388 of file testerr.tex:
+Unimplemented NFSS command \DeclareFontFamily.
+Error signaled at line 389 of file testerr.tex:
+Unimplemented NFSS command \DeclareFontEncoding.
+Error signaled at line 390 of file testerr.tex:
+Unimplemented NFSS command \DeclareOldFontCommand.
+Error signaled at line 391 of file testerr.tex:
+Unimplemented NFSS command \DeclareTextCompositeCommand.
+Error signaled at line 392 of file testerr.tex:
+Unimplemented NFSS command \DeclareTextComposite.
+Error signaled at line 393 of file testerr.tex:
+Unimplemented NFSS command \DeclareFontSubstitution.
+Error signaled at line 394 of file testerr.tex:
+Unimplemented NFSS command \DeclareMathAccent.
+Error signaled at line 395 of file testerr.tex:
+Unimplemented NFSS command \DeclareMathSymbol.
+Error signaled at line 396 of file testerr.tex:
+Unimplemented NFSS command \DeclarePreloadSizes.
+Error signaled at line 397 of file testerr.tex:
+Unimplemented NFSS command \DeclareMathSizes.
+Error signaled at line 398 of file testerr.tex:
+Unimplemented NFSS command \DeclareErrorFont.
+Error signaled at line 399 of file testerr.tex:
+Unimplemented NFSS command \DeclareSymbolFont.
+Error signaled at line 400 of file testerr.tex:
+Unimplemented NFSS command \DeclareMathAlphabet.
+Error signaled at line 401 of file testerr.tex:
+Unimplemented NFSS command \DeclareMathRadical.
+Error signaled at line 402 of file testerr.tex:
+Unimplemented NFSS command \DeclareFontShape.
+Error signaled at line 403 of file testerr.tex:
+Unimplemented NFSS command \DeclareFixedFont.
+Error signaled at line 404 of file testerr.tex:
+Unimplemented NFSS command \SetSymbolFont.
+Error signaled at line 405 of file testerr.tex:
+Unimplemented NFSS command \SetMathAlphabet.
+Error signaled at line 406 of file testerr.tex:
+Unimplemented NFSS command \UseTextAccent.
+Error signaled at line 407 of file testerr.tex:
+Unimplemented NFSS command \ProvideTextCommand.
+Error signaled at line 408 of file testerr.tex:
+Unimplemented NFSS command \DeclareTextCommand.
+Error signaled at line 411 of file testerr.tex:
+Bad command \relax in XKV family (more errors may follow).
+Error signaled at line 411 of file testerr.tex:
+A left brace was mandatory here, so I've put one in.
+Argument was replaced by {}.
+Error signaled at line 411 of file testerr.tex:
+Extra \endcsname.
+Error signaled at line 413 of file testerr.tex:
+Bad command \relax in XKV prefix (more errors may follow).
+Error signaled at line 413 of file testerr.tex:
+A left brace was mandatory here, so I've put one in.
+Argument was replaced by {}.
+Error signaled at line 414 of file testerr.tex:
+xkeyval: `XKV' prefix is not allowed.
+Error signaled at line 418 of file testerr.tex:
+Overflow in FPmul.
+Error signaled at line 419 of file testerr.tex:
+Overflow in FPadd.
+Error signaled at line 420 of file testerr.tex:
+Overflow in FPdiv.
+Error signaled at line 421 of file testerr.tex:
+out of bound 200 max value is 63.
+Error signaled at line 422 of file testerr.tex:
+Negative number -3 in truncate.
+Error signaled at line 423 of file testerr.tex:
+Negative number -4 in round.
+Error signaled at line 424 of file testerr.tex:
+division by zero.
+Error signaled at line 425 of file testerr.tex:
+Log of negative number.
+Error signaled at line 425 of file testerr.tex:
+Log of 0.
+Error signaled at line 426 of file testerr.tex:
+Overflow in FPexp.
+Error signaled at line 427 of file testerr.tex:
+First argument negative.
+Error signaled at line 429 of file testerr.tex:
+Number greater than one for \FP@arccos.
+Error signaled at line 430 of file testerr.tex:
+Number greater than one for \FP@arcsin.
+Error signaled at line 431 of file testerr.tex:
+overflow in FPread.
+Error signaled at line 434 of file testerr.tex:
+attempt to modify unexistent font param.
+Error signaled at line 435 of file testerr.tex:
+attempt to modify unexistent font param.
+Error signaled at line 437 of file testerr.tex:
+Missing font identifier.
+Error signaled at line 437 of file testerr.tex:
+Missing number, treated as zero scanned by \hyphenchar.
+Error signaled at line 437 of file testerr.tex:
+attempt to modify unexistent font param.
+Error signaled at line 438 of file testerr.tex:
+Read only variable \lastkern.
+Error signaled at line 438 of file testerr.tex:
+Read only variable \numexpr.
+Error signaled at line 438 of file testerr.tex:
+Read only variable \XMLlastid.
+Error signaled at line 445 of file testerr.tex:
+Arithmetic overflow, threshold=2^{31}
+in 1073741824*2.
+Error signaled at line 447 of file testerr.tex:
+Arithmetic overflow, threshold=2^{31}
+in 134217728*17.
+Error signaled at line 450 of file testerr.tex:
+Arithmetic overflow, threshold=2^{30}=16384pt
+in 536870912*2.
+\show: 8192.0pt
+Error signaled at line 454 of file testerr.tex:
+Arithmetic overflow, division by 0
+in 134217728/0.
+Error signaled at line 454 of file testerr.tex:
+Arithmetic overflow, division by 0
+in 1073676288/0.
+Error signaled at line 468 of file testerr.tex:
+Missing unit (replaced by pt) {Character . of catcode 12}.
+Error signaled at line 469 of file testerr.tex:
+Missing unit (replaced by pt) {Character . of catcode 12}.
+Error signaled at line 470 of file testerr.tex:
+Missing unit (replaced by pt) \relax.
+Error signaled at line 471 of file testerr.tex:
+Missing unit (replaced by pt) {Character . of catcode 12}.
+Error signaled at line 472 of file testerr.tex:
+Missing unit (replaced by pt) {Character . of catcode 12}.
+Error signaled at line 475 of file testerr.tex:
+Error in accent, command = \'\u
+Cannot put accent on non-letter character =.
+Error signaled at line 477 of file testerr.tex:
+Arithmetic overflow, division by 0.
+Error signaled at line 478 of file testerr.tex:
+Division by zero.
+Error signaled at line 488 of file testerr.tex:
+Division by zero.
+Error signaled at line 489 of file testerr.tex:
+Division by zero.
+Error signaled at line 501 of file testerr.tex:
+Illegal date format.
+Error signaled at line 501 of file testerr.tex:
+Bad month field.
+Error signaled at line 502 of file testerr.tex:
+Bad day field.
+Error signaled at line 502 of file testerr.tex:
+Illegal date format.
+Error signaled at line 502 of file testerr.tex:
+Illegal date format.
+Error signaled at line 503 of file testerr.tex:
+Date has two fields with value>31.
+Error signaled at line 503 of file testerr.tex:
+Date has two month fields.
+Error signaled at line 503 of file testerr.tex:
+Unable to distinguish between year day and month.
+Error signaled at line 504 of file testerr.tex:
+Unable to distinguish between year day and month.
+Error signaled at line 504 of file testerr.tex:
+Unable to distinguish between year day and month.
+Error signaled at line 504 of file testerr.tex:
+Too many digits in date field.
+Error signaled at line 505 of file testerr.tex:
+Expected digits or a month in letters.
+Error signaled at line 505 of file testerr.tex:
+Expected digits or a month in letters.
+Error signaled at line 509 of file testerr.tex:
+\tralics@fnhack: Cannot define {Character 1 of catcode 12}; token is not a command.
+Error signaled at line 509 of file testerr.tex:
+\tralics@fnhack: Cannot define {Character 2 of catcode 12}; token is not a command.
+\macA=macro: ->foo bar.
+\macA=macro: ->.
+Error signaled at line 517 of file testerr.tex:
+Undefinable command \yfoo.
+Error signaled at line 518 of file testerr.tex:
+Undefinable command \endyfoo.
+Error signaled at line 519 of file testerr.tex:
+Undefinable command \relax.
+Error signaled at line 520 of file testerr.tex:
+Wrong syntax in \@ifdefinable.
+Error signaled at line 521 of file testerr.tex:
+Undefinable command ~.
+Error signaled at line 522 of file testerr.tex:
+Wrong syntax in \@ifdefinable.
+Error signaled at line 523 of file testerr.tex:
+Wrong syntax in \@ifdefinable.
+Error signaled at line 542 of file testerr.tex:
+Error: Wrong dots in graphic file ./../bar.gee.ps.
+Error signaled at line 543 of file testerr.tex:
+Error: Wrong dots in graphic file .././bar.gee.ps.
+Error signaled at line 544 of file testerr.tex:
+Error: Wrong dots in graphic file ../bar.gee.ps.
+Error signaled at line 545 of file testerr.tex:
+Error: Wrong dots in graphic file ./bar.gee.ps.
+Error signaled at line 546 of file testerr.tex:
+Error: Wrong dots in graphic file bar.gee.ps.
+Error signaled at line 547 of file testerr.tex:
+Error: Wrong dots in graphic file .bar.
+Error signaled at line 548 of file testerr.tex:
+Error: Wrong dots in graphic file bar..
+Error signaled at line 550 of file testerr.tex:
+Undefinable command \foo.
+Error signaled at line 554 of file testerr.tex:
+Undefined command \foo&xሴ<'>.
+Error signaled at line 555 of file testerr.tex:
+Undefined command \foo&xሴ.
+Error signaled at line 555 of file testerr.tex:
+Undefined command <.
+Error signaled at line 555 of file testerr.tex:
+Undefined command '.
+Error signaled at line 555 of file testerr.tex:
+Undefined command >.
+Error signaled at line 560 of file testerr.tex:
+Undefined command \my€bar.
+Error signaled at line 560 of file testerr.tex:
+Undefined command \my.
+Error signaled at line 561 of file testerr.tex:
+Undefined command \my€bad.
+Error signaled at line 561 of file testerr.tex:
+Undefined command \my€bad.
+Bib stats: seen 4 entries.
+Error signaled while handling entry footcite:x
+undefined reference.
+Error signaled while handling entry cite:x
+undefined reference.
+Error signaled while handling entry refercite:x
+undefined reference.
+Error signaled while handling entry cite:e
+undefined reference.
+Seen 0 bibliographic entries.
+Error signaled in postprocessor
+undefined label `mod:a' (first use at line 267 in file testerr.tex)
+Unterminated \if 60, started at line 354
+Math stats: formulas 15, kernels 4, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 8, string 4605, size 74690, merge 17
+Macros created 598, deleted 200; hash size 2838; foonotes 0.
+Save stack +387 -306.
+Attribute list search 3963(1505) found 2010 in 1869 elements (1120 at boot).
+Number of ref 1, of used labels 1, of defined labels 3, of ext. ref. 1.
+Input conversion: 7 lines converted.
+There were 13 images.
+Following images not defined: gee, foo, ../foo, /./foo, bar, ../bar, /./bar.
+Output written on testerr.xml (34182 bytes).
+There were 493 errors.
+(For more information, see transcript file testerr.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file beauvilams2.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: amsart 2008/09/17 v1.1 Ams article class for tralics
+Translating section command div0: Introduction.
+Translating section command div0: The moduli space <formula/>.
+Translating section command div0: The Bouche formula.
+Translating section command div0: The Bouche formula for <formula/>.
+Translating section command div0: The moduli space <formula/>.
+Bib stats: seen 16 entries.
+Seen 16 bibliographic entries.
+Math stats: formulas 269, kernels 149, trivial 2, \mbox 0, large 2, small 44.
+Buffer realloc 16, string 5626, size 104013, merge 16
+Macros created 540, deleted 76; hash size 2718; foonotes 1.
+Save stack +818 -818.
+Attribute list search 3484(1505) found 1854 in 3143 elements (1120 at boot).
+Number of ref 31, of used labels 27, of defined labels 30, of ext. ref. 0.
+Input conversion: 4 lines converted.
+There were 4 images.
+Following images not defined: logo, figure1a, figure1b, figure1c.
+Output written on beauvilams2.xml (58043 bytes).
+No error found.
+(For more information, see transcript file beauvilams2.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testbe.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Translating section command div0: one.
+Translating section command div0: Two.
+Translating section command div0: One in appendix.
+Translating section command div0: Two in appendix.
+Bib stats: seen 0 entries.
+Math stats: formulas 66, kernels 8, trivial 0, \mbox 10, large 0, small 0.
+Buffer realloc 7, string 3102, size 51022, merge 21
+Macros created 498, deleted 111; hash size 2671; foonotes 3.
+Save stack +288 -288.
+Attribute list search 2005(1505) found 1280 in 1513 elements (1120 at boot).
+Number of ref 10, of used labels 9, of defined labels 9, of ext. ref. 5.
+Input conversion: 1 line converted.
+There were 1 images.
+Following images not defined: nosuchfile.
+Output written on testbe.xml (9432 bytes).
+No error found.
+(For more information, see transcript file testbe.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testb1.tex.
+Configuration file identification: torture.tcf $ Revision: 1.9 $
+Read configuration file ../confdir/torture.tcf.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 0 entries.
+Seen 116 bibliographic entries.
+Math stats: formulas 7, kernels 2, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 9, string 8851, size 130099, merge 0
+Macros created 232, deleted 39; hash size 2415; foonotes 0.
+Save stack +288 -288.
+Attribute list search 6142(1505) found 1839 in 2061 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 19.
+Input conversion: 15 lines converted.
+Output written on testb1.xml (37107 bytes).
+No error found.
+(For more information, see transcript file testb1.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testb1.tex.
+Configuration file identification: torture.tcf $ Revision: 1.9 $
+Read configuration file ../confdir/torture.tcf.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 0 entries.
+Seen 116 bibliographic entries.
+Math stats: formulas 7, kernels 2, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 9, string 9083, size 136121, merge 0
+Macros created 232, deleted 39; hash size 2415; foonotes 0.
+Save stack +297 -297.
+Attribute list search 6545(1505) found 1843 in 2222 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 19.
+Input conversion: 15 lines converted.
+Output written on testb1.xml (43427 bytes).
+No error found.
+(For more information, see transcript file testb1.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file exemple2003.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: standard-ra $ Revision: 2.4 $
+Read tcf file ../confdir/ra.tcf
+Document class: ra2003 2008/07/12 v1.0 Activity Report, Inria 2003
+Translating section composition
+Translating section presentation
+Translating section fondements
+Translating section domaine
+Translating section logiciels
+Translating section resultats
+Translating section contrats
+Translating section international
+Translating section diffusion
+Bib stats: seen 4 entries.
+Seen 6 bibliographic entries.
+Math stats: formulas 57, kernels 28, trivial 0, \mbox 0, large 0, small 16.
+Buffer realloc 19, string 4999, size 90011, merge 1
+Macros created 860, deleted 428; hash size 2758; foonotes 3.
+Save stack +801 -801.
+Attribute list search 3109(1505) found 1661 in 1857 elements (1120 at boot).
+Number of ref 10, of used labels 8, of defined labels 44, of ext. ref. 8.
+Input conversion: 19 lines converted.
+There were 1 images.
+Following images not defined: xml-route.
+Output written on exemple.xml (27843 bytes).
+No error found.
+(For more information, see transcript file exemple2003.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file exemple2005.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: standard-ra $ Revision: 2.4 $
+Read tcf file ../confdir/ra.tcf
+Document class: ra2005 2008/07/12 v1.0 Activity Report, Inria 2005
+Translating section composition
+Translating section presentation
+Translating section fondements
+Translating section domaine
+Translating section logiciels
+Translating section resultats
+Translating section contrats
+Translating section international
+Translating section diffusion
+Bib stats: seen 7 entries.
+Seen 8 bibliographic entries.
+Math stats: formulas 211, kernels 135, trivial 0, \mbox 3, large 0, small 69.
+Buffer realloc 15, string 5542, size 100153, merge 2
+Macros created 821, deleted 388; hash size 2761; foonotes 1.
+Save stack +1004 -1004.
+Attribute list search 3398(1505) found 1811 in 2651 elements (1120 at boot).
+Number of ref 9, of used labels 9, of defined labels 70, of ext. ref. 5.
+Input conversion: 33 lines converted.
+There were 2 images.
+Following images not defined: miaou_transf, miaou_coup.
+Output written on exemple.xml (49196 bytes).
+No error found.
+(For more information, see transcript file exemple2005.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file exemple2006.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: standard-ra $ Revision: 2.4 $
+Read tcf file ../confdir/ra.tcf
+Document class: ra2006 2008/07/12 v1.0 Activity Report, Inria 2006
+Translating section composition
+Translating section presentation
+Translating section fondements
+Translating section domaine
+Translating section logiciels
+Translating section resultats
+Translating section contrats
+Translating section international
+Translating section diffusion
+Bib stats: seen 6 entries.
+Seen 6 bibliographic entries.
+Math stats: formulas 212, kernels 135, trivial 0, \mbox 3, large 0, small 69.
+Buffer realloc 17, string 5499, size 101286, merge 2
+Macros created 928, deleted 493; hash size 2763; foonotes 1.
+Save stack +1035 -1035.
+Attribute list search 3364(1505) found 1806 in 2639 elements (1120 at boot).
+Number of ref 9, of used labels 9, of defined labels 70, of ext. ref. 5.
+Input conversion: 28 lines converted.
+There were 2 images.
+Following images not defined: miaou_transf, miaou_coup.
+Output written on exemple.xml (49031 bytes).
+No error found.
+(For more information, see transcript file exemple2006.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file exemple2007.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: standard-ra $ Revision: 2.3 $
+Read tcf file ../confdir/ra2007.tcf
+Document class: ra2007 2008/07/16 v1.1 Activity Report, Inria 2007
+Translating section composition
+Translating section presentation
+Translating section fondements
+Translating section domaine
+Translating section logiciels
+Translating section resultats
+Translating section contrats
+Translating section international
+Translating section diffusion
+Bib stats: seen 6 entries.
+Seen 6 bibliographic entries.
+Math stats: formulas 38, kernels 10, trivial 0, \mbox 0, large 0, small 2.
+Buffer realloc 16, string 3721, size 62021, merge 1
+Macros created 596, deleted 320; hash size 2585; foonotes 0.
+Save stack +469 -469.
+Attribute list search 2588(1505) found 1445 in 1483 elements (1120 at boot).
+Number of ref 1, of used labels 1, of defined labels 25, of ext. ref. 5.
+Input conversion: 12 lines converted.
+There were 1 images.
+Following images not defined: IMG/uneimage.
+Output written on exemple.xml (13885 bytes).
+No error found.
+(For more information, see transcript file exemple2007.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file exemple2008.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: standard-ra $ Revision: 2.4 $
+Read tcf file ../confdir/ra2008.tcf
+Document class: ra2008 2008/07/16 v1.1 Activity Report, Inria 2008
+Translating composition
+Translating section presentation
+Translating section fondements
+Translating section domaine
+Translating section logiciels
+Translating section resultats
+Translating section contrats
+Translating section international
+Translating section diffusion
+Bib stats: seen 6 entries.
+Seen 6 bibliographic entries.
+Math stats: formulas 38, kernels 10, trivial 0, \mbox 0, large 0, small 2.
+Buffer realloc 16, string 3673, size 61743, merge 1
+Macros created 585, deleted 316; hash size 2584; foonotes 0.
+Save stack +394 -394.
+Attribute list search 2565(1505) found 1445 in 1474 elements (1120 at boot).
+Number of ref 1, of used labels 1, of defined labels 25, of ext. ref. 5.
+Input conversion: 12 lines converted.
+There were 1 images.
+Following images not defined: IMG/uneimage.
+Output written on exemple.xml (13809 bytes).
+No error found.
+(For more information, see transcript file exemple2008.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file ex_emple2008.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: standard-ra $ Revision: 2.4 $
+Read tcf file ../confdir/ra2008.tcf
+Document class: ra2008 2008/07/16 v1.1 Activity Report, Inria 2008
+Translating section composition
+Translating section presentation
+Translating section fondements
+Translating section domaine
+Translating section logiciels
+Translating section resultats
+Translating section contrats
+Translating section international
+Translating section diffusion
+Bib stats: seen 7 entries.
+Seen 7 bibliographic entries.
+Math stats: formulas 38, kernels 10, trivial 0, \mbox 0, large 0, small 2.
+Buffer realloc 17, string 3770, size 63638, merge 1
+Macros created 587, deleted 318; hash size 2586; foonotes 0.
+Save stack +401 -401.
+Attribute list search 2627(1505) found 1464 in 1491 elements (1120 at boot).
+Number of ref 1, of used labels 1, of defined labels 26, of ext. ref. 6.
+Input conversion: 12 lines converted.
+There were 1 images.
+Following images not defined: IMG/uneimage.
+Output written on ex_emple.xml (14401 bytes).
+No error found.
+(For more information, see transcript file ex_emple2008.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file exemple2009.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: standard-ra $ Revision: 1.1 $
+Read tcf file ../confdir/ra2009.tcf
+Document class: ra2009 2008/07/16 v1.1 Activity Report, Inria 2009
+Translating composition
+Translating section presentation
+Translating section fondements
+Translating section domaine
+Translating section logiciels
+Translating section resultats
+Translating section contrats
+Translating section international
+Translating section diffusion
+Bib stats: seen 7 entries.
+Seen 7 bibliographic entries.
+Math stats: formulas 38, kernels 10, trivial 0, \mbox 0, large 0, small 2.
+Buffer realloc 16, string 3764, size 63459, merge 1
+Macros created 584, deleted 316; hash size 2588; foonotes 0.
+Save stack +395 -395.
+Attribute list search 2626(1505) found 1461 in 1487 elements (1120 at boot).
+Number of ref 1, of used labels 1, of defined labels 25, of ext. ref. 5.
+Input conversion: 12 lines converted.
+There were 1 images.
+Following images not defined: IMG/uneimage.
+Output written on exemple.xml (14330 bytes).
+No error found.
+(For more information, see transcript file exemple2009.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file exempleb2011.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: standard-ra $ Revision: 2.2 $
+Read tcf file ../confdir/ra2011.tcf
+Document class: ra2011 2008/07/16 v1.1 Activity Report, Inria 2008
+Error signaled at line 14 of file exempleb2011.tex:
+Package Raweb Error: Invalid Team name Bad name.
+Translating composition
+Error signaled at line 285 of file exempleb2011.tex:
+Illegal value 'Ingénieur' for profession
+Use one of: Visiteur Chercheur Enseignant Technique Assistant PhD PostDoc AutreCategorie CollaborateurExterieur Other.
+Error signaled at line 285 of file exempleb2011.tex:
+Illegal value 'INRA' for affiliation
+Use one of: INRIA CNRS LIAMA AutreEtablissementPublic UnivFr UnivEtrangere EtablissementPrive AutreAffiliation Other.
+Error signaled at line 291 of file exempleb2011.tex:
+Only one module accepted in composition.
+Translating section presentation
+Translating section fondements
+Translating section domaine
+Error signaled at line 434 of file exempleb2011.tex:
+Invalid section xlogiciels
+Valid sections are composition presentation fondements domaine logiciels resultats contrats international diffusion.
+Translating section resultats
+Translating section contrats
+Error signaled at line 487 of file exempleb2011.tex:
+Bad section composition after contrats
+Order of sections is composition presentation fondements domaine logiciels resultats contrats international diffusion.
+Translating section international
+Translating section diffusion
+Error signaled at line 570 of file exempleb2011.tex:
+No module in section logiciels.
+Bib stats: seen 8 entries.
+Seen 19 bibliographic entries.
+Math stats: formulas 47, kernels 13, trivial 0, \mbox 0, large 0, small 2.
+Buffer realloc 25, string 4963, size 91556, merge 3
+Macros created 643, deleted 375; hash size 2596; foonotes 0.
+Save stack +488 -488.
+Attribute list search 3424(1505) found 1658 in 1679 elements (1120 at boot).
+Number of ref 1, of used labels 1, of defined labels 28, of ext. ref. 10.
+Input conversion: 40 lines converted.
+There were 3 images.
+Following images not defined: IMG/imagejpeg, IMG/imageeps, IMG/imagepdf.
+Output written on exempleb.xml (24235 bytes).
+There were 7 errors.
+(For more information, see transcript file exempleb2011.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file exemple2011.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Configuration file identification: standard-ra $ Revision: 2.2 $
+Read tcf file ../confdir/ra2011.tcf
+Document class: ra2011 2008/07/16 v1.1 Activity Report, Inria 2008
+Translating composition
+Translating section presentation
+Translating section fondements
+Translating section domaine
+Translating section logiciels
+Translating section resultats
+Translating section contrats
+Translating section international
+Translating section diffusion
+Bib stats: seen 8 entries.
+Seen 19 bibliographic entries.
+Math stats: formulas 47, kernels 13, trivial 0, \mbox 0, large 0, small 2.
+Buffer realloc 26, string 6239, size 114238, merge 57
+Macros created 1282, deleted 1005; hash size 2599; foonotes 0.
+Save stack +1235 -1235.
+Attribute list search 4522(1505) found 1922 in 1838 elements (1120 at boot).
+Number of ref 1, of used labels 1, of defined labels 28, of ext. ref. 15.
+Input conversion: 66 lines converted.
+There were 3 images.
+Following images not defined: IMG/imagejpeg, IMG/imageeps, IMG/imagepdf.
+Output written on exemple.xml (34698 bytes).
+No error found.
+(For more information, see transcript file exemple2011.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testm1.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 0 entries.
+Math stats: formulas 4, kernels 2, trivial 0, \mbox 0, large 0, small 1.
+Buffer realloc 2, string 1567, size 17154, merge 0
+Macros created 207, deleted 17; hash size 2389; foonotes 0.
+Save stack +26 -26.
+Attribute list search 1531(1505) found 1082 in 1162 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Input conversion: 2 lines converted.
+Output written on testm1.xml (1029 bytes).
+No error found.
+(For more information, see transcript file testm1.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testm1.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 2, string 1564, size 17208, merge 0
+Macros created 207, deleted 17; hash size 2389; foonotes 0.
+Save stack +26 -26.
+Attribute list search 1527(1505) found 1079 in 1135 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Input conversion: 2 lines converted.
+Output written on testm1.xml (509 bytes).
+No error found.
+(For more information, see transcript file testm1.log)
+This is tralics 2.15.0, a LaTeX to XML translator, running on Michaels-MacBook-Air
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file testm1.tex.
+Configuration file identification: standard $ Revision: 2.24 $
+Read configuration file ../confdir/.tralics_rc.
+Document class: article 2011/05/09 v1.2 Article document class for Tralics
+Bib stats: seen 0 entries.
+Math stats: formulas 4, kernels 2, trivial 0, \mbox 0, large 0, small 1.
+Buffer realloc 2, string 1571, size 17253, merge 0
+Macros created 207, deleted 17; hash size 2389; foonotes 0.
+Save stack +26 -26.
+Attribute list search 1535(1505) found 1086 in 1170 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Input conversion: 2 lines converted.
+Output written on testm1.xml (1200 bytes).
+No error found.
+(For more information, see transcript file testm1.log)

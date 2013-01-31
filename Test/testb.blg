@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/MacPorts 2012_4)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: testb.aux
+The style file: plain.bst
+Database file #1: torture.bib
+Warning--empty journal in many
+Warning--empty year in many
+Warning--empty journal in strange
+Warning--empty year in strange
+Warning--empty journal in poussin
+Warning--empty year in poussin
+Warning--empty journal in cruz
+Warning--empty year in cruz
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            514 strings with 4198 characters,
+and the built_in function-call counts, 913 in all, are:
+= -- 75
+> -- 44
+< -- 0
++ -- 18
+- -- 14
+* -- 58
+:= -- 171
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 40
+empty$ -- 69
+format.name$ -- 14
+if$ -- 170
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 20
+num.names$ -- 8
+pop$ -- 34
+preamble$ -- 2
+purify$ -- 14
+quote$ -- 0
+skip$ -- 24
+stack$ -- 0
+substring$ -- 20
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 8
+while$ -- 8
+width$ -- 5
+write$ -- 31
+(There were 8 warnings)

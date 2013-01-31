@@ -1,0 +1,10 @@
+# images info, 1=ps, 2=eps, 4=epsi, 8=epsf, 16=pdf, 32=png, 64=gif
+see_image("A",0,2);
+see_image("AA",0,2);
+see_image("B",0,1);
+see_image("C",0,2);
+see_image("D",0,2);
+see_image("E",0,1);
+see_image("F",0,1);
+see_image("G",0,1);
+see_image("x",0,2);

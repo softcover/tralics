@@ -1,0 +1,8 @@
+# images info, 1=ps, 2=eps, 4=epsi, 8=epsf, 16=pdf, 32=png, 64=gif
+see_image("gee",0,1);
+see_image("foo",0,4);
+see_image("../foo",0,4);
+see_image("/./foo",0,2);
+see_image("bar",0,2);
+see_image("../bar",0,2);
+see_image("/./bar",0,1);

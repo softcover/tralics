@@ -1,0 +1,980 @@
+% reading source torture.bib
+\def\mycmd #1{" #1 #1 "}%
+%
+\citation{A+}{cite:tor41}{bid35}{year}{misc}
+\bauthors{\bpers[]{}{}{Alpha}{}\cititem{etal}{}}
+\endcitation
+%
+\citation{a1a}{cite:tor1}{bid0}{year}{article}
+\bauthors{\bpers[]{}{}{a1}{}}
+\cititem{btitle}{b-title}
+\cititem{bjournal}{c-journal}
+\cititem{bnumber}{d-number}
+\cititem{bvolume}{e-volume}
+\cititem{bpages}{h-pages}
+\cititem{bmonth}{f-month}
+\cititem{byear}{g-year}
+\csname @href\endcsname{some-url}{\url{some-url}}
+\cititem{bnote}{i-note}
+\endcitation
+%
+\citation{a1b}{cite:torc}{bid1}{year}{article}
+\bauthors{\bpers[]{}{}{a1}{}}
+\cititem{btitle}{b-title}
+\cititem{bjournal}{c-journal}
+\cititem{bnumber}{d-number}
+\cititem{bvolume}{e-volume}
+\cititem{bpages}{h-pages}
+\cititem{bmonth}{f-month}
+\cititem{byear}{g-year}
+\csname @href\endcsname{some-url}{\url{some-url}}
+\cititem{bnote}{i-note}
+\endcitation
+%
+\citation{a13}{cite:tor13}{bid13}{year}{book}
+\bauthors{\bpers[]{}{}{a13}{}}
+\cititem{btitle}{c-title}
+\beditors{\bpers[First]{F.}{}{Editor}{}\bpers[Second]{S.}{}{Editor}{}\bpers[Third]{T.}{}{Editor}{}}
+\cititem{bedition}{d-edition}
+\cititem{bseries}{e-series}
+\cititem{bnumber}{f-number}
+\cititem{bvolume}{g-volume}
+\cititem{bpublisher}{h-publisher}
+\cititem{baddress}{i-address}
+\cititem{bmonth}{j-month}
+\cititem{byear}{k-year}
+\cititem{bnote}{l-note}
+\endcitation
+%
+\citation{a15}{cite:tor15}{bid15}{year}{booklet}
+\bauthors{\bpers[]{}{}{a15}{}}
+\cititem{btitle}{b-title}
+\cititem{baddress}{d-address}
+\cititem{bhowpublished}{c-howpublished}
+\cititem{bmonth}{e-month}
+\cititem{byear}{f-year}
+\cititem{bnote}{g-note}
+\endcitation
+%
+\citation{a16}{cite:tor16}{bid16}{year}{phdthesis}
+\bauthors{\bpers[]{}{}{a16}{}}
+\cititem{btitle}{b-title}
+\beditors{\bpers[]{}{}{myself}{}}
+\cititem{btype}{Ph. D. Thesis}
+\cititem{bschool}{c-school}
+\cititem{byear}{d-year}
+\endcitation
+%
+\citation{a17}{cite:tor17}{bid17}{year}{phdthesis}
+\bauthors{\bpers[]{}{}{a17}{}}
+\cititem{btitle}{b-title}
+\cititem{baddress}{e-address}
+\cititem{btype}{c-type}
+\cititem{bschool}{d-school}
+\cititem{bmonth}{f-month}
+\cititem{byear}{g-year}
+\cititem{bnote}{h-note}
+\endcitation
+%
+\citation{a18}{cite:tor18}{bid18}{year}{mastersthesis}
+\bauthors{\bpers[]{}{}{a18}{}}
+\cititem{btitle}{b-title}
+\cititem{btype}{Masters thesis}
+\cititem{bschool}{c-school}
+\cititem{byear}{d-year}
+\endcitation
+%
+\citation{a19}{cite:tor19}{bid19}{year}{mastersthesis}
+\bauthors{\bpers[]{}{}{a19}{}}
+\cititem{btitle}{b-title}
+\cititem{baddress}{e-address}
+\cititem{btype}{c-type}
+\cititem{bschool}{d-school}
+\cititem{bmonth}{g-month}
+\cititem{byear}{h-year}
+\cititem{bnote}{i-note}
+\endcitation
+%
+\citation{a20}{cite:tor20}{bid20}{year}{techreport}
+\bauthors{\bpers[]{}{}{a20}{}}
+\cititem{btitle}{b-title}
+\cititem{btype}{Technical report}
+\cititem{binstitution}{c-institution}
+\cititem{byear}{d-year}
+\endcitation
+%
+\citation{a203}{cite:tor2}{bid2}{year}{article}
+\bauthors{\bpers[]{}{}{a2}{}}
+\cititem{btitle}{Title, Majuscule, {Majuscule}, {M}ajuscule}
+\cititem{bjournal}{journal}
+\cititem{byear}{2003}
+\endcitation
+%
+\citation{a21}{cite:tor21}{bid21}{year}{techreport}
+\bauthors{\bpers[]{}{}{a21}{}}
+\cititem{btitle}{b-title}
+\cititem{bnumber}{d-number}
+\cititem{baddress}{f-addres}
+\cititem{btype}{c-type}
+\cititem{binstitution}{e-institution}
+\cititem{bmonth}{g-month}
+\cititem{byear}{h-year}
+\cititem{bnote}{i-note}
+\endcitation
+%
+\citation{a23}{cite:tor23}{bid23}{year}{manual}
+\bauthors{\bpers[]{}{}{a23}{}}
+\cititem{btitle}{b}
+\cititem{bedition}{d-edition}
+\cititem{baddress}{e-address}
+\cititem{borganization}{c-organization}
+\cititem{bmonth}{f-month}
+\cititem{byear}{g-year}
+\cititem{bnote}{h-note}
+\endcitation
+%
+\citation{a24}{cite:tor24}{bid24}{year}{unpublished}
+\bauthors{\bpers[]{}{}{a24}{}}
+\cititem{btitle}{b-title}
+\cititem{bnote}{c-note}
+\endcitation
+%
+\citation{a25}{cite:tor25}{bid25}{year}{unpublished}
+\bauthors{\bpers[]{}{}{a25}{}}
+\cititem{btitle}{b-title}
+\cititem{bmonth}{c-month}
+\cititem{byear}{d-year}
+\cititem{bnote}{e-note}
+\endcitation
+%
+\citation{a27}{cite:tor27}{bid27}{year}{misc}
+\bauthors{\bpers[]{}{}{a27}{}}
+\cititem{btitle}{b-title}
+\cititem{bhowpublished}{c-howpublished}
+\cititem{bmonth}{d-month}
+\cititem{byear}{e-year}
+\cititem{bnote}{f-note}
+\endcitation
+%
+\citation{a4}{cite:tor4}{bid4}{year}{inproceedings}
+\bauthors{\bpers[]{}{}{a4}{}}
+\cititem{btitle}{b-title, ACCENT\'a\'e\'i\'o\'u\'y, \'A\'E\'I\'O\'U\'Y \`a\`e\`i\`o\`u, \`A\`E\`I\`O\`U, \^a\^e\^i\^o\^u, \^A\^E\^I\^O\^U \"a\"e\"i\"o\"u\"y, \"A\"E\"I\"O\"U \~n \~N}
+\cititem{bbooktitle}{c-booktitle}
+\endcitation
+%
+\citation{a5}{cite:tor5}{bid5}{year}{inproceedings}
+\bauthors{\bpers[]{}{}{a5}{}}
+\cititem{btitle}{b-title}
+\beditors{\bpers[One]{O.}{}{Editor}{}\bpers[Two]{T.}{}{Editor}{}}
+\cititem{bseries}{d-series}
+\cititem{bnumber}{e-number}
+\cititem{bvolume}{f-volume}
+\cititem{bpublisher}{h-publisher}
+\cititem{baddress}{k-address}
+\cititem{bbooktitle}{c-booktitle}
+\cititem{borganization}{g-organization}
+\cititem{bpages}{j-pages}
+\cititem{bmonth}{l-month}
+\cititem{byear}{m-year}
+\cititem{bnote}{n-note}
+\endcitation
+%
+\citation{a6}{cite:tor6}{bid6}{year}{incollection}
+\bauthors{\bpers[]{}{}{a6}{}}
+\cititem{btitle}{b-title~: et du texte}
+\cititem{bbooktitle}{c-booktitle}
+\csname @href\endcsname{http://www.inria.fr/~grimm}{\url{http://www.inria.fr/~grimm}}
+\endcitation
+%
+\citation{a7}{cite:tor7}{bid7}{year}{incollection}
+\bauthors{\bpers[]{}{}{a7}{}}
+\cititem{btitle}{b-title}
+\beditors{\bpers[First Name]{F. N.}{}{Editor}{}\bpers[Another One]{A. O.}{}{Editor}{}}
+\cititem{bedition}{xo-edition}
+\cititem{bseries}{e-series}
+\cititem{bnumber}{f-number}
+\cititem{bvolume}{g-volume}
+\cititem{bpublisher}{h-publisher}
+\cititem{baddress}{i-address}
+\cititem{bbooktitle}{d-booktitle}
+\cititem{bpages}{m-pages}
+\cititem{bchapter}{l-chapter}
+\cititem{btype}{xl-type}
+\cititem{bmonth}{j-month}
+\cititem{byear}{k-year}
+\cititem{bnote}{n-note}
+\endcitation
+%
+\citation{a9}{cite:tor9}{bid9}{year}{inbook}
+\bauthors{\bpers[]{}{}{a9}{}}
+\cititem{btitle}{c-title}
+\beditors{\bpers[]{}{}{EditorA}{}\bpers[]{}{}{EditorB}{}\bpers[]{}{}{EditorC}{}}
+\cititem{bedition}{d-edition}
+\cititem{bseries}{e-series}
+\cititem{bnumber}{f-number}
+\cititem{bvolume}{g-volume}
+\cititem{bpublisher}{h-publisher}
+\cititem{baddress}{i-address}
+\cititem{bpages}{m-pages}
+\cititem{bchapter}{l-chapter}
+\cititem{btype}{xk}
+\cititem{bmonth}{j-month}
+\cititem{byear}{k-year}
+\cititem{bnote}{n-note}
+\endcitation
+%
+\citation{AA00a}{cite:sample-article}{bid103}{year}{article}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00b}{cite:sample-book}{bid104}{year}{book}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00c}{cite:sample-booklet}{bid105}{year}{booklet}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00d}{cite:sample-inbook}{bid106}{year}{inbook}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00e}{cite:sample-incollection}{bid107}{year}{incollection}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00f}{cite:sample-inproceedings}{bid108}{year}{inproceedings}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00g}{cite:sample-manual}{bid109}{year}{manual}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00h}{cite:sample-masterthesis}{bid110}{year}{mastersthesis}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00i}{cite:sample-misc}{bid111}{year}{misc}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00j}{cite:sample-phdthesis}{bid112}{year}{phdthesis}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00k}{cite:sample-techreport}{bid114}{year}{techreport}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AA00l}{cite:sample-unpublished}{bid115}{year}{unpublished}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{AAJA+}{cite:many}{bid95}{year}{article}
+\bauthors{\bpers[Joe]{J.}{}{And}{}\bpers[Joe]{J.}{}{And}{}\bpers[]{}{}{Joe-And}{}\cititem{etal}{}}
+\cititem{btitle}{X}
+\endcitation
+%
+\citation{AB}{cite:tor32}{bid29}{year}{misc}
+\bauthors{\bpers[]{}{}{Alpha}{}\bpers[]{}{}{Beta}{}}
+\beditors{\bpers[A]{A.}{}{van B}{}\bpers[]{}{}{{and}}{}\bpers[]{}{}{{And}}{}\bpers[]{}{}{{}}{}\bpers[a]{a.}{}{b c}{}}
+\endcitation
+%
+\citation{AB+}{cite:tor42}{bid36}{year}{misc}
+\bauthors{\bpers[]{}{}{Alpha}{}\bpers[]{}{}{Beta}{}\cititem{etal}{}}
+\endcitation
+%
+\citation{ABG}{cite:tor33}{bid31}{year}{misc}
+\bauthors{\bpers[]{}{}{Alpha}{}\bpers[]{}{}{Beta}{}\bpers[]{}{}{Gamma}{}}
+\beditors{\bpers[A]{A.}{}{van B}{}\bpers[y]{y.}{}{x}{}\bpers[c d]{c. d.}{}{a b}{}}
+\endcitation
+%
+\citation{ABG+a}{cite:tor44}{bid38}{year}{misc}
+\bauthors{\bpers[]{}{}{Alpha}{}\bpers[]{}{}{Beta}{}\bpers[]{}{}{Gamma}{}\bpers[]{}{}{Delta}{}\cititem{etal}{}}
+\endcitation
+%
+\citation{ABG+b}{cite:tor43}{bid37}{year}{misc}
+\bauthors{\bpers[]{}{}{Alpha}{}\bpers[]{}{}{Beta}{}\bpers[]{}{}{Gamma}{}\cititem{etal}{}}
+\endcitation
+%
+\citation{ABGD}{cite:tor34}{bid33}{year}{misc}
+\bauthors{\bpers[]{}{}{Alpha}{}\bpers[]{}{}{Beta}{}\bpers[]{}{}{Gamma}{}\bpers[]{}{}{Delta}{}}
+\endcitation
+%
+\citation{Alp}{cite:tor31}{bid28}{year}{misc}
+\bauthors{\bpers[]{}{}{Alpha}{}}
+\beditors{\bpers[J]{J.}{}{Grimm}{}\bpers[J.G]{J.G.}{}{Grimm}{}\bpers[J.~G]{J.~G.}{}{Grimm}{}\bpers[J.-G]{J.-G.}{}{Grimm}{}}
+\endcitation
+%
+\citation{bC}{cite:strange}{bid97}{year}{article}
+\bauthors{\bpers[A]{A.}{}{b Cde}{}}
+\cititem{btitle}{X}
+\endcitation
+%
+\citation{BJMTa}{cite:titi}{bid87}{year}{article}
+\bauthors{\bpers[F.]{F.}{}{Besson}{}\bpers[T.]{T.}{}{Jensen}{}\bpers[D.~Le]{D.~L.}{}{M\'etayer}{}\bpers[T.]{T.}{}{Thorn}{}}
+\cititem{btitle}{BRACETEST1 leave {} leave {a} leave {\(H\)}}
+\endcitation
+%
+\citation{BJMTb}{cite:toto}{bid86}{year}{book}
+\bauthors{\bpers[F.]{F.}{}{Besson}{}\bpers[T.]{T.}{}{Jensen}{}\bpers[D.~Le]{D.~L.}{}{Métayer}{}\bpers[T.]{T.}{}{Thorn}{}}
+\cititem{btitle}{Some title}
+\csname @href\endcsname{http://www.inria.fr/rrrt/rt-0265.html}{\url{http://www.inria.fr/rrrt/rt-0265.html}}
+\cititem{first-page}{50}
+\cititem{lastpage}{70}
+\cititem{allpages}{21}
+\cititem{bnote}{some note}
+\endcitation
+%
+\citation{CGR00}{cite:CGR2000}{bid78}{year}{inproceedings}
+\bauthors{\bpers[David]{D.}{}{Carlisle}{}\bpers[Michel]{M.}{}{Goossens}{}\bpers[Sebastian]{S.}{}{Rahtz}{}}
+\cititem{btitle}{De {XML} à {PD}F avec {\ttfamily xmltex} et {Passive\TeX}}
+\cititem{bnumber}{35-36}
+\cititem{bbooktitle}{Cahiers Gutenberg}
+\cititem{bpages}{79-114}
+\cititem{byear}{2000}
+\endcitation
+%
+\citation{CIMP01}{cite:mathml2}{bid80}{year}{misc}
+\bauthors{\bpers[David]{D.}{}{Carlisle}{}\bpers[Patrick]{P.}{}{Ion}{}\bpers[Robert]{R.}{}{Miner}{}\bpers[Nico]{N.}{}{Poppelier}{}}
+\cititem{btitle}{Mathematical Markup Language (MathML) Version 2.0}
+\cititem{bhowpublished}{http://www.w3.org/TR/MathML2/}
+\cititem{byear}{2001}
+\endcitation
+%
+\citation{Cru}{cite:cruz}{bid94}{year}{article}
+\bauthors{\bpers[Maria {\MakeUppercase{d}e La}]{M. {\MakeUppercase{d}e La}.}{}{Cruz}{}}
+\cititem{btitle}{X}
+\endcitation
+%
+\citation{dlVPa}{cite:xpoussin}{bid93}{year}{article}
+\bauthors{\bpers[Charles Louis Xavier Joseph]{C. L. X. J.}{}{de la Vall{\'e}e Poussin}{}}
+\cititem{btitle}{BRACETEST6 leave{\it ABC}x del{\sortnoop {Etc}} del{I}etc}
+\endcitation
+%
+\citation{dlVPb}{cite:poussin}{bid92}{year}{article}
+\bauthors{\bpers[Charles Louis Xavier Joseph]{C. L. X. J.}{}{de la Vall{\'e}e Poussin}{}}
+\cititem{btitle}{X}
+\endcitation
+%
+\citation{EE+}{cite:tor11}{bid11}{year}{proceedings}
+\cititem{btitle}{a11}
+\beditors{\bpers[Some]{S.}{}{Edidor}{}\bpers[Another]{A.}{}{Editor}{}\cititem{etal}{}}
+\cititem{bseries}{d}
+\cititem{bnumber}{e-number}
+\cititem{bvolume}{f-volume}
+\cititem{bpublisher}{g}
+\cititem{baddress}{h}
+\cititem{borganization}{c}
+\cititem{bmonth}{i}
+\cititem{byear}{j-year}
+\cititem{bnote}{k}
+\endcitation
+%
+\citation{EE00}{cite:sample-proceedings}{bid113}{year}{proceedings}
+\bauthors{\bpers[First]{F.}{}{Author}{}\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{A beautiful title}
+\beditors{\bpers[First]{F.}{}{Ediror}{}\bpers[Second]{S.}{}{Editor}{}}
+\cititem{bjournal}{A journal}
+\cititem{bedition}{Second}
+\cititem{bseries}{15}
+\cititem{bnumber}{16}
+\cititem{bvolume}{17}
+\cititem{bpublisher}{Publishing\&Co, Inc.}
+\cititem{baddress}{Paris, New Yorkm, Amsterdam}
+\cititem{bhowpublished}{Available by anonymous ftp}
+\cititem{bbooktitle}{Title of the book}
+\cititem{borganization}{Unknown Organisation}
+\cititem{bpages}{12-13}
+\cititem{bchapter}{First and second}
+\cititem{btype}{Some type}
+\cititem{bschool}{The best school in the word}
+\cititem{binstitution}{Some well-known institution}
+\cititem{bmonth}{January}
+\cititem{byear}{2000}
+\cititem{bdoi}{A DOI}
+\csname @href\endcsname{http://www.mysite.mycountry/mypage}{\url{http://www.mysite.mycountry/mypage}}
+\endcitation
+%
+\citation{Ga}{cite:GoC}{bid90}{year}{article}
+\bauthors{\bpers[C.]{C.}{}{{G{\"{o}}del}}{}}
+\cititem{btitle}{BRACETEST4 leave{\it ABC}x del{\sortnoop Etc leave{I}}etc}
+\endcitation
+%
+\citation{Gb}{cite:GoD}{bid91}{year}{article}
+\bauthors{\bpers[D.]{D.}{}{{G\"{o}del}}{}}
+\cititem{btitle}{BRACETEST5 leave{\it ABC}x del{\noopsort Etc leave{I}}etc}
+\endcitation
+%
+\citation{GMS93}{cite:companion}{bid84}{year}{book}
+\bauthors{\bpers[Michel]{M.}{}{Goossens}{}\bpers[Frank]{F.}{}{Mittelbach}{}\bpers[Alexander]{A.}{}{Samarin}{}}
+\cititem{btitle}{The \LaTeX\ companion}
+\cititem{bpublisher}{Addison Wesley}
+\cititem{byear}{1993}
+\endcitation
+%
+\citation{GR99}{cite:example}{bid99}{year}{article}
+\bauthors{\bpers[Joseph]{J.}{}{Garrigue}{}\bpers[Didier]{D.}{}{R{\'e}my}{}}
+\cititem{btitle}{Extending {ML} with semi-explicit higher-order polymorphism}
+\cititem{bjournal}{Journal of Functional Programming}
+\cititem{bnumber}{1/2}
+\cititem{bvolume}{155}
+\cititem{bpages}{134-169}
+\cititem{byear}{1999}
+\csname @href\endcsname{ftp://ftp.inria.fr/INRIA/Projects/Cristal/iandc.ps.gz}{\url{ftp://ftp.inria.fr/INRIA/Projects/Cristal/iandc.ps.gz}}
+\endcitation
+%
+\citation{Gri02}{cite:RT-ra2002}{bid85}{year}{techreport}
+\bauthors{\bpers[José]{J.}{}{Grimm}{}}
+\cititem{btitle}{Outils pour la manipulation du rapport d'activité}
+\cititem{bnumber}{RT-0265}
+\cititem{btype}{Technical report}
+\cititem{binstitution}{Inria}
+\cititem{byear}{2002}
+\csname @href\endcsname{http://www.inria.fr/rrrt/rt-0265.html}{\url{http://www.inria.fr/rrrt/rt-0265.html}}
+\endcitation
+%
+\citation{gri10}{cite:amovie}{bid101}{year}{movie}
+\bauthors{\bpers[]{}{}{grimm}{}}
+\cititem{btitle}{A title}
+\cititem{baddress}{somewhere}
+\cititem{bhowpublished}{http://www.inria.fr}
+\cititem{borganization}{The Big Organizer}
+\cititem{byear}{2010}
+\endcitation
+%
+\citation{G{\"o}d}{cite:GoA}{bid88}{year}{article}
+\bauthors{\bpers[A.]{A.}{}{G{\"o}del}{}}
+\cititem{btitle}{BRACETEST2 del{ABC}x del{$H$}h}
+\endcitation
+%
+\citation{G{\"{o}}d}{cite:GoB}{bid89}{year}{article}
+\bauthors{\bpers[B.]{B.}{}{G{\"{o}}del}{}}
+\cititem{btitle}{BRACETEST3 {leave{ABC}x leave{$H$}} del{A}b}
+\endcitation
+%
+\citation{HP99}{cite:place99}{bid77}{year}{inproceedings}
+\bauthors{\bpers[Yannis]{Y.}{}{Haralambous}{}\bpers[John]{J.}{}{Place}{}}
+\cititem{btitle}{Produire du MathML et autres ...ML à partir d'$\Omega$ : $\Omega$ se généralise}
+\cititem{bnumber}{33-34}
+\cititem{bbooktitle}{Cahiers Gutenberg}
+\cititem{bpages}{173-182}
+\cititem{byear}{1999}
+\endcitation
+%
+\citation{keya}{cite:tor26}{bid26}{year}{misc}
+\endcitation
+%
+\citation{keyb}{cite:tor14}{bid14}{year}{booklet}
+\cititem{btitle}{a14}
+\endcitation
+%
+\citation{keyc}{cite:tor22}{bid22}{year}{manual}
+\cititem{btitle}{a22}
+\endcitation
+%
+\citation{keyd}{cite:tor10}{bid10}{year}{proceedings}
+\cititem{btitle}{a10}
+\cititem{byear}{b-year}
+\endcitation
+%
+\citation{keye}{cite:tor12}{bid12}{year}{book}
+\cititem{btitle}{c, $\left\{L\sp2\right\}\sb\infty$}
+\cititem{bpublisher}{d--e---f}
+\cititem{byear}{e-year}
+\endcitation
+%
+\citation{Knu84}{cite:texbook}{bid82}{year}{book}
+\bauthors{\bpers[Donald E.]{D. E.}{}{Knuth}{}}
+\cititem{btitle}{The \TeX book}
+\cititem{bpublisher}{Addison Wesley}
+\cititem{byear}{1984}
+\endcitation
+%
+\citation{Lou88}{cite:louarn88}{bid76}{year}{article}
+\bauthors{\bpers[Philippe]{P.}{}{Louarn}{}}
+\cititem{btitle}{Une expérience d'utilisation de LaTeX : le Rapport d'activité de l'INRIA}
+\cititem{bjournal}{Cahiers Gutenberg}
+\cititem{bnumber}{0}
+\cititem{bpages}{17-24}
+\cititem{bmonth}{apr}
+\cititem{byear}{1988}
+\endcitation
+%
+\citation{oth}{cite:tor40}{bid34}{year}{misc}
+\bauthors{\bpers{}{}{others}{}}
+\endcitation
+%
+\citation{Rah03}{cite:Passive-tex}{bid81}{year}{misc}
+\bauthors{\bpers[Sebastian]{S.}{}{Rahtz}{}}
+\cititem{btitle}{Passive \TeX}
+\cititem{bhowpublished}{http://www.tei-c.org.uk/Software/passivetex/}
+\cititem{byear}{2003}
+\endcitation
+%
+\citation{Sey98a}{cite:thesefabien}{bid100}{year}{phdthesis}
+\bauthors{\bpers[Fabien]{F.}{}{Seyfert}{}}
+\cititem{btitle}{Problèmes extrémaux dans les espaces de Hardy, Application à l'identification de filtres hyperfréquences à cavités couplées}
+\cititem{btype}{Ph. D. Thesis}
+\cititem{bschool}{Ecole de Mines de Paris}
+\cititem{byear}{1998}
+\endcitation
+%
+\citation{Sey98b}{cite:aphd}{bid102}{year}{hdr}
+\bauthors{\bpers[Fabien]{F.}{}{Seyfert}{}}
+\cititem{btitle}{Problèmes extrémaux dans les espaces de Hardy, Application à l'identification de filtres hyperfréquences à cavités couplées}
+\beditors{\bpers[]{}{}{Myself}{}}
+\cititem{btype}{Thèse de doctorat}
+\cititem{bschool}{Ecole de Mines de Paris}
+\cititem{byear}{1998}
+\cititem{bdoi}{foo}
+\endcitation
+%
+\citation{ske}{cite:tor8}{bid8}{year}{inbook}
+\cititem{btitle}{c-title}
+\cititem{bpublisher}{e-publisher}
+\cititem{bchapter}{d-chapter}
+\cititem{byear}{f-year}
+\endcitation
+%
+\citation{T00}{cite:unicode}{bid83}{year}{book}
+\bauthors{\bpers[]{}{}{{The Unicode Consortium}}{}}
+\cititem{btitle}{The Unicode Standard, version 3.0}
+\cititem{bpublisher}{Addison Wesley}
+\cititem{byear}{2000}
+\endcitation
+%
+\citation{thi03}{cite:tor3}{bid3}{year}{article}
+\cititem{bjournal}{journal}
+\cititem{byear}{2003}
+\endcitation
+%
+\citation{vBaA+}{cite:tor52}{bid30}{year}{misc}
+\bauthors{\bpers[A]{A.}{}{van B}{}\bpers[]{}{}{{and}}{}\bpers[]{}{}{{And}}{}\bpers[]{}{}{{}}{}\bpers[a]{a.}{}{b c}{}}
+\beditors{\bpers[]{}{}{Alpha}{}\bpers[]{}{}{Beta}{}}
+\endcitation
+%
+\citation{vBxab}{cite:tor53}{bid32}{year}{misc}
+\bauthors{\bpers[A]{A.}{}{van B}{}\bpers[y]{y.}{}{x}{}\bpers[c d]{c. d.}{}{a b}{}}
+\beditors{\bpers[]{}{}{Alpha}{}\bpers[]{}{}{Beta}{}\bpers[]{}{}{Gamma}{}}
+\endcitation
+%
+\citation{WM99}{cite:docbook}{bid79}{year}{book}
+\bauthors{\bpers[Norman]{N.}{}{Walsh}{}\bpers[Leonard]{L.}{}{Muelner}{}}
+\cititem{btitle}{Docbook. The Definite Guide}
+\cititem{bpublisher}{O'Reilly \& Associates, Inc}
+\cititem{byear}{1999}
+\endcitation
+%
+\citation{X10a}{cite:tor100}{bid39}{year}{misc}
+\bauthors{\bpers[]{}{}{X100}{}}
+\endcitation
+%
+\citation{X10b}{cite:tor101}{bid40}{year}{misc}
+\bauthors{\bpers[]{}{}{X101}{}}
+\endcitation
+%
+\citation{X10c}{cite:tor102}{bid41}{year}{misc}
+\bauthors{\bpers[]{}{}{X102}{}}
+\endcitation
+%
+\citation{X10d}{cite:tor103}{bid42}{year}{misc}
+\bauthors{\bpers[]{}{}{X103}{}}
+\endcitation
+%
+\citation{X10e}{cite:tor104}{bid43}{year}{misc}
+\bauthors{\bpers[]{}{}{X104}{}}
+\endcitation
+%
+\citation{X10f}{cite:tor105}{bid44}{year}{misc}
+\bauthors{\bpers[]{}{}{X105}{}}
+\endcitation
+%
+\citation{X10g}{cite:tor106}{bid45}{year}{misc}
+\bauthors{\bpers[]{}{}{X106}{}}
+\endcitation
+%
+\citation{X10h}{cite:tor107}{bid46}{year}{misc}
+\bauthors{\bpers[]{}{}{X107}{}}
+\endcitation
+%
+\citation{X10i}{cite:tor108}{bid47}{year}{misc}
+\bauthors{\bpers[]{}{}{X108}{}}
+\endcitation
+%
+\citation{X10j}{cite:tor109}{bid48}{year}{misc}
+\bauthors{\bpers[]{}{}{X109}{}}
+\endcitation
+%
+\citation{X11a}{cite:tor110}{bid49}{year}{misc}
+\bauthors{\bpers[]{}{}{X110}{}}
+\endcitation
+%
+\citation{X11b}{cite:tor111}{bid50}{year}{misc}
+\bauthors{\bpers[]{}{}{X111}{}}
+\endcitation
+%
+\citation{X11c}{cite:tor112}{bid51}{year}{misc}
+\bauthors{\bpers[]{}{}{X112}{}}
+\endcitation
+%
+\citation{X11d}{cite:tor113}{bid52}{year}{misc}
+\bauthors{\bpers[]{}{}{X113}{}}
+\endcitation
+%
+\citation{X11e}{cite:tor114}{bid53}{year}{misc}
+\bauthors{\bpers[]{}{}{X114}{}}
+\endcitation
+%
+\citation{X11f}{cite:tor115}{bid54}{year}{misc}
+\bauthors{\bpers[]{}{}{X115}{}}
+\endcitation
+%
+\citation{X11g}{cite:tor116}{bid55}{year}{misc}
+\bauthors{\bpers[]{}{}{X116}{}}
+\endcitation
+%
+\citation{X11h}{cite:tor117}{bid56}{year}{misc}
+\bauthors{\bpers[]{}{}{X117}{}}
+\endcitation
+%
+\citation{X11i}{cite:tor118}{bid57}{year}{misc}
+\bauthors{\bpers[]{}{}{X118}{}}
+\endcitation
+%
+\citation{X11j}{cite:tor119}{bid58}{year}{misc}
+\bauthors{\bpers[]{}{}{X119}{}}
+\endcitation
+%
+\citation{X12a}{cite:tor120}{bid59}{year}{misc}
+\bauthors{\bpers[]{}{}{X120}{}}
+\endcitation
+%
+\citation{X12b}{cite:tor121}{bid60}{year}{misc}
+\bauthors{\bpers[]{}{}{X121}{}}
+\endcitation
+%
+\citation{X12c}{cite:tor122}{bid61}{year}{misc}
+\bauthors{\bpers[]{}{}{X122}{}}
+\endcitation
+%
+\citation{X12d}{cite:tor123}{bid62}{year}{misc}
+\bauthors{\bpers[]{}{}{X123}{}}
+\endcitation
+%
+\citation{X12e}{cite:tor124}{bid63}{year}{misc}
+\bauthors{\bpers[]{}{}{X124}{}}
+\endcitation
+%
+\citation{X12f}{cite:tor125}{bid64}{year}{misc}
+\bauthors{\bpers[]{}{}{X125}{}}
+\endcitation
+%
+\citation{X12g}{cite:tor128}{bid67}{year}{misc}
+\bauthors{\bpers[]{}{}{X128}{}}
+\endcitation
+%
+\citation{X12h}{cite:tor129}{bid68}{year}{misc}
+\bauthors{\bpers[]{}{}{X129}{}}
+\endcitation
+%
+\citation{X1203}{cite:tor126}{bid65}{year}{misc}
+\bauthors{\bpers[]{}{}{X126}{}}
+\cititem{byear}{2003}
+\endcitation
+%
+\citation{X1289}{cite:tor127}{bid66}{year}{misc}
+\bauthors{\bpers[]{}{}{X127}{}}
+\cititem{byear}{1789}
+\endcitation
+%
+\citation{X13a}{cite:tor130}{bid69}{year}{misc}
+\bauthors{\bpers[]{}{}{X130}{}}
+\endcitation
+%
+\citation{X13b}{cite:tor131}{bid70}{year}{misc}
+\bauthors{\bpers[]{}{}{X131}{}}
+\endcitation
+%
+\citation{X13c}{cite:tor132}{bid71}{year}{misc}
+\bauthors{\bpers[]{}{}{X132}{}}
+\endcitation
+%
+\citation{X13d}{cite:tor133}{bid72}{year}{misc}
+\bauthors{\bpers[]{}{}{X133}{}}
+\endcitation
+%
+\citation{X13e}{cite:tor134}{bid73}{year}{misc}
+\bauthors{\bpers[]{}{}{X134}{}}
+\endcitation
+%
+\citation{X13f}{cite:tor135}{bid74}{year}{misc}
+\bauthors{\bpers[]{}{}{X135}{}}
+\endcitation
+%
+\citation{X13g}{cite:tor136}{bid75}{year}{misc}
+\bauthors{\bpers[]{}{}{X136}{}}
+\endcitation
+%
+\citation{XYZa}{cite:strange3}{bid96}{year}{article}
+\bauthors{\bpers[Jean-Claude]{J.-C.}{}{XX}{}\bpers[J.-Ch.]{J.-C.}{}{YY}{}\bpers[J.-{Ch.}]{J.-{Ch.}}{}{ZZ}{}}
+\cititem{btitle}{X}
+\endcitation
+%
+\citation{XYZb}{cite:strange2}{bid98}{year}{article}
+\bauthors{\bpers[Jean-Claude]{J.-C.}{}{XX}{}\bpers[J.-Ch.]{J.-C.}{}{YY}{}\bpers[J.-{Ch.}]{J.-{Ch.}}{}{ZZ}{}}
+\cititem{btitle}{X}
+\endcitation

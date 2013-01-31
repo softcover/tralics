@@ -1,0 +1,78 @@
+% reading source ex_emple_all2008.bib
+%
+\citation{1}{refercite:refer3}{bid4}{refer}{inproceedings}[Aut01]
+\bauthors{\bpers[Third]{T.}{}{Author}{}}
+\cititem{btitle}{SVL: a Scripting Language for Compositional Verification}
+\cititem{bbooktitle}{Proceedings of the 21st IFIP}
+\cititem{borganization}{IFIP}
+\cititem{bpublisher}{Kluwer Academic Publishers}
+\beditors{\bpers[Myungchul]{M.}{}{Kim}{}\bpers[Danhyung]{D.}{}{Lee}{}}
+\cititem{bpages}{377--392}
+\cititem{bmonth}{August}
+\cititem{byear}{2001}
+\endcitation
+%
+\citation{2}{refercite:refer1}{bid2}{refer}{inproceedings}[Aut89]
+\bauthors{\bpers[First]{F.}{}{Author}{}}
+\cititem{btitle}{Compilation of LOTOS Abstract Data Types}
+\cititem{bbooktitle}{Proceedings of foo}
+\cititem{bpublisher}{nh}
+\beditors{\bpers[Son T.]{S. T.}{}{Vuong}{}}
+\cititem{bpages}{147--162}
+\cititem{bmonth}{December}
+\cititem{byear}{1989}
+\endcitation
+%
+\citation{3}{refercite:refer2}{bid3}{refer}{inproceedings}[Aut98]
+\bauthors{\bpers[Second]{S.}{}{Author}{}}
+\cititem{btitle}{Some title}
+\cititem{bbooktitle}{Proceedings of the First International Conference}
+\cititem{bseries}{lncs}
+\cititem{bvolume}{1384}
+\cititem{bpublisher}{sv}
+\beditors{\bpers[Bernhard]{B.}{}{Steffen}{}}
+\cititem{bpages}{68--84}
+\cititem{baddress}{Berlin}
+\cititem{bmonth}{March}
+\cititem{byear}{1998}
+\csname @href\endcsname{http://www.inria.fr/rrrt/rr-3352.html}{\url{http://www.inria.fr/rrrt/rr-3352.html}}
+\cititem{bnote}{Full version available as INRIA Research Report~RR-3352}
+\endcitation
+%
+\citation{4}{cite:cite1}{bid6}{year}{incollection}[ADG08]
+\bauthors{\bpers[Olivier]{O.}{}{Arsac}{}\bpers[St\'ephane]{S.}{}{Dalmas}{}\bpers[Marc]{M.}{}{Ga{\"e}tano}{}}
+\cititem{btitle}{Algorithm Animation with {AGAT}}
+\cititem{bbooktitle}{Computer-Human Interaction in Symbolic Computation}
+\cititem{bseries}{Texts and Monographs in Symbolic Computation}
+\cititem{bpublisher}{Springer-Verlag}
+\cititem{byear}{2008}
+\cititem{bchapter}{8}
+\cititem{bpages}{163-177}
+\endcitation
+%
+\citation{5}{cite:cite3}{bid1}{year}{techreport}[FQ07]
+\bauthors{\bpers[A.]{A.}{}{Fabia\'nska}{}\bpers[A.]{A.}{}{Quadrat}{}}
+\cititem{btitle}{Applications of the Quillen-Suslin theorem in multidimensional systems theory}
+\cititem{btype}{Technical report}
+\cititem{binstitution}{INRIA Report 6126}
+\cititem{byear}{2007}
+\csname @href\endcsname{http://hal.inria.fr/inria-00131035}{\url{http://hal.inria.fr/inria-00131035}}
+\endcitation
+%
+\citation{6}{cite:cite2}{bid0}{year}{misc}[mat08]
+\cititem{btitle}{Mathematical Markup Language {(MathML)} 1.0 Specification}
+\cititem{bmonth}{April}
+\cititem{byear}{2008}
+\csname @href\endcsname{http://www.w3.org/TR/REC-MathML/}{\url{http://www.w3.org/TR/REC-MathML/}}
+\cititem{bnote}{{W3C} Recommendation}
+\endcitation
+%
+\citation{7}{footcite:MB04}{bid5}{foot}{inproceedings}[Bro04]
+\bauthors{\bpers[Manuel]{M.}{}{Bronstein}{}}
+\cititem{btitle}{Efficient Algorithms for Linear Ordinary Differential Equations}
+\cititem{bbooktitle}{Cuarto Encuentro de Algebra Computacional y Aplicaciones}
+\beditors{\bpers[Marc]{M.}{}{Alonso}{}\bpers[Robert]{R.}{}{Sendra}{}}
+\cititem{bpages}{159-163}
+\cititem{bmonth}{September}
+\cititem{byear}{2004}
+\endcitation

@@ -1,0 +1,25 @@
+% reading source tralics.bib
+%
+\citation{CIMP01}{cite:mathml2}{bid2}{year}{misc}
+\bauthors{\bpers[David]{D.}{}{Carlisle}{}\bpers[Patrick]{P.}{}{Ion}{}\bpers[Robert]{R.}{}{Miner}{}\bpers[Nico]{N.}{}{{Poppelier (editors)}}{}}
+\cititem{btitle}{Mathematical {M}arkup {L}anguage {(MathML) Version 2.0}}
+\cititem{byear}{2001}
+\csname @href\endcsname{http://www.w3.org/TR/MathML2/}{\url{http://www.w3.org/TR/MathML2/}}
+\endcitation
+%
+\citation{HP99}{cite:place99}{bid0}{year}{inproceedings}
+\bauthors{\bpers[Yannis]{Y.}{}{Haralambous}{}\bpers[John]{J.}{}{Place}{}}
+\cititem{btitle}{Produire du {MathML} et autres {...ML} \`a partir {d'$\Omega$} : {$\Omega$} se g\'en\'eralise}
+\cititem{bbooktitle}{Cahiers Gutenberg}
+\cititem{bnumber}{33-34}
+\cititem{bpages}{173-182}
+\cititem{byear}{1999}
+\endcitation
+%
+\citation{Kay01}{cite:mKay}{bid1}{year}{book}
+\bauthors{\bpers[Michael]{M.}{}{Kay}{}}
+\cititem{btitle}{{XSLT, Programmer's Reference}}
+\cititem{bedition}{2nd}
+\cititem{bpublisher}{Wrox Press Ltd}
+\cititem{byear}{2001}
+\endcitation

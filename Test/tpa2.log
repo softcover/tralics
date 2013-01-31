@@ -1,0 +1,551 @@
+Transcript file of tralics 2.15.0 for file tpa2.tex
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Tralics is licensed under the CeCILL Free Software Licensing Agreement
+Start compilation: 2013/01/31 14:07:30
+OS: Apple, machine Michaels-MacBook-Air
+Starting translation of file tpa2.tex.
+Output encoding: UTF8  (idem transcript).
+Left quote is ` right quote is '
+++ Input encoding is 1 (iso-8859-1) for the main file
+Trying config file from source file `test'
+++ file test.tcf does not exist.
+++ file ../confdir/test.tcf exists.
+++ Input encoding number 1 detected  at line 1 of file ../confdir/test.tcf
+Configuration file identification: test.tcf $ Revision: 1.11 $
+Read configuration file ../confdir/test.tcf.
+Using tcf type test
+entity_names=false
+lang_en=English
+lang_fr=French
+alternate_item=true
+url_font=\large é
+no_footnote_hack=true
+use_font_elt=true
+use_all_sizes=true
+bibtex_fields: firstpage lastpage 
+bibtex_fields: +allpages 
+everyjob=\AtBeginDocument {éè}
+everyjob=\typeout{Hello Word!}
+Section: composition+ -> composition
+Section: presentation+ -> presentation
+Section: fondements -> fondements
+Section: domaine -> domaine
+Section: logiciels -> logiciels
++Section: resultats -> resultats
+Section: contrats+ -> contrats
+Section: international+ -> international
+Section: diffusion+ -> diffusion
+ur: Rocquencourt -> Rocquencourt
+ur: Sophia -> Sophia Antipolis
+ur: Rennes -> Rennes
+ur: Lorraine -> Lorraine
++ur: RhoneAlpes -> Rh^one-Alpes
+ur: Futurs -> Futurs
+affiliation: Inria -> Inria
+affiliation: Cnrs -> Cnrs
+affiliation: University -> University
+affiliation: ForeignUniversity -> ForeignUniversity
++affiliation: Public -> Public
+affiliation: Other -> Other
+profession: Scientist -> Scientist
+profession: Assistant -> Assistant
+profession: Technical -> Technical
+profession: PHD -> PHD
++profession: PostDoc -> PostDoc
+profession: StudentIntern -> StudentIntern
+profession: Other -> Other
+xml_div0=Xdiv0
+xml_div1=Xdiv1
+xml_div2=Xdiv2
+xml_div3=Xdiv3
+xml_div4=Xdiv4
+xml_div5=Xdiv5
+xml_div6=Xdiv6
+xml_frontmatter=Frontmatter
+xml_backmatter=Backmatter
+xml_mainmatter=Mainmatter
+att_nonumber=NoNumber
+xml_row=Row
+xml_cell=Cell
+xml_table=Table
+att_halign=Halign
+att_cell_left=Left
+att_cell_right=Right
+att_cell_center=Center
+att_cell_leftborder=Leftborder
+att_cell_rightborder=Rightborder
+att_cell_topborder=Topborder
+att_cell_bottomborder=Bottomborder
+att_cols=Cols
+att_row_spaceafter=Spaceafter
+att_vpos=Vpos
+att_table_width=TWidth
+xml_graphics=Xgraphics
+xml_figure=Figure
+att_file=File
+att_file_extension=Extension
+att_scale=Scale
+att_clip=Clip
+att_height=Height
+att_width=Width
+xml_subfigure=Xsubfigure
+xml_caption=Caption
+xml_scaption=SCaption
+xml_footnote=Note
+xml_figure_env=FloatFigure
+xml_table_env=FloatTable
+att_place=Place
+att_foot_position=Inline
+xml_box=Xbox
+xml_mbox=Xmbox
+xml_fbox=Framebox
+xml_scalebox=Scalebox
+xml_raisebox=Raisebox
+xml_rotatebox=Rotatebox
+att_rotate_angle=Rangle
+att_angle=Angle
+att_box_scale=BoxScale
+att_minipage_width=MinipageWidth
+att_pos=Pos
+att_posA=PosA
+att_posB=PosB
+att_inner_pos=InnerPos
+att_box_pos=BPos
+att_framed=Framed
+att_boxed=Boxed
+att_fbox_rend=Rendering
+att_box_width=BoxWidth
+xml_picture=Xpicture
+xml_bezier=Xbezier
+xml_put=Xput
+xml_scaleput=Scaleput
+xml_arc=Arc
+xml_multiput=Multiput
+xml_line=Xline
+xml_lineC=XlineC
+xml_vector=Xvector
+xml_oval=Xoval
+xml_dashline=Xdashline
+xml_drawline=Xdrawline
+xml_dottedline=Xdottedline
+xml_circle=Xcircle
+xml_bigcircle=Bigcircle
+xml_closecurve=CloseCurve
+xml_curve=Curve
+xml_tagcurve=TagCurve
+xml_thicklines=Thicklines
+xml_thinlines=Thinlines
+xml_linethickness=Linethickness
+att_unit_length=Unitlength
+att_xscale=Xscale
+att_yscale=Yscale
+att_xscaley=XscaleY
+att_yscalex=YscaleX
+att_xpos=Xpos
+att_ypos=Ypos
+att_xdir=XDir
+att_ydir=YDir
+att_repeat=Repeat
+att_dx=Dx
+att_dy=Dy
+att_full=Full
+att_size=Size
+att_curve_nbpts=Nbsymb
+att_quote=Quote
+att_quotation=Quotation
+att_centering=Center
+att_flush_left=FlushLeft
+att_flush_right=FlushRight
+att_noindent=Noindent
+att_rend=Rend
+att_space_before=Spacebefore
+xml_list=List
+xml_catperso=Catperso
+xml_head=Head
+xml_labelitem=Label
+xml_item=Item
+xml_glo=The famous glossary
+xml_glossary=Glossary
+att_user_list=MyList
+xml_theorem=ATheorem
+xml_xtheorem=BTheorem
+xml_theorem_head=ThHead
+xml_caps=font-caps
+xml_ul=font-ul
+xml_hl=font-hl
+xml_so=font-so
+xml_st=font-st
+xml_sup=font-super
+xml_sub=font-sub
+xml_oldstyle=font-oldstyle
+xml_overline=font-overline
+xml_underline=font-underline
+xml_font_small=font-small
+xml_font_small1=font-small1
+xml_font_small2=font-small2
+xml_font_small3=font-small3
+xml_font_small4=font-small4
+xml_font_small5=font-small5
+xml_font_small6=font-small6
+xml_font_large=font-large
+xml_font_large1=font-large1
+xml_font_large2=font-large2
+xml_font_large3=font-large3
+xml_font_large4=font-large4
+xml_font_large5=font-large5
+xml_font_large6=font-large6
+xml_font_normalsize=font-normalsize
+xml_font_upright=font-upright-shape
+xml_font_medium=font-medium-series
+xml_font_roman=font-roman-family
+xml_font_it=font-italic-shape
+xml_font_slanted=font-slanted-shape
+xml_font_sc=font-small-caps-shape
+xml_font_tt=font-typewriter-family
+xml_font_sansserif=font-sansserif-family
+xml_font_bold=font-bold-series
+xml_font_boldextended=font-boldextended-series
+xml_font_semibold=font-semibold-series
+xml_font_condensed=font-condensed-series
+xml_biblio=Xbiblio
+xml_bpers=Bpers
+xml_cit=Cit
+xml_citation=Citation
+xml_ref=Ref
+xml_prenote=Prenote
+xml_citetype=Citetype
+att_page=Page
+xml_project=Project
+xml_accueil=Accueil
+xml_composition_ra=Composition
+xml_keywords=Keywords
+xml_term=Term
+xml_pers=Pers
+xml_gloitem=Glolabel
+att_gloss_type=Gloss
+att_full_first=FullFirst
+att_prenom=Firstname
+att_nom=Lastname
+att_particule=Particle
+att_junior=Junior
+att_affiliation=Affiliation
+att_profession=Profession
+att_hdr=Xhdr
+xml_leaders=Leaders
+xml_cleaders=Cleaders
+xml_xleaders=Xleaders
+xml_anchor=Anchor
+xml_texmath=Texmath
+xml_xref=Xref
+xml_texte=Texte
+xml_leg=Leg
+xml_tableofcontents=TableOfContents
+xml_theindex=TheIndex
+xml_theglossary=TheGlossary
+xml_index=Index
+att_level=Level
+att_encap=Encap
+att_language=Language
+att_pre=Pre
+mml_font_normal=Nr
+mml_font_upright=Up
+mml_font_bold=Bo
+mml_font_italic=It
+mml_font_bold_italic=Bi
+mml_font_script=Sc
+mml_font_bold_script=Bs
+mml_font_fraktur=Fr
+mml_font_doublestruck=Ds
+mml_font_bold_fraktur=Bf
+mml_font_sansserif=Ss
+mml_font_bold_sansserif=Bs
+mml_font_sansserif_italic=Si
+mml_font_sansserif_bold_italic=Sbi
+mml_font_monospace=Mn
+xml_node=node
+xml_nodeconnect=nodeC
+xml_nodecurve=nodec
+xml_nodetriangle=nodet
+xml_nodecircle=nodecr
+xml_nodebox=nodeb
+xml_nodeoval=nodeo
+xml_anodeconnect=AnodeC
+xml_abarnodeconnect=ABnodeC
+xml_anodecurve=Anodec
+xml_barnodeconnect=BnodeC
+xml_allowbreak=allowbreak
+xml_eqnpos=eqnpos
+xml_llap=llap
+xml_rlap=rlap
+att_minipage_width=marginpar
+att_name=Name
+att_nameA=Name
+att_nameB=Name
+xml_alt_section=Atitle
+xml_alt_caption=Acaption
+dtd is document from devnul.dtd (standard mode)
+OK with the configuration file, dealing with the TeX file...
+There are 348 lines
+Starting translation
+\notrivialmath=1
+{\countdef \count@=\count255}
+{\countdef \c@page=\count0}
+{\dimendef \dimen@=\dimen0}
+{\dimendef \dimen@i=\dimen1}
+{\dimendef \dimen@ii=\dimen2}
+{\dimendef \epsfxsize=\dimen11}
+{\dimendef \epsfysize=\dimen12}
+{\chardef \@ne=\char1}
+{\chardef \tw@=\char2}
+{\chardef \thr@@=\char3}
+{\chardef \sixt@@n=\char16}
+{\chardef \@cclv=\char255}
+{\mathchardef \@cclvi=\mathchar256}
+{\mathchardef \@m=\mathchar1000}
+{\mathchardef \@M=\mathchar10000}
+{\mathchardef \@Mi=\mathchar10001}
+{\mathchardef \@Mii=\mathchar10002}
+{\mathchardef \@Miii=\mathchar10003}
+{\mathchardef \@Miv=\mathchar10004}
+{\mathchardef \@MM=\mathchar20000}
+{\chardef \active=\char13}
+{\tokesdef \toks@=\toks0}
+{\skipdef \skip@=\skip0}
+{\dimendef \z@=\dimen13}
+{\dimendef \p@=\dimen14}
+{\dimendef \oddsidemargin=\dimen15}
+{\dimendef \evensidemargin=\dimen16}
+{\dimendef \leftmargin=\dimen17}
+{\dimendef \rightmargin=\dimen18}
+{\dimendef \leftmargini=\dimen19}
+{\dimendef \leftmarginii=\dimen20}
+{\dimendef \leftmarginiii=\dimen21}
+{\dimendef \leftmarginiv=\dimen22}
+{\dimendef \leftmarginv=\dimen23}
+{\dimendef \leftmarginvi=\dimen24}
+{\dimendef \itemindent=\dimen25}
+{\dimendef \labelwidth=\dimen26}
+{\dimendef \fboxsep=\dimen27}
+{\dimendef \fboxrule=\dimen28}
+{\dimendef \arraycolsep=\dimen29}
+{\dimendef \tabcolsep=\dimen30}
+{\dimendef \arrayrulewidth=\dimen31}
+{\dimendef \doublerulesep=\dimen32}
+{\dimendef \@tempdima=\dimen33}
+{\dimendef \@tempdimb=\dimen34}
+{\dimendef \@tempdimc=\dimen35}
+{\dimendef \footnotesep=\dimen36}
+{\dimendef \topmargin=\dimen37}
+{\dimendef \headheight=\dimen38}
+{\dimendef \headsep=\dimen39}
+{\dimendef \footskip=\dimen40}
+{\dimendef \columnsep=\dimen41}
+{\dimendef \columnseprule=\dimen42}
+{\dimendef \marginparwidth=\dimen43}
+{\dimendef \marginparsep=\dimen44}
+{\dimendef \marginparpush=\dimen45}
+{\dimendef \maxdimen=\dimen46}
+{\dimendef \normallineskiplimit=\dimen47}
+{\dimendef \jot=\dimen48}
+{\dimendef \paperheight=\dimen49}
+{\dimendef \paperwidth=\dimen50}
+{\skipdef \topsep=\skip11}
+{\skipdef \partopsep=\skip12}
+{\skipdef \itemsep=\skip13}
+{\skipdef \labelsep=\skip14}
+{\skipdef \parsep=\skip15}
+{\skipdef \fill=\skip16}
+{\skipdef \@tempskipa=\skip17}
+{\skipdef \@tempskipb=\skip18}
+{\skipdef \@flushglue=\skip19}
+{\skipdef \listparindent=\skip20}
+{\skipdef \hideskip=\skip21}
+{\skipdef \z@skip=\skip22}
+{\skipdef \normalbaselineskip=\skip23}
+{\skipdef \normallineskip=\skip24}
+{\skipdef \smallskipamount=\skip25}
+{\skipdef \medskipamount=\skip26}
+{\skipdef \bigskipamount=\skip27}
+{\skipdef \floatsep=\skip28}
+{\skipdef \textfloatsep=\skip29}
+{\skipdef \intextsep=\skip30}
+{\skipdef \dblfloatsep=\skip31}
+{\skipdef \dbltextfloatsep=\skip32}
+{\countdef \m@ne=\count20}
+{\countdef \c@FancyVerbLine=\count21}
+{\countdef \c@enumi=\count22}
+{\countdef \c@enumii=\count23}
+{\countdef \c@enumiii=\count24}
+{\countdef \c@enumiv=\count25}
+{\countdef \c@enumv=\count26}
+{\countdef \c@enumvi=\count27}
+{\countdef \c@enumvii=\count28}
+{\countdef \c@enumviii=\count29}
+{\countdef \c@enumix=\count30}
+{\countdef \c@enumx=\count31}
+{\countdef \c@Enumi=\count32}
+{\countdef \c@Enumii=\count33}
+{\countdef \c@Enumiii=\count34}
+{\countdef \c@Enumiv=\count35}
+{\countdef \c@Enumv=\count36}
+{\countdef \c@Enumvi=\count37}
+{\countdef \c@Enumvii=\count38}
+{\countdef \c@Enumviii=\count39}
+{\countdef \c@Enumix=\count40}
+{\countdef \c@Enumx=\count41}
+{\countdef \c@tocdepth=\count42}
+{\countdef \c@footnote=\count43}
+{\countdef \c@part=\count44}
+{\countdef \c@chapter=\count45}
+{\countdef \c@section=\count46}
+{\countdef \c@subsection=\count47}
+{\countdef \c@subsubsection=\count48}
+{\countdef \c@paragraph=\count49}
+{\countdef \c@subparagraph=\count50}
+{\countdef \c@mpfootnote=\count51}
+{\countdef \c@table=\count52}
+{\countdef \c@figure=\count53}
+{\countdef \c@subfigure=\count54}
+{\countdef \c@equation=\count55}
+{\countdef \c@bottomnumber=\count56}
+{\countdef \c@topnumber=\count57}
+{\countdef \@tempcnta=\count58}
+{\countdef \@tempcntb=\count59}
+{\countdef \c@totalnumber=\count60}
+{\countdef \c@dbltopnumber=\count61}
+{\countdef \interfootnotelinepenalty=\count62}
+{\countdef \interdisplaylinepenalty=\count63}
+{\toksdef \@temptokena=\toks11}
+{\chardef \@tempboxa=\char11}
+{\chardef \voidb@x=\char12}
+Hello Word!
+++ file tpa2.ult does not exist.
+++ file book.clt does not exist.
+++ file ../confdir/book.clt exists.
+++ Made @ a letter
+++ Opened file ../confdir/book.clt; it has 46 lines
+Document class: book 2011/05/09 v1.2 book document class for Tralics
+++ file std.clt does not exist.
+++ file ../confdir/std.clt exists.
+++ Made @ a letter
+++ Opened file ../confdir/std.clt; it has 91 lines
+File :std 2008/10/23 v1.1 Standard LaTeX document class, for Tralics
+++ End of file ../confdir/std.clt
+++ cur_file_pos restored to 1
+{Options to execute->letterpaper,10pt,twoside,onecolumn,final,openright}
+{Options to execute->}
+++ End of file ../confdir/book.clt
+++ cur_file_pos restored to 0
+++ file curves.plt does not exist.
+++ file ../confdir/curves.plt exists.
+++ Made @ a letter
+++ Opened file ../confdir/curves.plt; it has 41 lines
+++ file ra.plt does not exist.
+++ file ../confdir/ra.plt exists.
+++ Made @ a letter
+++ Opened file ../confdir/ra.plt; it has 412 lines
+++ file soul.plt does not exist.
+++ file ../confdir/soul.plt exists.
+++ Made @ a letter
+++ Opened file ../confdir/soul.plt; it has 12 lines
+Package: soul 2008/09/23 v1.0 The soul package
+++ End of file ../confdir/soul.plt
+++ cur_file_pos restored to 3
+Package: ra 2012/05/15 v1.8 Utilities for INRIA's activity report
+++ file xkeyval.plt does not exist.
+++ file ../confdir/xkeyval.plt exists.
+++ Made @ a letter
+++ Opened file ../confdir/xkeyval.plt; it has 30 lines
+Package: xkeyval 2008/02/25 v2.2 Package option processing (HA)
+{Options to execute->}
+++ End of file ../confdir/xkeyval.plt
+++ cur_file_pos restored to 3
+{\countdef \c@modules=\count64}
+{\toksdef \ra@topics=\toks12}
+{Options to execute->}
+{\toksdef \pr@participants=\toks13}
+{\toksdef \pr@organisms=\toks14}
+++ End of file ../confdir/ra.plt
+++ cur_file_pos restored to 2
+Package: curves 2008/03/25 1.0 Curves for LaTeX picture environment
+{\skipdef \csdiameter=\skip33}
+{\skipdef \curvelength=\skip34}
+{\skipdef \overhang=\skip35}
+{Options to execute->}
+++ End of file ../confdir/curves.plt
+++ cur_file_pos restored to 0
+++ End of virtual file.
+++ cur_file_pos restored to 0
+{\countdef \c@bib=\count65}
+Translating div1: Chapter one.
+Translating div0: First Part of document.
+Translating div0: Second Part.
+Translating div1: Chapter two.
+Translating div2: Section one.
+Translating div3: Subsection one.
+Translating div4: Subsubsection one.
+Translating div5: First paragraph.
+Translating div6: First sub paragraph.
+{\countdef \c@xCor=\count66}
+Changed xml_bibitem to Bibitem
+Changed att_bibkey to Bibkey
+Realloc math table to 20
+Realloc math table to 40
+{\countdef \c@Cor=\count67}
+{\countdef \c@Exa=\count68}
+{\countdef \c@Rem=\count69}
+{\countdef \c@cms=\count70}
+Changed xml_allowbreak to AllowBreak
+Changed att_rend to rendering
+Changed att_quote to quotation
+Translating div2: Section two.
+Translating div3: Subsection two.
+Bib stats: seen 3(3) entries.
+Index has 3 entries
+Math stats: formulas 4, kernels 0, trivial 2, \mbox 0, large 0, small 0.
+Buffer realloc 5, string 4015, size 61458, merge 10
+Macros created 388, deleted 78; hash size 2652; foonotes 2.
+Save stack +477 -477.
+Attribute list search 2805(1505) found 1617 in 1632 elements (1120 at boot).
+Number of ref 8, of used labels 7, of defined labels 7, of ext. ref. 1.
+Input conversion: 2 lines converted.
+++ file Logo-INRIA-couleur.ps does not exist.
+++ file Logo-INRIA-couleur.eps does not exist.
+++ file Logo-INRIA-couleur.epsi does not exist.
+++ file Logo-INRIA-couleur.epsf does not exist.
+++ file Logo-INRIA-couleur.pdf does not exist.
+++ file Logo-INRIA-couleur.png does not exist.
+++ file Logo-INRIA-couleur.gif does not exist.
+++ file A.ps does not exist.
+++ file A.eps does not exist.
+++ file A.epsi does not exist.
+++ file A.epsf does not exist.
+++ file A.pdf does not exist.
+++ file A.png does not exist.
+++ file A.gif does not exist.
+++ file a.ps does not exist.
+++ file a.eps does not exist.
+++ file a.epsi does not exist.
+++ file a.epsf does not exist.
+++ file a.pdf does not exist.
+++ file a.png does not exist.
+++ file a.gif does not exist.
+++ file x.ps does not exist.
+++ file x.eps does not exist.
+++ file x.epsi does not exist.
+++ file x.epsf does not exist.
+++ file x.pdf does not exist.
+++ file x.png does not exist.
+++ file x.gif does not exist.
+++ file ../../a_b:c.ps does not exist.
+++ file ../../a_b:c.eps does not exist.
+++ file ../../a_b:c.epsi does not exist.
+++ file ../../a_b:c.epsf does not exist.
+++ file ../../a_b:c.pdf does not exist.
+++ file ../../a_b:c.png does not exist.
+++ file ../../a_b:c.gif does not exist.
+There were 5 images.
+Following images not defined: Logo-INRIA-couleur, A, a, x, ../../a_b:c.
+Output written on tpa2.xml (16626 bytes).
+No error found.
+(For more information, see transcript file tpa2.log)

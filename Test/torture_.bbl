@@ -1,0 +1,28 @@
+% reading source torture.bib
+\def\mycmd #1{" #1 #1 "}%
+% reading source bo.bib
+% reading source bo.bib
+% reading source torture.bib
+\def\mycmd #1{" #1 #1 "}%
+%
+\citation{BJMTa}{cite:titi}{bid3}{year}{article}
+\bauthors{\bpers[F.]{F.}{}{Besson}{}\bpers[T.]{T.}{}{Jensen}{}\bpers[D.~Le]{D.~L.}{}{M\'etayer}{}\bpers[T.]{T.}{}{Thorn}{}}
+\cititem{btitle}{BRACETEST1 leave {} leave {a} leave {\(H\)}}
+\endcitation
+%
+\citation{BJMTb}{cite:toto}{bid2}{year}{book}
+\bauthors{\bpers[F.]{F.}{}{Besson}{}\bpers[T.]{T.}{}{Jensen}{}\bpers[D.~Le]{D.~L.}{}{Métayer}{}\bpers[T.]{T.}{}{Thorn}{}}
+\cititem{btitle}{Some title}
+\csname @href\endcsname{http://www.inria.fr/rrrt/rt-0265.html}{\url{http://www.inria.fr/rrrt/rt-0265.html}}
+\cititem{first-page}{50}
+\cititem{lastpage}{70}
+\cititem{allpages}{21}
+\cititem{bnote}{some note}
+\endcitation
+%
+\citation{CIMP01}{cite:mathml2}{bid4}{year}{misc}
+\bauthors{\bpers[David]{D.}{}{Carlisle}{}\bpers[Patrick]{P.}{}{Ion}{}\bpers[Robert]{R.}{}{Miner}{}\bpers[Nico]{N.}{}{Poppelier}{}}
+\cititem{btitle}{Mathematical Markup Language (MathML) Version 2.0}
+\cititem{bhowpublished}{http://www.w3.org/TR/MathML2/}
+\cititem{byear}{2001}
+\endcitation

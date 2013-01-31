@@ -1,0 +1,11 @@
+% reading source bo.bib
+% reading source bo.bib
+% reading source bi.bib
+%
+\citation{BPY}{cite:OK}{bid0}{year}{article}
+\bauthors{\bpers[P.]{P.}{}{Biane}{}\bpers[J.]{J.}{}{Pitman}{}\bpers[M.]{M.}{}{Yor}{}}
+\cititem{btitle}{Probability laws related to the {J}acobi $\theta$ and {R}iemann $\zeta$ functions, and {B}rownian excursions}
+\cititem{bjournal}{Bull. Amer. Math. Soc.}
+\cititem{bvolume}{38}
+\cititem{bpages}{435--465}
+\endcitation

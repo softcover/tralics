@@ -1,0 +1,199 @@
+% reading source exempleb2011.bib
+% reading source exempleb_foot2011.bib
+% reading source exempleb_refer2011.bib
+%
+\citation{1}{refercite:Garavel-07}{bid4}{refer}{inproceedings}[Gar07]
+\bauthors{\bpers[Hubert]{H.}{}{Garavel}{}}
+\cititem{btitle}{{OPEN/C{\AE}SAR: An Open Software Architecture for Verification, Simulation, and Testing}}
+\cititem{bbooktitle}{{Proceedings of the First International Conference on Tools and Algorithms for the Construction and Analysis of Systems TACAS'07 (Lisbon, Portugal)}}
+\cititem{bseries}{Lecture Notes in Computer Science}
+\cititem{bvolume}{1384}
+\cititem{bpublisher}{Springer Verlag}
+\beditors{\bpers[Bernhard]{B.}{}{Steffen}{}}
+\cititem{bpages}{68--84}
+\cititem{baddress}{Berlin}
+\cititem{bmonth}{March}
+\cititem{byear}{2007}
+\csname @href\endcsname{http://www.inria.fr/rrrt/rr-3352.html}{\url{http://www.inria.fr/rrrt/rr-3352.html}}
+\cititem{bnote}{Full version available as INRIA Research Report~RR-3352}
+\endcitation
+%
+\citation{2}{refercite:Garavel-89-c}{bid3}{refer}{inproceedings}[Gar89]
+\bauthors{\bpers[Hubert]{H.}{}{Garavel}{}}
+\cititem{btitle}{{Compilation of LOTOS Abstract Data Types}}
+\cititem{bbooktitle}{Proceedings of the 2nd International Conference on Formal Description Techniques {FORTE}'89 (Vancouver B.C., Canada)}
+\cititem{bpublisher}{North-Holland}
+\beditors{\bpers[Son T.]{S. T.}{}{Vuong}{}}
+\cititem{bpages}{147--162}
+\cititem{bmonth}{December}
+\cititem{byear}{1989}
+\endcitation
+%
+\citation{3}{refercite:Garavel-Lang-01}{bid5}{refer}{inproceedings}[GL01]
+\bauthors{\bpers[Hubert]{H.}{}{Garavel}{}\bpers[Fréd\'eric]{F.}{}{Lang}{}}
+\cititem{btitle}{SVL: a Scripting Language for Compositional Verification}
+\cititem{bbooktitle}{Proceedings of the 21st IFIP WG 6.1 International Conference on Formal Techniques for Networked and Distributed Systems {FORTE}'2001 (Cheju Island, Korea)}
+\cititem{borganization}{IFIP}
+\cititem{bpublisher}{Kluwer Academic Publishers}
+\beditors{\bpers[Myungchul]{M.}{}{Kim}{}\bpers[Byoungmoon]{B.}{}{Chin}{}\bpers[Sungwon]{S.}{}{Kang}{}\bpers[Danhyung]{D.}{}{Lee}{}}
+\cititem{bpages}{377--392}
+\cititem{bmonth}{August}
+\cititem{byear}{2001}
+\csname @href\endcsname{http://www.inria.fr/rrrt/rr-4223.html}{\url{http://www.inria.fr/rrrt/rr-4223.html}}
+\cititem{bnote}{Full version available as INRIA Research Report~RR-4223}
+\endcitation
+%
+\citation{4}{cite:bretollet}{bid1}{year}{book}[BD07]
+\bauthors{\bpers[M. P.]{M. P.}{}{Bretin}{}\bpers[M. L.]{M. L.}{}{Durollet}{}}
+\cititem{btitle}{Numerical Journals : theoretical aspects}
+\cititem{bseries}{Universitext Series}
+\cititem{bpublisher}{Springer-Verlag}
+\cititem{byear}{2007}
+\csname @href\endcsname{http://www.inrialpes.fr/}{\url{http://www.inrialpes.fr/}}
+\cititem{x-editorial-board}{no}
+\cititem{x-international-audience}{no}
+\cititem{x-scientific-popularization}{yes}
+\endcitation
+%
+\citation{5}{cite:Proc19IEEESCA09}{bid16}{year}{proceedings}[MV10]
+\cititem{btitle}{Proceedings of the 19th IEEE Symposium on Computer Arithmetic}
+\beditors{\bpers[Jean]{J.}{}{Muller}{}\bpers[Patrice]{P.}{}{Vernon}{}}
+\cititem{bpublisher}{IEEE Conference Publishing Services}
+\cititem{byear}{2010}
+\cititem{x-international-audience}{yes}
+\cititem{x-proceedings}{yes}
+\endcitation
+%
+\citation{6}{cite:jmtXML}{bid7}{year}{booklet}[TLT10]
+\bauthors{\bpers[Jean-Marie]{J.-M.}{}{Touzeau}{}\bpers[Joël]{J.}{}{Leterel}{}\bpers[Jean]{J.}{}{Taron}{}}
+\cititem{btitle}{Développement d'objets avec XML}
+\cititem{byear}{2010}
+\csname @href\endcsname{http://www.inria.fr/}{\url{http://www.inria.fr/}}
+\endcitation
+%
+\citation{7}{cite:TEILR09}{bid15}{year}{phdthesis}[Rom10]
+\bauthors{\bpers[Laurent]{L.}{}{Romary}{}}
+\cititem{btitle}{TEI}
+\cititem{btype}{Ph. D. Thesis}
+\cititem{bschool}{Humboldt-Universitat zu Berlin}
+\cititem{byear}{2010}
+\csname @href\endcsname{http://www.hu-berlin.de/}{\url{http://www.hu-berlin.de/}}
+\endcitation
+%
+\citation{8}{cite:ABMONE09}{bid10}{year}{inbook}[AMN10]
+\bauthors{\bpers[Louise]{L.}{}{Abbel}{}\bpers[Joan]{J.}{}{Montain}{}\bpers[Paul]{P.}{}{Newton}{}}
+\cititem{btitle}{Color, Broadcasting and Prototyping}
+\cititem{bpublisher}{Springer-Verlag}
+\cititem{bmonth}{April}
+\cititem{byear}{2010}
+\cititem{bpages}{248-350}
+\csname @href\endcsname{http://hal.inria.fr/}{\url{http://hal.inria.fr/}}
+\cititem{x-editorial-board}{no}
+\cititem{x-international-audience}{yes}
+\cititem{x-pays}{UK,GB}
+\cititem{bnote}{To appear}
+\endcitation
+%
+\citation{9}{cite:Mlb-MpdSR}{bid0}{year}{article}[MPG+11]
+\bauthors{\bpers[Pascal]{P.}{}{Martin}{}\bpers[Fátima]{F.}{}{Pérez}{}\bpers[Bill]{B.}{}{Gates}{}\bpers[John]{J.}{}{Ridley}{}\bpers[Pascual]{P.}{}{Rodriguez}{}}
+\cititem{btitle}{The Future of Electronic Journals}
+\cititem{bjournal}{Serials Review}
+\cititem{bvolume}{4}
+\cititem{byear}{2011}
+\cititem{bpages}{80}
+\csname @href\endcsname{http://www.cnrs.fr/}{\url{http://www.cnrs.fr/}}
+\cititem{x-editorial-board}{yes}
+\cititem{x-international-audience}{yes}
+\cititem{x-pays}{US,PT}
+\cititem{url-hal}{http://hal.archives-ouvertes.fr/hal-00362159/fr/}
+\endcitation
+%
+\citation{10}{cite:DRMNbiop08}{bid9}{year}{inbook}[RN08]
+\bauthors{\bpers[Denis]{D.}{}{Relet}{}\bpers[Mona]{M.}{}{Neaware}{}}
+\cititem{btitle}{Bioprocess Control}
+\cititem{bpublisher}{Lavosier}
+\cititem{bmonth}{May}
+\cititem{byear}{2008}
+\cititem{bchapter}{5}
+\cititem{bpages}{43-50}
+\cititem{x-editorial-board}{no}
+\cititem{x-international-audience}{yes}
+\endcitation
+%
+\citation{11}{cite:Mlb-MpdOnline}{bid11}{year}{inproceedings}[DRN+10]
+\bauthors{\bpers[Franck]{F.}{}{Durand}{}\bpers[Paolo]{P.}{}{Romani}{}\bpers[Li]{L.}{}{N'guyen}{}\bpers[Chen]{C.}{}{Zou}{}\bpers[Aleš]{A.}{}{Plšek}{}}
+\cititem{btitle}{Electronic Journals Increase}
+\cititem{bbooktitle}{Online 2007, London}
+\cititem{bmonth}{December}
+\cititem{byear}{2010}
+\cititem{x-international-audience}{yes}
+\cititem{x-proceedings}{no}
+\cititem{x-pays}{IT,VN}
+\endcitation
+%
+\citation{12}{cite:JISC09}{bid8}{year}{conference}[MM09]
+\bauthors{\bpers[Jean]{J.}{}{Martinez}{}\bpers[Olliver]{O.}{}{McCain}{}}
+\cititem{btitle}{Optimizing the ontology of complex neural networks}
+\cititem{bbooktitle}{European Conference on Complex Systems}
+\cititem{bpublisher}{JISC Publishing}
+\cititem{byear}{2009}
+\cititem{x-international-audience}{yes}
+\cititem{x-proceedings}{yes}
+\cititem{x-invited-conference}{yes}
+\cititem{x-pays}{GB}
+\endcitation
+%
+\citation{13}{cite:JDARxml09}{bid12}{year}{manual}[DR10]
+\bauthors{\bpers[Jean]{J.}{}{Duromol}{}\bpers[Alain]{A.}{}{Rolessi}{}}
+\cititem{btitle}{XML and XSLT}
+\cititem{bmonth}{Feb}
+\cititem{byear}{2010}
+\cititem{x-scientific-popularization}{yes}
+\endcitation
+%
+\citation{14}{cite:RR61212009}{bid17}{year}{techreport}[Gri10]
+\bauthors{\bpers[José]{J.}{}{Grimm}{}}
+\cititem{btitle}{Tralics, a LaTeX to XML translator}
+\cititem{btype}{Technical report}
+\cititem{binstitution}{INRIA}
+\cititem{byear}{2010}
+\endcitation
+%
+\citation{15}{cite:Algo09}{bid2}{year}{patent}[BB10]
+\bauthors{\bpers[Gaëtan]{G.}{}{Bisson}{}\bpers[Răzvan]{R.}{}{Bărbulescu}{}}
+\cititem{btitle}{Algorithmes unicode pour les lettres Ààéçœ et Ñ}
+\cititem{byear}{2010}
+\cititem{x-pays}{CH,HK}
+\endcitation
+%
+\citation{16}{cite:EvAlgo09}{bid14}{year}{misc}[BA10]
+\bauthors{\bpers[Jeorge]{J.}{}{Borrow}{}\bpers[Lucy]{L.}{}{Apfel}{}}
+\cititem{btitle}{Evolutionary Algorithms on Large Networks}
+\cititem{byear}{2010}
+\cititem{x-pays}{US}
+\endcitation
+%
+\citation{17}{cite:AlgoAthle09}{bid18}{year}{unpublished}[BG10]
+\bauthors{\bpers[R{\u{a}}zvan]{R.}{}{B{\u{a}}rbulescu}{}\bpers[Armin]{A.}{}{Größlinger}{}}
+\cititem{btitle}{Algorithmics and Athletics}
+\cititem{byear}{2010}
+\cititem{x-pays}{CH,HK}
+\endcitation
+%
+\citation{18}{cite:mastthSD09}{bid13}{year}{mastersthesis}[DB11]
+\bauthors{\bpers[Sylvie]{S.}{}{Dehans}{}\bpers[Michel]{M.}{}{Banâtre}{}}
+\cititem{btitle}{Un web sémantique en entreprise}
+\cititem{btype}{Masters thesis}
+\cititem{bschool}{Université Paris VI}
+\cititem{byear}{2011}
+\endcitation
+%
+\citation{19}{footcite:MB07}{bid6}{foot}{inproceedings}[Bro07]
+\bauthors{\bpers[Manuel]{M.}{}{Bronstein}{}}
+\cititem{btitle}{Efficient Algorithms for Linear Ordinary Differential Equations}
+\cititem{bbooktitle}{Cuarto Encuentro de Álgebra Computacional y Aplicaciones}
+\beditors{\bpers[Marc]{M.}{}{Alonso}{}\bpers[Robert]{R.}{}{Sendra}{}}
+\cititem{bpages}{159-163}
+\cititem{bmonth}{September}
+\cititem{byear}{2007}
+\endcitation

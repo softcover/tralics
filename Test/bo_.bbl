@@ -1,0 +1,28 @@
+% reading source bo.bib
+%
+\citation{Bar03}{cite:Ba03}{bid0}{year}{article}
+\bauthors{\bpers[E. W.]{E. W.}{}{Barnes}{}}
+\cititem{btitle}{On the éxpression of {E}uler's constant as a definite integral}
+\cititem{bjournal}{Messenger of Math.}
+\cititem{bvolume}{33}
+\cititem{byear}{1903}
+\cititem{bpages}{59--61}
+\endcitation
+%
+\citation{Bom00}{cite:Bo99}{bid2}{year}{article}
+\bauthors{\bpers[E.]{E.}{}{Bombieri}{}}
+\cititem{btitle}{Remarks on {W}eil's quadratic functional in the theory of prime numbers~{I}}
+\cititem{bjournal}{Rend. Mat. Acc. Lincei, Ser.~IX}
+\cititem{bvolume}{11}
+\cititem{byear}{2000}
+\cititem{bpages}{183--233}
+\endcitation
+%
+\citation{BPY01}{cite:BPY01}{bid1}{year}{article}
+\bauthors{\bpers[P.]{P.}{}{Biane}{}\bpers[J.]{J.}{}{Pitman}{}\bpers[M.]{M.}{}{Yor}{}}
+\cititem{btitle}{Probability laws related to the {J}acobi $\theta$ and {R}iemann $\zeta$ functions, and {B}rownian excursions}
+\cititem{bjournal}{Bull. Amer. Math. Soc.}
+\cititem{bvolume}{38}
+\cititem{byear}{2001}
+\cititem{bpages}{435--465}
+\endcitation
