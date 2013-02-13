@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE std SYSTEM 'classes.dtd'>
-<!-- Translated from latex by tralics 2.15.0, date: 2013/01/31-->
-<std>
-<p>This file contains a number of error
-<error n='\undefined-env' l='5' c='Undefined environment'/>
-Undefined environment</p>
-<p>Now we have <error n='\fooa' l='11' c='Undefined command'/><error n='\foob' l='11' c='Undefined command'/><error n='\fooc' l='11' c='Undefined command'/><error n='\food' l='11' c='Undefined command'/><error n='\fooe' l='11' c='Undefined command'/>We have also <error n='\&#xAB;ok&#xBB;' l='12' c='Undefined command'/><error n='\&#x20AC;' l='12' c='Undefined command'/>!</p>
-</std>
