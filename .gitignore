@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+
+# Generated test files/directories
+Test/*.log
+Test/*.xml
+Test/Trace

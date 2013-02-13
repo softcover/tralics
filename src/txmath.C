@@ -1594,7 +1594,7 @@ void StrHash::rlc_to_string(String s,vector<AttList>&res)
   }
 }
 
-// Tries to find the name of an environment; especially in the case of @align.
+// Tries to find the name of an environment; especially in the case of align.
 string Math::get_real_name() const
 {
   string u = get_name ();
