@@ -833,8 +833,8 @@ Hashtab::Hashtab()
   primitive("multline*",math_env_cmd,multline_star_code);
   primitive("gather",math_env_cmd,gather_code);
   primitive("gather*",math_env_cmd,gather_star_code);
-  at_align_token=primitive("@align",math_env_cmd,align_code);
-  primitive("@align*",math_env_cmd,align_star_code);
+  at_align_token=primitive("align",math_env_cmd,align_code);
+  primitive("align*",math_env_cmd,align_star_code);
   primitive("split",math_env_cmd,split_code);
   primitive("aligned",math_env_cmd,aligned_code);
   primitive("equation",math_env_cmd,equation_code);

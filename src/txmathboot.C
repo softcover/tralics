@@ -1060,8 +1060,8 @@ void Math::set_env_name(int xtype)
   case Beqnarray_code : env = "Beqnarray"; break;
   case multline_code : env = "multline"; break;
   case gather_code : env = "gather"; break;
-  case align_code: env = "@align"; break;
-  case align_star_code: env = "@align*"; break;
+  case align_code: env = "align"; break;
+  case align_star_code: env = "align*"; break;
   case split_code: env = "split"; break;
   case aligned_code: env = "aligned"; break;
   case eqnarray_star_code: env = "eqnarray*"; break;

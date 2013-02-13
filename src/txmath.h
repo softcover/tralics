@@ -183,8 +183,8 @@ class Math {
   bool has_type(int x) const { return type==x;}
   bool has_one_element() const;
   bool has_two_elements() const;
-  bool is_align_ext() const { return name == "@align"; }
-  bool is_align_ext_star() const { return name == "@align*"; }
+  bool is_align_ext() const { return name == "align"; }
+  bool is_align_ext_star() const { return name == "align*"; }
   bool is_aligned_ext() const { return name == "aligned"; }
   bool is_array_env() const;
   bool is_array_ext() const { return name == "array" || name == "array*"; }
@@ -503,5 +503,5 @@ inline bool Math::is_external_array() const
     name == "Beqnarray" || name == "Beqnarray*" ||
     name == "multline" || name == "multline*" ||
     name == "gather" || name == "gather*" || 
-    name == "@align" || name == "@align*" ;
+    name == "align" || name == "align*" ;
 }
