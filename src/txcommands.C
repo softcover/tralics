@@ -336,7 +336,7 @@ void Parser::T_cst1(int c)
   case TeX_code : process_string("<TeX/>"); return;;
   case SS_code : process_string("SS"); return;
   case dots_code : process_string("..."); return;
-  case ldots_code : process_string("..."); return;
+  case ldots_code : process_string("&#133;"); return;
   case space_code : process_string(" "); return;
   case dollar_code : process_char('$'); return;
   case percent_code : process_char('%'); return;

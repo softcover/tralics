@@ -16,3 +16,6 @@
 Test/*.log
 Test/*.xml
 Test/Trace
+Test/fileA
+Test/fileB
+Test/label

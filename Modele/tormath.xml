@@ -346,7 +346,7 @@ y &amp; = &amp; Cx \\
 <p noindent='true'><texmath textype='inline' type='inline'>\int f\mathopen )a+b\mathclose (=c+d</texmath>
 <texmath textype='inline' type='inline'>\int f(a+b)=c+d</texmath></p>
 <p><texmath textype='inline' type='inline'>a\limits \displaylimits \nolimits b</texmath></p>
-<p>wwwwwwwwwwwwa...b...c   d      e f$g%h&amp;ij k{l}mın♯o♮p♭q_</p>
+<p>wwwwwwwwwwwwa...b&#133;c   d      e f$g%h&amp;ij k{l}mın♯o♮p♭q_</p>
 <p noindent='true'><texmath textype='inline' type='inline'>a\dots b\ldots c\quad d\qquad e f\$g\%h\&amp;i\!j\,k\lbrace l\rbrace m\i n\sharp o\natural p\flat q\_</texmath></p>
 <p>Math spacing</p>
 <p noindent='true'><texmath textype='inline' type='inline'>xxxxx</texmath></p>
