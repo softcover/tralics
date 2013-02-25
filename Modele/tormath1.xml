@@ -192,7 +192,7 @@ c)</p>
 <p noindent='true'><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><mrow><mo>&int;</mo><mi>f</mi><mo>)</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>(</mo><mo>=</mo><mi>c</mi><mo>+</mo><mi>d</mi></mrow></math></formula>
 <formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><mrow><mo>&int;</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>c</mi><mo>+</mo><mi>d</mi></mrow></math></formula></p>
 <p><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><mrow><mi>a</mi><mi>b</mi></mrow></math></formula></p>
-<p>wwwwwwwwwwwwa...b...c   d      e f$g%h&amp;ij k{l}mın♯o♮p♭q_</p>
+<p>wwwwwwwwwwwwa...b&#133;c   d      e f$g%h&amp;ij k{l}mın♯o♮p♭q_</p>
 <p noindent='true'><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><mrow><mi>a</mi><mo>&ctdot;</mo><mi>b</mi><mo>...</mo><mi>c</mi><mspace width='1.em'/><mi>d</mi><mspace width='2.em'/><mi>e</mi><mi>f</mi><mi>$</mi><mi>g</mi><mo>%</mo><mi>h</mi><mo>&amp;</mo><mi>i</mi><mspace width='-0.166667em'/><mi>j</mi><mspace width='0.166667em'/><mi>k</mi><mo>&lbrace;</mo><mi>l</mi><mo>&rbrace;</mo><mi>m</mi><mo>&inodot;</mo><mi>n</mi><mo>&sharp;</mo><mi>o</mi><mo>&natur;</mo><mi>p</mi><mo>&flat;</mo><mi>q</mi><mo>_</mo></mrow></math></formula></p>
 <p>Math spacing</p>
 <p noindent='true'><formula type='inline'><math xmlns='http://www.w3.org/1998/Math/MathML'><mrow><mi>x</mi><mi>x</mi><mi>x</mi><mi>x</mi><mi>x</mi></mrow></math></formula></p>
