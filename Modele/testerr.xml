@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE book SYSTEM 'classes.dtd'>
-<!-- Translated from latex by tralics 2.14.5, date: 2012/05/14-->
+<!-- Translated from latex by tralics 2.15.0, date: 2013/05/24-->
 <book>
 <error n='\DeclareStringOption' l='13' c='bad redef'/><error n='\DeclareVoidOption' l='13' c='bad redef'/><error n='\DeclareBoolOption' l='14' c='bad redef'/><error n='\DeclareBoolOption' l='15' c='bad redef'/><error n='\DeclareBoolOption' l='16' c='bad redef'/><error n='\DeclareComplementaryOption' l='17' c='bad redef'/><error n='\DeclareComplementaryOption' l='18' c='bad redef'/><error n='\DeclareComplementaryOption' l='19' c='bad redef'/><error n='\KVO@boolkey' l='20' c='bad bool'/><error n='\KVO@voidkey' l='20' c='bad opt'/><error n='\PackageError' l='26' c='uerror'/><error n='\PackageError' l='27' c='uerror'/><error n='\PackageError' l='29' c='uerror'/><p>This document contains a number of errors.
 <error n='\For' l='70' c='Undefined command'/><error n='\instance' l='70' c='Undefined command'/><error n='\this' l='70' c='Undefined command'/><error n='\sentence' l='70' c='Undefined command'/>.
@@ -129,7 +129,7 @@ Error here
 <error n='\tralics@get@config' l='263' c='illegal data'/><error n='\tralics@get@config' l='263' c='illegal data'/><error n='\tralics@get@config' l='263' c='illegal data'/><pers prenom='a' nom='de Pers3' affiliation='' profession='' hdr='hdr' research-centre='Lyon'>d</pers></p>
 <p>X<error n='&amp;' l='265' c='Unexpected ampersand'/><error n='\\' l='265' c='Bad use of \\'/>and <error n='\newline' l='265' c='Bad use of \newline'/>
 <figure rend='inline' file='a.b.c'/><error n='\error' l='266' c='Wrong dots in graphic file a.b.c'/>
-<ref/>
+<ref target='mod:a'/>
 <error n='\PackageError' l='268' c='uerror'/></p>
 <accueil isproject='true' html='testerr'>
 <theme><error n='\tralics@get@config' l='278' c='Bad theme'/>com</theme>
