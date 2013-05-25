@@ -137,6 +137,7 @@ void Parser::check_all_ids()
 		  << "undefined label `" << V 
 		  << "' (first use at line " << L->get_lineno() 
 		  << " in file " << L->get_filename() << ")";
+      Xid(E).add_attribute(the_names[np_target],V);
       Istring B = L->get_id();
       for(unsigned int j=0;j<removed_labels.size(); j++) {
 	if(removed_labels[j].second==B)
