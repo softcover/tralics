@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
 <!DOCTYPE ramain SYSTEM 'raweb.dtd'>
-<!-- Translated from latex by tralics 2.15.0, date: 2012/08/31-->
-<ramain creator='Tralics version 2.15.0'>
-<p>The time is 12h 32min, 31st August 2012.</p>
+<!-- Translated from latex by tralics 2.15.1, date: 2013/07/22-->
+<ramain creator='Tralics version 2.15.1'>
+<p>The time is 11h 19min, 22nd July 2013.</p>
 <p>DOCSTART</p>
 <div0 id-text='1' id='cid1'><head>First</head>
 <p>31.5pt0.0pt0.0mu1717.0pt17.0pt plus 1.0pt minus 2.0pt17.0mu plus 1.0mu minus 2.0mu119811511.0pt
@@ -10,7 +10,7 @@
 25cmr10 
 foo= foo</p>
 <div3 id-text='0.0.0.1' id='uid1'><head>Macroexpansion</head>
-<p>Version2.15.0.
+<p>Version2.15.1.
 foo=foo.
 foo=foo.
 <font-bold-series>foo=bold-foo</font-bold-series> non-bold foo.

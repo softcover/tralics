@@ -124,6 +124,8 @@ mv exemple.xml exemple2009.xml
 run_tralics_with_err exempleb2011 "There were 7 errors."
 run_tralics exemple2011
 mv exemple.xml exemple2011.xml
+run_tralics exemple2013
+mv exemple.xml exemple2013.xml
 run_tralics testm1 -oe8
 mv testm1.xml testm1a.xml
 run_tralics testm1 -nomathml -oe8
@@ -173,6 +175,7 @@ compare_file exemple2008.xml 5
 compare_file ex_emple2008.xml 5
 compare_file exemple2009.xml 5
 compare_file exemple2011.xml 5
+compare_file exemple2013.xml 5
 compare_file beauvilams2.xml 
 compare_file testm1a.xml 
 compare_file testm1b.xml 

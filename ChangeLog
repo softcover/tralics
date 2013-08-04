@@ -3,7 +3,7 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 
-<!-- $Id: ChangeLog,v 2.309 2012/09/03 08:45:48 grimm Exp $ -->
+<!-- $Id: ChangeLog,v 2.312 2013/07/22 09:32:36 grimm Exp $ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
@@ -300,6 +300,10 @@ Patches to current version (2.15) start <a href="#v2-15">here</a>
 <ol>
   <li id="v2-15-0">
     <b>[2012-08-31, Version 2.15.0]</b>
+    <br/> [2013-01-21] Number of pages always inserted in the bibliography
+    <b>[2013-07-22, Version 2.15.1]</b>
+    <br/> Removed some unused variables in the code [Julien Schueller]
+    <br/> There are no more affiliations in the RA2013 (Marie-Pierre Durollet)
   </li>
 
 </ol>
@@ -311,7 +315,7 @@ Patches to current version (2.15) start <a href="#v2-15">here</a>
    alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
 <small><a href="index.html">back to home page</a></small>
 <small>&copy; INRIA 2005-2011</small>
-<small>Last modified $Date: 2012/09/03 08:45:48 $</small>
+<small>Last modified $Date: 2013/07/22 09:32:36 $</small>
 </p>
 
 </body>

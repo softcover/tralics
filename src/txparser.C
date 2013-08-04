@@ -13,7 +13,7 @@
 
 #include "tralics.h"
 const char* txparser_rcsid=
-  "$Id: txparser.C,v 2.141 2012/05/15 17:14:30 grimm Exp $";
+  "$Id: txparser.C,v 2.142 2013/07/22 09:28:21 grimm Exp $";
 
 namespace {
   const TokenList empty_list;
@@ -1936,7 +1936,6 @@ bool Parser::counter_aux(string name, String opt,Token T)
 // evaluate: \@cons\cl@bar{{foo}}; i.e. T_cons(\cl@bar, {foo}).
 void Parser::T_add_to_reset()
 {
-  Token T = cur_tok;
   int ne = main_ns::nb_errs;
   TokenList foo_list = mac_arg_long();
   TokenList L = mac_arg_long();

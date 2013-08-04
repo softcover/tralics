@@ -13,7 +13,7 @@
 #include "tralics.h"
 #include "txmlio.h"
 const char* txmlio_rcsid=
-  "$Id: txmlio.C,v 2.5 2011/06/28 08:15:25 grimm Exp $";
+  "$Id: txmlio.C,v 2.6 2013/07/22 10:45:16 grimm Exp $";
 
 class EOD {};
 
@@ -593,11 +593,13 @@ void XmlIO::parse_dec_element()
     is_first = false;
     prev_is_space=false;
   }
+  if(!ok) the_log << "Possible problem in XML scan on line " << 
+	    the_parser.get_cur_line() << "\n";
   if(prev_is_space) aux.rrl();
   tmp << " " << elt_name ;
   if(aux.is_equal("EMPTY"));
   else if(aux.is_equal("ANY"));
-  else /* chedk syntax */ tmp << " ";
+  else /* check syntax */ tmp << " ";
   tmp << " " << aux;
   Xml* res = new Xml(tmp);
   res->change_id(-2); // mark this as a declaration
@@ -641,6 +643,8 @@ void XmlIO::parse_dec_attlist()
     is_first = false;
     prev_is_space=false;
   }
+  if(!ok) the_log << "Possible problem in XML scan on line " << 
+	    the_parser.get_cur_line() << "\n";
   if(prev_is_space) aux.rrl();
   tmp << " " << elt_name ;
   // Syntax Attdef*

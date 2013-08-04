@@ -19,7 +19,7 @@
 #include "tralics.h"
 #include <time.h>
 const char* tralics_rcsid=
-  "$Id: tralics.C,v 2.195 2012/06/20 17:15:57 grimm Exp $";
+  "$Id: tralics.C,v 2.196 2013/07/22 09:28:21 grimm Exp $";
 
 static Buffer auxb; // chars to be added to the input file
 
@@ -87,7 +87,7 @@ void Parser::boot_verbatim()
   Token*T = verbatim_chars;
   for(uint i=0;i<nb_characters;i++)
     T[i] = Token(other_t_offset, i);
-  T[' '] = hash_table.tilda_token;
+  T[uint(' ')] = hash_table.tilda_token;
   mk_letter(T,'\'');
   mk_letter(T,'`');
   mk_letter(T,'-');

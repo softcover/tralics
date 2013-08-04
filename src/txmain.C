@@ -35,11 +35,11 @@
 #include "txpath.h"
 
 const char* txmain_rcsid=
-  "$Id: txmain.C,v 2.176 2012/09/03 08:45:48 grimm Exp $";
+  "$Id: txmain.C,v 2.177 2013/07/22 09:28:21 grimm Exp $";
 
 inline void MainClass::set_version ()
 { 
-  version_string = "2.15.0";  // current version number
+  version_string = "2.15.1";  // current version number
 }
 
 namespace {
@@ -219,7 +219,9 @@ bool main_ns::try_conf(const string& prefix)
 void main_ns::find_conf_path()
 {
   if(try_conf(conf_path[0])) return;
-  String S = "/usr/lib/tralics/confdir";
+  String S = "/usr/share/tralics";
+  if(try_conf(S)) { conf_path.push_back(S); return; }
+  S = "/usr/lib/tralics/confdir";
   if(try_conf(S)) { conf_path.push_back(S); return; }
   S = "/usr/local/lib/tralics/confdir";
   if(try_conf(S)) { conf_path.push_back(S); return; }

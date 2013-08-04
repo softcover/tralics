@@ -1,5 +1,5 @@
 // -*- C++ -*-
-// $Id: txeqtb.h,v 2.11 2008/11/12 09:43:56 grimm Exp $
+// $Id: txeqtb.h,v 2.12 2013/07/22 09:28:21 grimm Exp $
 // Copyright INRIA/apics (Jose' Grimm) 2002-2004, 2006, 2007,2008
 
 // This software is governed by the CeCILL license under French law and
@@ -232,11 +232,11 @@ class SaveAuxString : public SaveAux {
 };
 
 // data structure for a \begin{something}
+// had an unused field: int val;
 class SaveAuxEnv : public SaveAux {
   string oldname;
   string newname;
   int line;
-  int val;
   Token T;
   CmdChr cc;
  public:

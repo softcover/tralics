@@ -12,7 +12,7 @@
 // This file contains a big part of the Tralics translator
 #include "tralics.h"
 const char* txtranslate_rcsid =
-  "$Id: txtranslate.C,v 2.132 2012/05/15 17:14:30 grimm Exp $";
+  "$Id: txtranslate.C,v 2.133 2013/07/22 09:28:21 grimm Exp $";
 
 
 extern void readline_newprompt(string s);
@@ -1372,7 +1372,6 @@ void Parser::T_fbox_dash_box()
 
 void Parser::T_fbox_rotate_box ()
 {
-  Token T = cur_tok;
   flush_buffer();
   Istring val = nT_next_arg(); 
   leave_v_mode();

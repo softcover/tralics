@@ -10,7 +10,7 @@
 // (See the file COPYING in the main directory for details)
 
 const char* txbib_rcsid =
-  "$Id: txbib.C,v 2.80 2011/06/28 08:15:25 grimm Exp $";
+  "$Id: txbib.C,v 2.82 2013/07/22 09:28:21 grimm Exp $";
 
 #include "tralics.h"
 #include "txbib.h"
@@ -139,7 +139,6 @@ Istring bib_ns::normalise_for_bib(Istring w)
 // as an istring, it will be normalised later.
 void Parser::T_cite(subtypes sw, TokenList& prenote, Istring& type)
 {
-  Token T = cur_tok;
   if(sw==footcite_code) {
     next_optarg(prenote);
     type = the_names[cst_foot];
@@ -582,7 +581,6 @@ void Parser::T_end_the_biblio()
 // before and after the mandatory one.
 void Parser::T_start_the_biblio()
 {
-  Token T = cur_tok;
   ignore_next_optarg();
   ignore_next_arg(); // longest label, ignored
   ignore_next_optarg();
@@ -1016,7 +1014,6 @@ void Parser::solve_cite(bool user)
   bool F =true;
   int n= the_stack.cur_xid().value;
   Istring from = Istring("");
-  Istring ukey = Istring("");
   if(user) { 
     implicit_par(zero_code);
     the_stack.add_last(new Xml(np_bibitem,0));
@@ -2033,9 +2030,13 @@ void BibEntry::call_type_special()
   out_something(fp_year);
   if(type_int==type_inbook || type_int==type_incollection)
     out_something(fp_chapter);
-  if(type_int==type_inbook || type_int==type_incollection
-     || type_int ==type_article || type_int==type_proceedings)
+  switch(type_int) {
+  case type_inproceedings:
+  case type_conference:
+    break;
+  default:
     out_something(fp_pages);
+  }
 }
 
 // In the bibliobraphy \url="foo bar" 

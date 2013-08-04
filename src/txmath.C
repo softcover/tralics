@@ -14,7 +14,7 @@
 #include "txmath.h"
 
 const char* txmath_rcsid = 
-  "$Id: txmath.C,v 2.136 2012/07/31 16:16:46 grimm Exp $";
+  "$Id: txmath.C,v 2.138 2013/07/22 10:49:11 grimm Exp $";
 
 namespace {
   Buffer math_buffer;
@@ -1548,10 +1548,9 @@ void Parser::interpret_math_cmd(int res,subtypes c)
   default:; // nothing special 
   }
   math_data.set_type(k,sub_to_math(c)); //may be needed in some cases
-  
-  bool is_math_accent = c>=first_maccent_code && c<=last_maccent_code;
-  int first_spec = is_math_accent?1:0;
-  if(c==sqrt_code) first_spec = 1;
+  // bool is_math_accent = c>=first_maccent_code && c<=last_maccent_code;
+  // int first_spec = is_math_accent?1:0; 
+  // if(c==sqrt_code) first_spec = 1;
   //  subtypes r1 = math_argument(first_spec,ct);
   subtypes r1 = math_argument(0,ct);
   subtypes r2 = zero_code;

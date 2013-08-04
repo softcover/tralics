@@ -16,7 +16,7 @@
 #include "txparser2.h"
 
 const char* txparser2_rcsid=
-  "$Id: txparser2.C,v 2.37 2012/05/15 17:14:30 grimm Exp $";
+  "$Id: txparser2.C,v 2.38 2013/07/22 09:28:21 grimm Exp $";
 
 bool xkv_patch = false;
 
@@ -982,7 +982,6 @@ void Parser::internal_choice_key()
 
 void Parser::define_bool_key(subtypes c)
 { 
-  Token T = name_for_error;
   Buffer&B = local_buf;
   remove_initial_plus(false);
   bool if_plus = remove_initial_plus(true);
@@ -2348,7 +2347,6 @@ void token_ns::int_to_roman(Buffer&b, int n)
 void Parser::T_listenv(symcodes x)
 {
   leave_h_mode();
-  Token tfe = cur_tok;
   bool is_enum = x==enumerate_cmd;
   int listdepth = eqtb_int_table[list_depth_code].get_val();
   listdepth += is_enum ? 100 : 1;
@@ -2369,7 +2367,7 @@ void Parser::T_listenv(symcodes x)
   TokenList L;
   if(x==enumerate_cmd) {
     next_optarg_long(L);
-    Token cmd = hash_table.relax_token;
+    // Token cmd = hash_table.relax_token;  unused (why ?)
     if(!optional_enumerate(L,list_ctr.c_str())){
       b << bf_reset << "labelenum";
       token_ns::int_to_roman(b,n);

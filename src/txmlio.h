@@ -1,5 +1,5 @@
 // -*- C++ -*-
-// $Id: txmlio.h,v 2.3 2008/05/05 06:59:12 grimm Exp $
+// $Id: txmlio.h,v 2.4 2013/07/22 09:28:21 grimm Exp $
 // TRALICS, copyright (C)  INRIA/apics (Jose' Grimm) 2006, 2007,2008
 
 
@@ -76,7 +76,7 @@ private:
   bool expand_PEReference();
   void run();
 public:
-  XmlIO(Parser*P) :  P(P),cur_char(' ') {}
+  XmlIO(Parser*P) : cur_char(' ') {}
   bool init(const string&);
   void prun();
 };

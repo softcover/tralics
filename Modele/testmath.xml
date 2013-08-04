@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE std SYSTEM 'classes.dtd'>
-<!-- Translated from latex by tralics 2.14.5, date: 2012/07/06-->
+<!-- Translated from latex by tralics 2.15.0, date: 2013/01/21-->
 <std RR-type='RR' theme-val='THnum' UR-val='Sophia' equation-number='right' chapters='true'>
 <title>Producing MathML with Tralics</title><ftitle>Produire du MathML avec Tralics</ftitle><date>May 2007</date><rev-date>29 November 2007</rev-date><version-number>2</version-number><author>José Grimm</author><RRnote>The software and the documentation is available
 at <xref url='http://www-sop.inria.fr/apics/tralics'>http://<allowbreak/>www-sop.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>apics/<allowbreak/>tralics</xref></RRnote><RRemail>Jose.Grimm[at]sophia.inria.fr</RRemail><abstract><p>The purpose of this paper is to show that it is possible to
@@ -4835,6 +4835,7 @@ correctlty in <TeX/>.</p>
 <btype>Rapport de recherche INRIA</btype>
 <bnumber>RR-6126</bnumber>
 <byear>2007</byear>
+<bpages>96</bpages>
 <xref url='http://hal.inria.fr/inria-00131035/en/'>http://<allowbreak/>hal.<allowbreak/>inria.<allowbreak/>fr/<allowbreak/>inria-00131035/<allowbreak/>en/</xref></citation>
 <citation from='year' key='Gri06a' id='bid0' userid='cite:Tralics1' type='techreport'>
 <bauteurs><bpers prenom='J.' nom='Grimm' prenomcomplet='José'/></bauteurs>

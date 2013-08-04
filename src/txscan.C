@@ -12,7 +12,7 @@
 
 #include "tralics.h"
 const char* txscan_rcsid=
-  "$Id: txscan.C,v 2.96 2012/04/27 15:10:06 grimm Exp $";
+  "$Id: txscan.C,v 2.97 2013/07/22 09:28:21 grimm Exp $";
 
 namespace{
   Buffer file_name_buffer; // a buffer for reading file names
@@ -1227,7 +1227,6 @@ int Parser::scan_int_digs()
 // then change the level, and (maybe) change the sign of the result.
 void Parser::scan_something_internal(internal_type level, bool negative)
 {
-  Token t = cur_tok;
   scan_something_internal(level);
   cur_val.change_level(level);
   if(negative) cur_val.negate();

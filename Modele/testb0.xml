@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE ramain SYSTEM 'raweb.dtd'>
-<!-- Translated from latex by tralics 2.14.5, date: 2012/05/14-->
-<ramain creator='Tralics version 2.14.5'>
+<!-- Translated from latex by tralics 2.15.0, date: 2013/01/21-->
+<ramain creator='Tralics version 2.15.0'>
 <biblio>
 <citation from='year' key='A+' id='bid35' userid='cite:tor41' type='misc'>
 <bauteurs><bpers prenom='' nom='Alpha'/><etal/>
@@ -221,6 +221,7 @@
 <baddress>Paris, New Yorkm, Amsterdam</baddress>
 <bmonth>January</bmonth>
 <byear>2000</byear>
+<bpages>12-13</bpages>
 <bdoi>A DOI</bdoi>
 <xref url='http://www.mysite.mycountry/mypage'><font-large1>http://<allowbreak/>www.<allowbreak/>mysite.<allowbreak/>mycountry/<allowbreak/>mypage</font-large1></xref></citation>
 <citation from='year' key='AA00c' id='bid105' userid='cite:sample-booklet' type='booklet'>
@@ -230,6 +231,7 @@
 <baddress>Paris, New Yorkm, Amsterdam</baddress>
 <bmonth>January</bmonth>
 <byear>2000</byear>
+<bpages>12-13</bpages>
 <bdoi>A DOI</bdoi>
 <xref url='http://www.mysite.mycountry/mypage'><font-large1>http://<allowbreak/>www.<allowbreak/>mysite.<allowbreak/>mycountry/<allowbreak/>mypage</font-large1></xref></citation>
 <citation from='year' key='AA00d' id='bid106' userid='cite:sample-inbook' type='inbook'>
@@ -288,6 +290,7 @@
 <baddress>Paris, New Yorkm, Amsterdam</baddress>
 <bmonth>January</bmonth>
 <byear>2000</byear>
+<bpages>12-13</bpages>
 <bdoi>A DOI</bdoi>
 <xref url='http://www.mysite.mycountry/mypage'><font-large1>http://<allowbreak/>www.<allowbreak/>mysite.<allowbreak/>mycountry/<allowbreak/>mypage</font-large1></xref></citation>
 <citation from='year' key='AA00h' id='bid110' userid='cite:sample-masterthesis' type='mastersthesis'>
@@ -298,6 +301,7 @@
 <baddress>Paris, New Yorkm, Amsterdam</baddress>
 <bmonth>January</bmonth>
 <byear>2000</byear>
+<bpages>12-13</bpages>
 <bdoi>A DOI</bdoi>
 <xref url='http://www.mysite.mycountry/mypage'><font-large1>http://<allowbreak/>www.<allowbreak/>mysite.<allowbreak/>mycountry/<allowbreak/>mypage</font-large1></xref></citation>
 <citation from='year' key='AA00i' id='bid111' userid='cite:sample-misc' type='misc'>
@@ -313,6 +317,7 @@
 <baddress>Paris, New Yorkm, Amsterdam</baddress>
 <bmonth>January</bmonth>
 <byear>2000</byear>
+<bpages>12-13</bpages>
 <bdoi>A DOI</bdoi>
 <xref url='http://www.mysite.mycountry/mypage'><font-large1>http://<allowbreak/>www.<allowbreak/>mysite.<allowbreak/>mycountry/<allowbreak/>mypage</font-large1></xref></citation>
 <citation from='year' key='AA00j' id='bid112' userid='cite:sample-phdthesis' type='phdthesis'>
@@ -323,6 +328,7 @@
 <baddress>Paris, New Yorkm, Amsterdam</baddress>
 <bmonth>January</bmonth>
 <byear>2000</byear>
+<bpages>12-13</bpages>
 <bdoi>A DOI</bdoi>
 <xref url='http://www.mysite.mycountry/mypage'><font-large1>http://<allowbreak/>www.<allowbreak/>mysite.<allowbreak/>mycountry/<allowbreak/>mypage</font-large1></xref></citation>
 <citation from='year' key='AA00k' id='bid114' userid='cite:sample-techreport' type='techreport'>
@@ -334,6 +340,7 @@
 <baddress>Paris, New Yorkm, Amsterdam</baddress>
 <bmonth>January</bmonth>
 <byear>2000</byear>
+<bpages>12-13</bpages>
 <bdoi>A DOI</bdoi>
 <xref url='http://www.mysite.mycountry/mypage'><font-large1>http://<allowbreak/>www.<allowbreak/>mysite.<allowbreak/>mycountry/<allowbreak/>mypage</font-large1></xref></citation>
 <citation from='year' key='AA00l' id='bid115' userid='cite:sample-unpublished' type='unpublished'>
@@ -341,6 +348,7 @@
 <btitle>A beautiful title</btitle>
 <bmonth>January</bmonth>
 <byear>2000</byear>
+<bpages>12-13</bpages>
 <bdoi>A DOI</bdoi>
 <xref url='http://www.mysite.mycountry/mypage'><font-large1>http://<allowbreak/>www.<allowbreak/>mysite.<allowbreak/>mycountry/<allowbreak/>mypage</font-large1></xref></citation>
 <citation from='year' key='AAJA+' id='bid95' userid='cite:many' type='article'>

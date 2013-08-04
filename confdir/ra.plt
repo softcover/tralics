@@ -1,5 +1,5 @@
 %%  -*- latex -*-
-\ProvidesPackage{ra}[2012/05/15 v1.8 Utilities for INRIA's activity report]
+\ProvidesPackage{ra}[2013/07/22 v1.9 Utilities for INRIA's activity report]
 \RequirePackage{xkeyval}
 % This file is part of Tralics
 
@@ -9,7 +9,7 @@
 %% license as circulated by CEA, CNRS and INRIA at the following URL
 %% "http:%%www.cecill.info". 
 %% (See the file COPYING in the main directory for details)
-% copyright (C) INRIA/apics (Jose' Grimm) 2008-2012
+% copyright (C) INRIA/apics/marelle (Jose' Grimm) 2008-2013
 
 %% Note the condition is false by default
 \newif\ifra@emptymodule %% true if empty module names allowed
@@ -20,6 +20,7 @@
 \newif\ifra@moduleref %% true if moduleref is defined
 \newif\ifra@topic %% true if topics can be used
 \newif\ifra@topics %% true if topics are effectively used
+\newif\ifra@noaff %% true if affiliations in \pers
 
 \newif\ifra@inmodule % true inside a module
 \newif\ifra@firstsection\ra@firstsectiontrue % true if in first section
@@ -38,6 +39,7 @@
 \DeclareOption{composition}{\ra@compositiontrue}
 \DeclareOption{moduleref}{\ra@modulereftrue}
 \DeclareOption{topic}{\ra@topictrue}
+\DeclareOption{noaff}{\ra@noafftrue} % look for \ifra@noaff below
 
 \ProcessOptions\relax
 
@@ -68,9 +70,9 @@
   \begin{xmlelement*}{participants}\let\par\empty\let\pers\persA}
   {\end{xmlelement*}\@addnl}
 
-%% environment co-publiants
+%% environment co-publiants defines \pays
 \newenvironment{co-publiants}{%
-  \begin{xmlelement*}{co-publiants}\let\par\empty}
+  \begin{xmlelement*}{co-publiants}\let\par\empty\let\pays\@pays}
   {\end{xmlelement*}\@addnl}
 
 %% Alternate names are conditionnally defined.
@@ -108,7 +110,7 @@
 \def\remove@fl@space#1{%
   \expandafter\remove@fl@space@\expandafter#1\expandafter{#1}}
 
-\def\@xpays#1#2{\xbox{x-pays}{\XMLaddatt{court}{#2}\XMLaddatt{long}{#1}}%
+\def\@pays#1#2{\xbox{pays}{\XMLaddatt{court}{#2}\XMLaddatt{long}{#1}}%
 \@addnl\@ifnextchar,\@gobble\empty}
 
 % Hack applied to \persA and \persB
@@ -132,7 +134,11 @@
   \@persA{\t@pnom}{\t@nom}{\t@aux}}
 
 
-%% This is \persB the complicated command
+\def\@persA#1#2#3{\xbox{pers}{\XMLaddatt{nom}{#2}\XMLaddatt{prenom}{#1}#3}%
+  \@addnl\@ifnextchar,\@gobble\empty}
+
+
+%% This is \persB the complicated command with affiliation
 \def\persB#1{\@ifnextchar[{\persB@part{#1}}{\persB@nom{#1}}}
 \def\persB@part#1[#2]#3{\persB@nom{#1}{#2 #3}}
 \def\persB@nom#1#2{\@ifnextchar[{\persB@rc{#1}{#2}}{\persB@rc{#1}{#2}[]}}
@@ -149,9 +155,6 @@
   \def\t@hdr{#7}\remove@fl@space\t@hdr
   \ifx\t@rc\empty\def\tmp{}\else\def\tmp{[\t@rc]}\fi
   \expandafter\@persB\tmp{\t@pnom}{\t@nom}{\t@catpro}{\t@orga}{\t@aux}{\t@hdr}}
-
-\def\@persA#1#2#3{\xbox{pers}{\XMLaddatt{nom}{#2}\XMLaddatt{prenom}{#1}#3}%
-\@addnl\@ifnextchar,\@gobble\empty}
 
 \newcommand\@persB[7][]{%
   % Make sure error token are outside the xbox
@@ -170,6 +173,43 @@
     \XMLaddatt{affiliation}{\t@aff}%
     \XMLaddatt{nom}{#3}\XMLaddatt{prenom}{#2}%
     #6}\@addnl\@ifnextchar,\@gobble\empty}
+
+
+
+%% This is \persC, like \persB, without affiliation
+\def\persC#1{\@ifnextchar[{\persC@part{#1}}{\persC@nom{#1}}}
+\def\persC@part#1[#2]#3{\persC@nom{#1}{#2 #3}}
+\def\persC@nom#1#2{\@ifnextchar[{\persC@rc{#1}{#2}}{\persC@rc{#1}{#2}[]}}
+\def\persC@rc#1#2[#3]#4{\@ifnextchar[{\persC@aux{#1}{#2}{#3}{#4}}
+  {\persC@aux{#1}{#2}{#3}{#4}[]}}
+\def\persC@aux#1#2#3#4[#5]{\@ifnextchar[{\persC@hdr{#1}{#2}{#3}{#4}{#5}}
+  {\persC@hdr{#1}{#2}{#3}{#4}{#5}[]}}
+
+\def\persC@hdr#1#2#3#4#5[#6]{%
+  \pers@hack{#1}{#2}{#5}%
+  \def\t@rc{#3}\remove@fl@space\t@rc
+  \def\t@catpro{#4}\remove@fl@space\t@catpro
+  \def\t@hdr{#6}\remove@fl@space\t@hdr
+  \ifx\t@rc\empty\def\tmp{}\else\def\tmp{[\t@rc]}\fi
+  \expandafter\@persC\tmp{\t@pnom}{\t@nom}{\t@catpro}{\t@aux}{\t@hdr}}
+
+\newcommand\@persC[6][]{%
+  % Make sure error token are outside the xbox
+  \edef\@tmp{\tralics@find@config{profession}}%
+  \edef\t@pro{\ifx\@tmp\empty#4\else\tralics@get@config{profession}{#4}\fi}%
+  \edef\@tmp{\tralics@find@config{ur}}%
+  \ifnum\ra@year>2006 
+  \edef\t@rc{\ifx\@tmp\empty#1\else\tralics@get@config{ur}{#1}\fi}%
+  \else\let\t@rc\empty\fi
+  \xbox{pers}{%
+    \unless\ifx\t@rc\empty\XMLaddatt{research-centre}{\t@rc}\fi
+    \edef\tmp{#6}\unless\ifx\tmp\empty\XMLaddatt{hdr}{#6}\fi
+    \XMLaddatt{profession}{\t@pro}%
+    \XMLaddatt{nom}{#3}\XMLaddatt{prenom}{#2}%
+    #5}\@addnl\@ifnextchar,\@gobble\empty}
+
+%% Redefines  \persB to \persC for ra2013 and following.
+\ifra@noaff \let\persB\persC \fi
 
 
 \newenvironment{moreinfo}{\begin{xmlelement*}{moreinfo}}
@@ -218,11 +258,8 @@
   \or true% case project
   \or true% case project team
   \or false% case team
-  \or action% case action
+  \or explo% case action
   \fi}}{\PackageError{raweb}{Invalid Team type #1 ignored}}
-
-
-
 
 \def\ra@check@project{%
   \ifx\ra@proj@a\relax \PackageError{Raweb}{Missing \string \project}{}\fi
@@ -237,7 +274,7 @@
   \begin{xmlelement*}{accueil}%
     \edef\tmpB{\ra@jobname}
     \XMLaddatt{html}{\ra@jobname}%
-   \def\ra@ptype{erreur}\ra@isproject\XMLaddatt{isproject}{\ra@ptype}\@addnl
+    \def\ra@ptype{erreur}\ra@isproject\XMLaddatt{isproject}{\ra@ptype}\@addnl
     \xbox{theme}{\ifnum\ra@year>2008 Dummy%
       \else\tralics@get@config{theme}{\ra@theme}\fi} \@addnl
     \ra@check@project\@addnl
@@ -246,12 +283,6 @@
     \the\ra@topics
   \end{xmlelement*}\@addnl
 }
-
-
-%\def\theme#1{\def\ra@theme{#1}}
-%\def\UR#1{\def\ra@UR{#1}}
-%\def\isproject#1{\def\ra@isproject{#1}}
-%\def\projet#1#2#3{\def\ra@proj@a{#1}\def\ra@proj@b{#2}\def\ra@proj@c{#3}}
 
 \let\ra@proj@a\relax
 \let\pers\persB
@@ -325,7 +356,11 @@
  \@namedef{ra@topicval@#2}{#1}
  \ra@topics=\expandafter{\the\ra@topics\ra@declaretopic{#1}{#3}}}
 \fi
+
 %% --------------------------------------------------
+
+%% This section defines an environment action
+%% This is not yet used, but the code is tested and working.
 
 
 %% in any case
@@ -356,6 +391,7 @@
   \xbox{collaborator}{\setkeys{raA,raC,raE}{#3}\XMLaddatt{name}{#2}\XMLaddatt{firstname}{#1}}\@addnl}
 
 
+
 % we locally redefine \url,  we check for emptyseness
 \let\@url =\url
 \def\pr@@url#1{\@iftempty {#1}{}{\xbox{url}{\@url*{#1}}\@addnl}}
@@ -372,6 +408,8 @@
 \def\gadd@tohooka#1#2{%
   \toks@=\expandafter{\expandafter{\expandafter{#2}}}%
   \expandafter \gadd@tohook \expandafter#1\the\toks@}
+
+
 
 \newenvironment{action} [3][]
 { \gdef\pr@type{#2}%
@@ -406,7 +444,8 @@
 {\begin{xmlelement*}{EuropeanInitiatives}}
 {\end{xmlelement*}}
 
-%% --------------------------------------------------
 
+
+%% --------------------------------------------------
 
 \endinput

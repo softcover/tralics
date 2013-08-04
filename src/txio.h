@@ -1,5 +1,5 @@
 // -*- C++ -*-
-// $Id: txio.h,v 2.23 2010/03/25 17:47:03 grimm Exp $
+// $Id: txio.h,v 2.24 2013/07/22 09:28:21 grimm Exp $
 // TRALICS, copyright (C) INRIA/apics (Jose' Grimm) 2006
 
 // This software is governed by the CeCILL license under French law and
@@ -127,7 +127,7 @@ class InputStack {
   int line_no; // the current line number
   TokenList TL; // saved token list
   string name; // name of the current file
-  int level;
+  // int level; unused 
   int restore_at; // catcode of @ to restore
   int file_type; // file type to restore
   int Bpos; // position in B

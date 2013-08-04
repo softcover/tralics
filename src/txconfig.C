@@ -14,7 +14,7 @@
 #include "tralics.h"
 
 const char* txconfig_rcsid=
-  "$Id: txconfig.C,v 2.15 2012/09/03 08:45:48 grimm Exp $";
+  "$Id: txconfig.C,v 2.16 2013/07/22 09:28:21 grimm Exp $";
 
 namespace config_ns {
   Buffer sec_buffer;
@@ -88,8 +88,10 @@ void MainClass::finish_init()
     if(all_themes.empty()) bad_conf("theme_vals");
     if(config_data.data[0]->empty()) bad_conf("ur_vals");
     if(year>=2007) {
-      if(config_data.data[3]->empty()) bad_conf("affiliation_vals");
       if(config_data.data[2]->empty()) bad_conf("profession_vals");
+      if (year >= 2013)	config_data.data[3]->reset(); // kill this
+      else
+        if(config_data.data[3]->empty()) bad_conf("affiliation_vals");
     }
     int n = config_data.data[1]->size();
     if(n==0) bad_conf("sections_vals");
