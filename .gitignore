@@ -12,7 +12,13 @@
 *.la
 *.a
 
+# The tralics executable
+src/tralics
+
 # Generated test files/directories
 Test/*.log
 Test/*.xml
 Test/Trace
+Test/fileA
+Test/fileB
+Test/label
