@@ -9,7 +9,7 @@ INCLUDES=tralics.h txinline.h  txparser.h  txvars.h txstring.h \
    txstack.h txfonts.h  txlogger.h  txtoken.h  txbuffer.h txparam.h \
    tximage.h txscaled.h txid.h txeqtb.h txfp.h txio.h txstats.h  \
    txcond.h txatt.h txhash.h txxml.h txtokenlist.h txconst.h \
-   txchars.h txcmd.h 
+   txchars.h txcmd.h
 
 RAOPT=
 TRALICSDIR=/usr/lib/tralics
@@ -19,10 +19,10 @@ CONFDIR=../confdir
 
 CC=g++
 CCC=g++
-CXX=g++
+CXX=g++ -stdlib=libstdc++
 
 CPPFLAGS=-O2 -Wall
-#CPPFLAGS= -g -Wall 
+#CPPFLAGS= -g -Wall
 
 
 tralics: $(OBJECTS)
