@@ -19,7 +19,7 @@ CONFDIR=../confdir
 
 CC=g++
 CCC=g++
-CXX=g++ -stdlib=libstdc++
+CXX=g++
 
 CPPFLAGS=-O2 -Wall
 #CPPFLAGS= -g -Wall
