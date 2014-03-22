@@ -11,7 +11,9 @@ The Softcover ebook production system is distributed via the Ruby gems `softcove
     $ make
     $ cp tralics /usr/local/bin
 
-In the last step, in place of `/usr/local/bin`, you can choose any directory on your path.
+In the last step, in place of `/usr/local/bin`, you can choose any directory on your path. Depending on your system's permissions, you might also have to run `sudo`:
+
+    $ sudo cp tralics /usr/local/bin
 
 ## Contributing a binary
 
