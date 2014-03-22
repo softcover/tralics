@@ -1,7 +1,7 @@
 This is the README file for Tralics
 
 This software is governed by the CeCILL license under French law and
-abiding by the rules of distribution of free software.  You can  use, 
+abiding by the rules of distribution of free software.  You can  use,
 modify and/ or redistribute the software under the terms of the CeCILL
 license as circulated by CEA, CNRS and INRIA at the following URL
    http://www.cecill.info
@@ -37,8 +37,8 @@ The Test directory contains `alltests',
   them against models.
 
 Since July 2008, directories raweb, xml, styles, icons are distributed
-in an alternate file, named tralics-extra-2.12.7.tar.gz 
-(the version number may vary). 
+in an alternate file, named tralics-extra-2.12.7.tar.gz
+(the version number may vary).
 
 
 
@@ -46,7 +46,7 @@ In case of problem contact : tralics@sophia.inria.fr
 or consult the Web page: http://www.inria.fr/apics/tralics
 
 
-The remaining of the archive is formed of miscellaneous files, that can be 
+The remaining of the archive is formed of miscellaneous files, that can be
 used to convert the XML produced by Tralics into HTML, Pdf, or whatever.
 
 
