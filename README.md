@@ -4,7 +4,7 @@ Tralics is a LaTeX-to-XML translator developed by [Inria](http://en.wikipedia.or
 
 ## Installation
 
-The Softcover ebook production system is distributed via the Ruby gems `softcover` and `polytexnic`, the latter of which uses Tralics to convert LaTeX to XML (and [thence](http://www.merriam-webster.com/dictionary/thence) to HTML). The `polytexnic` gem ships with precompiled Tralics binaries for OS X and select Linux distributions, so that `polytexnic` Just Works™ on most systems, but if your system is not among those supported natively you'll have to compile a version of Tralics for your system. This involves cloning the `tralics` repository, running `make`, and placing the resulting excutable on the path:
+The Softcover ebook production system is distributed via the Ruby gems `softcover` and `polytexnic`, the latter of which uses Tralics to convert LaTeX to XML (and [thence](http://www.merriam-webster.com/dictionary/thence) to HTML). The `polytexnic` gem ships with precompiled Tralics binaries for OS X and select Linux distributions, so that `polytexnic` Just Works™ on most systems, but if your system is not among those supported natively you'll have to compile a version of Tralics yourself. This involves cloning the `tralics` repository, running `make`, and placing the resulting excutable on the path:
 
     $ git clone https://github.com/softcover/tralics
     $ cd tralics/src
