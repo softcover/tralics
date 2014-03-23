@@ -15,7 +15,7 @@ In the last step, in place of `/usr/local/bin`, you can choose any directory on 
 
     $ sudo cp tralics /usr/local/bin
 
-To get `make` to execute, you may have to edit the Makefile and edit the `CXX` variable. For example, on OS X Mavericks I had to set
+To get `make` to execute, you may have to edit the Makefile and customize the `CXX` variable. For example, on OS X Mavericks I had to set
 
     CXX=g++ -stdlib=libstdc++
 
