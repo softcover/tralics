@@ -15,6 +15,13 @@ In the last step, in place of `/usr/local/bin`, you can choose any directory on 
 
     $ sudo cp tralics /usr/local/bin
 
+To get `make` to execute, you may have to edit the Makefile and edit the `CXX` variable. For example, on OS X Mavericks I had to set
+
+    CXX=g++ -stdlib=libstdc++
+
+The `polytexnic` gem comes with precompiled binaries for OS X, though, and it's likely that the current Makefile works fine on other Unix variants (confirmed for Ubuntu and Debian Linux, probable for *BSD).
+
+
 ## Contributing a binary
 
 Ideally, we would like the `polytexnic` gem to support as many systems as possible without separate compilation steps. If you needed to compile your own binary and would like to contribute it back to the project, please send an email to <michael@softcover.io> with the `tralics` binary attached and with the result of running the following command:
