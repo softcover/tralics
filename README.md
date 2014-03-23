@@ -19,7 +19,7 @@ To get `make` to execute, you may have to edit the Makefile and customize the `C
 
     CXX=g++ -stdlib=libstdc++
 
-The `polytexnic` gem comes with precompiled binaries for OS X, though, and it's likely that the current Makefile works fine on other Unix variants (confirmed for Ubuntu and Debian Linux, probable for *BSD).
+The `polytexnic` gem comes with precompiled binaries for OS X, though, so we hope editing the Makefile will therefore not usually be necessary. In particular, it's likely that the current Makefile works fine on most other Unix variants (confirmed for Ubuntu and Debian Linux, probable for *BSD).
 
 
 ## Contributing a binary
