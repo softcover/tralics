@@ -26,5 +26,5 @@ The `polytexnic` gem comes with precompiled binaries for OS X, though, so editin
 
 Ideally, we would like the `polytexnic` gem to support as many systems as possible without separate compilation steps. If you needed to compile your own binary and would like to contribute it back to the project, please send an email to <michael@softcover.io> with the `tralics` binary attached and with the result of running the following command:
 
-    $ ruby -e 'puts RUBY_VERSION'
+    $ ruby -e 'puts RUBY_PLATFORM'
 
